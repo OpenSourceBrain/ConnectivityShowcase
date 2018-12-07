@@ -1,0 +1,33 @@
+BSTS	Bank of the superior temporal sulcus
+CAC	Caudal anterior cingulate cortex
+CMF	Caudal middle frontal cortex
+CUN	Cuneus
+ENT	Entorhinal cortex
+FP	Frontal pole
+FUS	Fusiform gyrus
+IP	Inferior parietal cortex
+ISTC	Isthmus of the cingulate cortex
+IT	Inferior temporal cortex
+LING	Lingual gyrus
+LOCC	Lateral occipital cortex
+LOF	Lateral orbitofrontal cortex
+MOF	Medial orbitofrontal cortex
+MT	Middle temporal cortex
+PARC	Paracentral lobule
+PARH	Parahippocampal cortex
+PC	Posterior cingulate cortex
+PCAL	Pericalcarine cortex
+PCUN	Precuneus
+POPE	Pars opercularis
+PORB	Pars orbitalis
+PREC	Precentral gyrus
+PSTC	Postcentral gyrus
+PTRI	Pars triangularis
+RAC	Rostral anterior cingulate cortex
+RMF	Rostral middle frontal cortex
+SF	Superior frontal cortex
+SMAR	Supramarginal gyrus
+SP	Superior parietal cortex
+ST	Superior temporal cortex
+TP	Temporal pole
+TT	Transverse temporal cortex
