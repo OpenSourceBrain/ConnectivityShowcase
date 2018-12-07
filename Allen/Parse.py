@@ -3,8 +3,51 @@ from neuromllite import *
 import random
 import opencortex.utils.color as occ
 
+import neuroml.loaders as loaders
+import neuroml.writers as writers
+
+import math
+
 import csv
 import sys
+
+
+def rotate_z(x, y, theta):
+
+    x_ = x * math.cos(theta) - y * math.sin(theta)
+    y_ = x * math.sin(theta) + y * math.cos(theta)
+
+    return x_, y_
+
+def get_oriented_cell(cell_file, theta_z, theta_y):
+    
+    new_ref = "ROTATED_"+cell_file.split('.')[0]
+
+    doc = loaders.NeuroMLLoader.load(cell_file)
+    print("Loaded morphology file from: "+cell_file)
+
+    doc.cells[0].id = new_ref
+
+
+    print("Orienting %s degrees"%(theta_z))
+
+
+    for segment in doc.cells[0].morphology.segments:
+
+        if segment.proximal:
+
+            segment.proximal.x, segment.proximal.y = rotate_z(segment.proximal.x, segment.proximal.y, theta_z)
+            segment.proximal.x, segment.proximal.z = rotate_z(segment.proximal.x, segment.proximal.z, theta_y)
+
+        segment.distal.x, segment.distal.y = rotate_z(segment.distal.x, segment.distal.y, theta_z)
+        segment.distal.x, segment.distal.z = rotate_z(segment.distal.x, segment.distal.z, theta_y)
+
+
+    new_cell_file = new_ref+'.cell.nml'
+
+    writers.NeuroMLWriter.write(doc,new_cell_file)
+    
+    return new_ref, new_cell_file
 
 def generate(reference, 
              only_areas_matching=None, 
@@ -65,16 +108,35 @@ def generate(reference,
     net.populations.append(p0)
     net.populations[0].random_layout = RandomLayout(region=r1.id)'''
 
-    r2 = RectangularRegion(id='region2', x=0,y=0,z=0,width=10,height=10,depth=10)
-    net.regions.append(r2)
-    mo = Cell(id='AA0289', neuroml2_source_file='AA0289_active.cell.nml')
-    net.cells.append(mo)
-    p1 = Population(id='popMo', 
-                    size=1, 
-                    component=mo.id, 
-                    properties={'color':'.8 0 0'},
-                    random_layout = RandomLayout(region=r2.id))
-    net.populations.append(p1)
+    detailed_cells = ['AA0289']
+    
+    for dc in detailed_cells:
+        
+        ll = SingleLocation()
+        ll.location = Location(x=0,y=0,z=0)
+        orig_file='%s_active.cell.nml'%dc
+        
+        new_ref, new_cell_file = get_oriented_cell(orig_file, math.pi/20,math.pi/-20000)
+        
+        print("Translated %s to %s"%(orig_file, new_cell_file))
+
+        mo = Cell(id=dc, neuroml2_source_file='%s_active.cell.nml'%dc)
+        net.cells.append(mo)
+        p1 = Population(id='pop_%s'%dc, 
+                        size=1, 
+                        component=mo.id, 
+                        properties={'color':'.8 0 0'})
+        p1.single_location=ll 
+        net.populations.append(p1)
+        
+        mo = Cell(id=new_ref, neuroml2_source_file=new_cell_file)
+        net.cells.append(mo)
+        p1 = Population(id='pop_%s'%new_ref, 
+                        size=1, 
+                        component=new_ref, 
+                        properties={'color':'0 0.8 0'})
+        p1.single_location=ll 
+        net.populations.append(p1)
 
 
     f = open('ABA12.tsv')
@@ -89,7 +151,7 @@ def generate(reference,
                 match = True
             else:
                 for i in only_ids_matching:
-                    if i in pre_id:
+                    if i=='*' or i in pre_id:
                         match = True
 
 
@@ -274,7 +336,7 @@ if __name__ == '__main__':
              include_connections=True)
              
     elif '-cell' in sys.argv:
-        generate('DetailedCell1',only_ids_matching=['2'],
+        generate('DetailedCell1',only_ids_matching=['*'],
              include_contra=True,
              include_connections=False)
     else:  

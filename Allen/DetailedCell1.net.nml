@@ -11,7 +11,7 @@
             <property tag="color" value=".8 0 0"/>
         </population>
         <population id="pop_ROTATED_AA0289_active" component="ROTATED_AA0289_active" size="1">
-            <property tag="color" value=".8 0.8 0"/>
+            <property tag="color" value="0 0.8 0"/>
         </population>
         <population id="AUDd5" component="dummycell" size="1" type="populationList">
             <property tag="color" value="0 0.4 0"/>
