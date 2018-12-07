@@ -4,10 +4,10 @@
     <IF_cond_alpha id="testcell" cm="1." i_offset="0." tau_syn_E="2." tau_syn_I="0.5" v_init="-65." tau_m="20." tau_refrac="5." v_reset="-65." v_rest="-65." v_thresh="-50." e_rev_E="0." e_rev_I="-70."/>
     <alphaCondSynapse id="ampa" tau_syn="2." e_rev="0."/>
     <network id="Hagmannetal2008">
-        <notes>NeuroMLlite conversion of network from https://github.com/JohnGriffiths/temp_tvb_tutorials</notes>
+        <notes>NeuroMLlite conversion of network from https://github.com/JohnGriffiths/temp_tvb_tutorials. NOTE: clarification required on pre/post: https://github.com/JohnGriffiths/temp_tvb_tutorials/issues/1</notes>
         <population id="rBSTS" component="testcell" size="1" type="populationList">
             <notes>Bank of the superior temporal sulcus (right)</notes>
-            <property tag="color" value="0.959430152385 0.325918325159 0.130106654346"/>
+            <property tag="color" value="0.108493571991 0.916107714323 0.454149490671"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="85821.882100000002538" y="33780.905100000003586" z="43479.953099999998813"/>
@@ -15,7 +15,7 @@
         </population>
         <population id="rCAC" component="testcell" size="1" type="populationList">
             <notes>Caudal anterior cingulate cortex (right)</notes>
-            <property tag="color" value="0.383218711539 0.294084675551 0.582661063654"/>
+            <property tag="color" value="0.119336116403 0.783836376078 0.715379439041"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="144362.25810000000638" y="78277.81710000000021" z="76048.494099999996251"/>
@@ -23,7 +23,7 @@
         </population>
         <population id="rCMF" component="testcell" size="1" type="populationList">
             <notes>Caudal middle frontal cortex (right)</notes>
-            <property tag="color" value="0.394918241893 0.128236236952 0.0276469274813"/>
+            <property tag="color" value="0.752082919651 0.285544925716 0.998145910071"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="130680.723100000002887" y="51236.998099999997066" z="92163.099100000006729"/>
@@ -31,7 +31,7 @@
         </population>
         <population id="rCUN" component="testcell" size="1" type="populationList">
             <notes>Cuneus (right)</notes>
-            <property tag="color" value="0.894477930023 0.260516685197 0.421854716955"/>
+            <property tag="color" value="0.468495756183 0.472296703337 0.322358637454"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="42987.030100000003586" y="75057.588099999993574" z="49536.55909999999858"/>
@@ -39,7 +39,7 @@
         </population>
         <population id="rENT" component="testcell" size="1" type="populationList">
             <notes>Entorhinal cortex (right)</notes>
-            <property tag="color" value="0.327577845826 0.519279577317 0.40456470383"/>
+            <property tag="color" value="0.804795015363 0.220520620244 0.757949501511"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="131301.807100000005448" y="57269.312100000002829" z="12890.376099999999497"/>
@@ -47,7 +47,7 @@
         </population>
         <population id="rFP" component="testcell" size="1" type="populationList">
             <notes>Frontal pole (right)</notes>
-            <property tag="color" value="0.446434148792 0.827639512818 0.497093138274"/>
+            <property tag="color" value="0.571465598857 0.551024065669 0.331705393585"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="193098.021100000012666" y="75490.046100000006845" z="63438.284099999997125"/>
@@ -55,7 +55,7 @@
         </population>
         <population id="rFUS" component="testcell" size="1" type="populationList">
             <notes>Fusiform gyrus (right)</notes>
-            <property tag="color" value="0.28280856757 0.819976216429 0.637249899677"/>
+            <property tag="color" value="0.818956103474 0.410032283014 0.696446985821"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="89371.729099999996834" y="50893.685100000002421" z="19273.398099999998522"/>
@@ -63,7 +63,7 @@
         </population>
         <population id="rIP" component="testcell" size="1" type="populationList">
             <notes>Inferior parietal cortex (right)</notes>
-            <property tag="color" value="0.614688608592 0.083497364408 0.526165704336"/>
+            <property tag="color" value="0.673483548206 0.853071173631 0.0157480986629"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="59340.377099999997881" y="44052.760099999999511" z="59856.656100000000151"/>
@@ -71,7 +71,7 @@
         </population>
         <population id="rIT" component="testcell" size="1" type="populationList">
             <notes>Inferior temporal cortex (right)</notes>
-            <property tag="color" value="0.47495818849 0.674093191246 0.0712950150054"/>
+            <property tag="color" value="0.226360621955 0.265704449738 0.668121882579"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="103809.041100000002189" y="36247.885099999999511" z="17613.347099999999045"/>
@@ -79,7 +79,7 @@
         </population>
         <population id="rISTC" component="testcell" size="1" type="populationList">
             <notes>Isthmus of the cingulate cortex (right)</notes>
-            <property tag="color" value="0.441343514971 0.242002288133 0.813071110609"/>
+            <property tag="color" value="0.73464259145 0.435844588537 0.130821435503"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="81562.93409999999858" y="77465.399099999995087" z="57622.616099999999278"/>
@@ -87,7 +87,7 @@
         </population>
         <population id="rLOCC" component="testcell" size="1" type="populationList">
             <notes>Lateral occipital cortex (right)</notes>
-            <property tag="color" value="0.735429301376 0.861647280748 0.734826396024"/>
+            <property tag="color" value="0.721677457733 0.418763490073 0.942965861286"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="45228.864099999998871" y="54043.491099999999278" z="26549.708099999999831"/>
@@ -95,7 +95,7 @@
         </population>
         <population id="rLOF" component="testcell" size="1" type="populationList">
             <notes>Lateral orbitofrontal cortex (right)</notes>
-            <property tag="color" value="0.283842222745 0.908753729671 0.808973700555"/>
+            <property tag="color" value="0.978108627837 0.181476797807 0.426258064017"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="166689.61610000001383" y="60825.977099999996426" z="44011.19709999999759"/>
@@ -103,7 +103,7 @@
         </population>
         <population id="rLING" component="testcell" size="1" type="populationList">
             <notes>Lingual gyrus (right)</notes>
-            <property tag="color" value="0.742750821234 0.67443509672 0.332972957261"/>
+            <property tag="color" value="0.222629114613 0.825703818878 0.244798395205"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="65668.552100000000792" y="70590.686100000006263" z="27527.258099999999104"/>
@@ -111,7 +111,7 @@
         </population>
         <population id="rMOF" component="testcell" size="1" type="populationList">
             <notes>Medial orbitofrontal cortex (right)</notes>
-            <property tag="color" value="0.620383557639 0.0671319925762 0.0249499571921"/>
+            <property tag="color" value="0.0748039614608 0.649613248168 0.344670769828"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="174789.2331000000122" y="77509.00010000000475" z="47976.487099999998463"/>
@@ -119,7 +119,7 @@
         </population>
         <population id="rMT" component="testcell" size="1" type="populationList">
             <notes>Middle temporal cortex (right)</notes>
-            <property tag="color" value="0.687897724872 0.854894971236 0.493083811068"/>
+            <property tag="color" value="0.0613167149346 0.581237170856 0.0708509602871"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="106807.175099999993108" y="30265.250100000001112" z="27872.695100000000821"/>
@@ -127,7 +127,7 @@
         </population>
         <population id="rPARC" component="testcell" size="1" type="populationList">
             <notes>Paracentral lobule (right)</notes>
-            <property tag="color" value="0.0901716846831 0.689850898602 0.51707691966"/>
+            <property tag="color" value="0.730160362916 0.53034333059 0.388071807801"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="88480.807100000005448" y="76806.288100000005215" z="94889.479099999996834"/>
@@ -135,7 +135,7 @@
         </population>
         <population id="rPARH" component="testcell" size="1" type="populationList">
             <notes>Parahippocampal cortex (right)</notes>
-            <property tag="color" value="0.141099028639 0.167615590661 0.17090250425"/>
+            <property tag="color" value="0.759760164777 0.958839397457 0.812903298034"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="104314.422099999996135" y="59149.941099999996368" z="23085.199100000001636"/>
@@ -143,7 +143,7 @@
         </population>
         <population id="rPOPE" component="testcell" size="1" type="populationList">
             <notes>Pars opercularis (right)</notes>
-            <property tag="color" value="0.573018446256 0.392693733977 0.991545204587"/>
+            <property tag="color" value="0.553116687446 0.242353663933 0.663400645362"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="139908.764100000000326" y="38971.825100000001839" z="63521.73410000000149"/>
@@ -151,7 +151,7 @@
         </population>
         <population id="rPORB" component="testcell" size="1" type="populationList">
             <notes>Pars orbitalis (right)</notes>
-            <property tag="color" value="0.145501664292 0.513871461454 0.489909402602"/>
+            <property tag="color" value="0.492036943118 0.292695205248 0.140745740169"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="172917.813099999999395" y="44546.460099999996601" z="48165.406100000000151"/>
@@ -159,7 +159,7 @@
         </population>
         <population id="rPTRI" component="testcell" size="1" type="populationList">
             <notes>Pars triangularis (right)</notes>
-            <property tag="color" value="0.423628267049 0.625478589615 0.541515219846"/>
+            <property tag="color" value="0.827562175219 0.443481122783 0.242578004058"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="157288.139100000000326" y="40969.653100000003178" z="55403.247100000000501"/>
@@ -167,7 +167,7 @@
         </population>
         <population id="rPCAL" component="testcell" size="1" type="populationList">
             <notes>Pericalcarine cortex (right)</notes>
-            <property tag="color" value="0.118045230124 0.785825423868 0.827038071525"/>
+            <property tag="color" value="0.786074319039 0.226054690195 0.797806946191"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="54094.820099999997183" y="73659.56710000000021" z="37221.866099999999278"/>
@@ -175,7 +175,7 @@
         </population>
         <population id="rPSTC" component="testcell" size="1" type="populationList">
             <notes>Postcentral gyrus (right)</notes>
-            <property tag="color" value="0.0364951364916 0.665485065625 0.67432653273"/>
+            <property tag="color" value="0.0483105497055 0.83885784847 0.286376367537"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="93347.839099999997416" y="45251.833100000003469" z="85339.18409999999858"/>
@@ -183,7 +183,7 @@
         </population>
         <population id="rPC" component="testcell" size="1" type="populationList">
             <notes>Posterior cingulate cortex (right)</notes>
-            <property tag="color" value="0.373403752749 0.812381568608 0.339926526349"/>
+            <property tag="color" value="0.107602478207 0.207292469204 0.613858998314"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="105856.854099999996834" y="78029.993100000006962" z="80052.960099999996601"/>
@@ -191,7 +191,7 @@
         </population>
         <population id="rPREC" component="testcell" size="1" type="populationList">
             <notes>Precentral gyrus (right)</notes>
-            <property tag="color" value="0.505017319335 0.773563912187 0.42723649496"/>
+            <property tag="color" value="0.547008344803 0.156202928927 0.439248435152"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="107660.332099999999627" y="47404.018100000001141" z="86458.254100000005565"/>
@@ -199,7 +199,7 @@
         </population>
         <population id="rPCUN" component="testcell" size="1" type="populationList">
             <notes>Precuneus (right)</notes>
-            <property tag="color" value="0.364980748757 0.296651428463 0.492406991697"/>
+            <property tag="color" value="0.514245061108 0.28077759456 0.9958455425"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="63247.033100000000559" y="75310.222099999999045" z="69219.413100000005215"/>
@@ -207,7 +207,7 @@
         </population>
         <population id="rRAC" component="testcell" size="1" type="populationList">
             <notes>Rostral anterior cingulate cortex (right)</notes>
-            <property tag="color" value="0.768610507873 0.691084070531 0.99462997486"/>
+            <property tag="color" value="0.433176101077 0.948358431461 0.475204939729"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="163144.591099999990547" y="77614.550099999993108" z="56729.077100000002247"/>
@@ -215,7 +215,7 @@
         </population>
         <population id="rRMF" component="testcell" size="1" type="populationList">
             <notes>Rostral middle frontal cortex (right)</notes>
-            <property tag="color" value="0.829493288619 0.406316303789 0.643242360562"/>
+            <property tag="color" value="0.341189817494 0.893501561685 0.198465204986"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="164402.670099999988452" y="50674.592100000001665" z="73490.873099999997066"/>
@@ -223,7 +223,7 @@
         </population>
         <population id="rSF" component="testcell" size="1" type="populationList">
             <notes>Superior frontal cortex (right)</notes>
-            <property tag="color" value="0.356662587721 0.398816425045 0.493657495371"/>
+            <property tag="color" value="0.478146428234 0.952069737943 0.538943802937"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="148300.054100000008475" y="71549.38310000000638" z="92123.412100000001374"/>
@@ -231,7 +231,7 @@
         </population>
         <population id="rSP" component="testcell" size="1" type="populationList">
             <notes>Superior parietal cortex (right)</notes>
-            <property tag="color" value="0.35872835216 0.339141928434 0.520927897253"/>
+            <property tag="color" value="0.114849502445 0.15119825917 0.425515695162"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="58721.042099999998754" y="61502.945099999997183" z="78187.243100000006962"/>
@@ -239,7 +239,7 @@
         </population>
         <population id="rST" component="testcell" size="1" type="populationList">
             <notes>Superior temporal cortex (right)</notes>
-            <property tag="color" value="0.565292841353 0.12613361129 0.692374369029"/>
+            <property tag="color" value="0.604276044102 0.465044564488 0.249941639768"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="117735.735100000005332" y="34002.382100000002538" z="40196.956100000003062"/>
@@ -247,7 +247,7 @@
         </population>
         <population id="rSMAR" component="testcell" size="1" type="populationList">
             <notes>Supramarginal gyrus (right)</notes>
-            <property tag="color" value="0.900233484551 0.407322153008 0.212104909364"/>
+            <property tag="color" value="0.412828076849 0.986584570188 0.53036428024"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="89887.983099999997648" y="34065.524100000002363" z="70691.530100000003586"/>
@@ -255,7 +255,7 @@
         </population>
         <population id="rTP" component="testcell" size="1" type="populationList">
             <notes>Temporal pole (right)</notes>
-            <property tag="color" value="0.70924294308 0.321762160363 0.67865769358"/>
+            <property tag="color" value="0.929198540645 0.535390073259 0.213941619432"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="149954.99110000001383" y="54156.082099999999627" z="15433.378099999999904"/>
@@ -263,7 +263,7 @@
         </population>
         <population id="rTT" component="testcell" size="1" type="populationList">
             <notes>Transverse temporal cortex (right)</notes>
-            <property tag="color" value="0.270990921906 0.464673997391 0.542088805943"/>
+            <property tag="color" value="0.935881058233 0.0556658189697 0.194078389785"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="106514.262100000007194" y="40855.868099999999686" z="49408.025099999998929"/>
@@ -271,7 +271,7 @@
         </population>
         <population id="lBSTS" component="testcell" size="1" type="populationList">
             <notes>Bank of the superior temporal sulcus (left)</notes>
-            <property tag="color" value="0.959430152385 0.325918325159 0.130106654346"/>
+            <property tag="color" value="0.108493571991 0.916107714323 0.454149490671"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="89572.506099999998696" y="134866.747100000007777" z="37710.206100000003062"/>
@@ -279,7 +279,7 @@
         </population>
         <population id="lCAC" component="testcell" size="1" type="populationList">
             <notes>Caudal anterior cingulate cortex (left)</notes>
-            <property tag="color" value="0.383218711539 0.294084675551 0.582661063654"/>
+            <property tag="color" value="0.119336116403 0.783836376078 0.715379439041"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="144114.671100000006845" y="89719.797099999996135" z="76600.371100000003935"/>
@@ -287,7 +287,7 @@
         </population>
         <population id="lCMF" component="testcell" size="1" type="populationList">
             <notes>Caudal middle frontal cortex (left)</notes>
-            <property tag="color" value="0.394918241893 0.128236236952 0.0276469274813"/>
+            <property tag="color" value="0.752082919651 0.285544925716 0.998145910071"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="127562.236099999994622" y="117511.287100000001374" z="91501.020099999994272"/>
@@ -295,7 +295,7 @@
         </population>
         <population id="lCUN" component="testcell" size="1" type="populationList">
             <notes>Cuneus (left)</notes>
-            <property tag="color" value="0.894477930023 0.260516685197 0.421854716955"/>
+            <property tag="color" value="0.468495756183 0.472296703337 0.322358637454"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="43226.686099999998987" y="90962.337100000004284" z="46018.73410000000149"/>
@@ -303,7 +303,7 @@
         </population>
         <population id="lENT" component="testcell" size="1" type="populationList">
             <notes>Entorhinal cortex (left)</notes>
-            <property tag="color" value="0.327577845826 0.519279577317 0.40456470383"/>
+            <property tag="color" value="0.804795015363 0.220520620244 0.757949501511"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="133452.11710000000312" y="110933.654099999999744" z="10798.46310000000085"/>
@@ -311,7 +311,7 @@
         </population>
         <population id="lFP" component="testcell" size="1" type="populationList">
             <notes>Frontal pole (left)</notes>
-            <property tag="color" value="0.446434148792 0.827639512818 0.497093138274"/>
+            <property tag="color" value="0.571465598857 0.551024065669 0.331705393585"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="191755.816099999996368" y="93984.053100000004633" z="60619.810100000002421"/>
@@ -319,7 +319,7 @@
         </population>
         <population id="lFUS" component="testcell" size="1" type="populationList">
             <notes>Fusiform gyrus (left)</notes>
-            <property tag="color" value="0.28280856757 0.819976216429 0.637249899677"/>
+            <property tag="color" value="0.818956103474 0.410032283014 0.696446985821"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="86193.169099999999162" y="115137.75109999999404" z="18643.052100000000792"/>
@@ -327,7 +327,7 @@
         </population>
         <population id="lIP" component="testcell" size="1" type="populationList">
             <notes>Inferior parietal cortex (left)</notes>
-            <property tag="color" value="0.614688608592 0.083497364408 0.526165704336"/>
+            <property tag="color" value="0.673483548206 0.853071173631 0.0157480986629"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="58991.570099999997183" y="123222.04210000000603" z="58563.549099999996542"/>
@@ -335,7 +335,7 @@
         </population>
         <population id="lIT" component="testcell" size="1" type="populationList">
             <notes>Inferior temporal cortex (left)</notes>
-            <property tag="color" value="0.47495818849 0.674093191246 0.0712950150054"/>
+            <property tag="color" value="0.226360621955 0.265704449738 0.668121882579"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="102499.590100000001257" y="131395.928099999990081" z="17783.453099999998813"/>
@@ -343,7 +343,7 @@
         </population>
         <population id="lISTC" component="testcell" size="1" type="populationList">
             <notes>Isthmus of the cingulate cortex (left)</notes>
-            <property tag="color" value="0.441343514971 0.242002288133 0.813071110609"/>
+            <property tag="color" value="0.73464259145 0.435844588537 0.130821435503"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="81762.510099999999511" y="90413.980100000000675" z="56017.00510000000213"/>
@@ -351,7 +351,7 @@
         </population>
         <population id="lLOCC" component="testcell" size="1" type="populationList">
             <notes>Lateral occipital cortex (left)</notes>
-            <property tag="color" value="0.735429301376 0.861647280748 0.734826396024"/>
+            <property tag="color" value="0.721677457733 0.418763490073 0.942965861286"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="41101.728100000000268" y="108004.621100000003935" z="25885.86109999999826"/>
@@ -359,7 +359,7 @@
         </population>
         <population id="lLOF" component="testcell" size="1" type="populationList">
             <notes>Lateral orbitofrontal cortex (left)</notes>
-            <property tag="color" value="0.283842222745 0.908753729671 0.808973700555"/>
+            <property tag="color" value="0.978108627837 0.181476797807 0.426258064017"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="166020.650099999998929" y="107393.873099999997066" z="40793.376100000001315"/>
@@ -367,7 +367,7 @@
         </population>
         <population id="lLING" component="testcell" size="1" type="populationList">
             <notes>Lingual gyrus (left)</notes>
-            <property tag="color" value="0.742750821234 0.67443509672 0.332972957261"/>
+            <property tag="color" value="0.222629114613 0.825703818878 0.244798395205"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="67601.058099999994738" y="96716.592099999994389" z="25779.833099999999831"/>
@@ -375,7 +375,7 @@
         </population>
         <population id="lMOF" component="testcell" size="1" type="populationList">
             <notes>Medial orbitofrontal cortex (left)</notes>
-            <property tag="color" value="0.620383557639 0.0671319925762 0.0249499571921"/>
+            <property tag="color" value="0.0748039614608 0.649613248168 0.344670769828"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="173950.412099999986822" y="90725.13310000000638" z="47536.329100000002654"/>
@@ -383,7 +383,7 @@
         </population>
         <population id="lMT" component="testcell" size="1" type="populationList">
             <notes>Middle temporal cortex (left)</notes>
-            <property tag="color" value="0.687897724872 0.854894971236 0.493083811068"/>
+            <property tag="color" value="0.0613167149346 0.581237170856 0.0708509602871"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="104923.471099999995204" y="138982.36710000000312" z="27027.866099999999278"/>
@@ -391,7 +391,7 @@
         </population>
         <population id="lPARC" component="testcell" size="1" type="populationList">
             <notes>Paracentral lobule (left)</notes>
-            <property tag="color" value="0.0901716846831 0.689850898602 0.51707691966"/>
+            <property tag="color" value="0.730160362916 0.53034333059 0.388071807801"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="86055.063099999999395" y="90894.92609999999695" z="92839.850099999996019"/>
@@ -399,7 +399,7 @@
         </population>
         <population id="lPARH" component="testcell" size="1" type="populationList">
             <notes>Parahippocampal cortex (left)</notes>
-            <property tag="color" value="0.141099028639 0.167615590661 0.17090250425"/>
+            <property tag="color" value="0.759760164777 0.958839397457 0.812903298034"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="105800.774099999995087" y="108050.647100000001956" z="22499.128100000001723"/>
@@ -407,7 +407,7 @@
         </population>
         <population id="lPOPE" component="testcell" size="1" type="populationList">
             <notes>Pars opercularis (left)</notes>
-            <property tag="color" value="0.573018446256 0.392693733977 0.991545204587"/>
+            <property tag="color" value="0.553116687446 0.242353663933 0.663400645362"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="138596.304100000008475" y="127762.967099999994389" z="62401.063099999999395"/>
@@ -415,7 +415,7 @@
         </population>
         <population id="lPORB" component="testcell" size="1" type="populationList">
             <notes>Pars orbitalis (left)</notes>
-            <property tag="color" value="0.145501664292 0.513871461454 0.489909402602"/>
+            <property tag="color" value="0.492036943118 0.292695205248 0.140745740169"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="172562.244100000010803" y="122245.461100000000442" z="45503.513099999996484"/>
@@ -423,7 +423,7 @@
         </population>
         <population id="lPTRI" component="testcell" size="1" type="populationList">
             <notes>Pars triangularis (left)</notes>
-            <property tag="color" value="0.423628267049 0.625478589615 0.541515219846"/>
+            <property tag="color" value="0.827562175219 0.443481122783 0.242578004058"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="156357.663100000005215" y="127037.714099999997416" z="55721.409099999997125"/>
@@ -431,7 +431,7 @@
         </population>
         <population id="lPCAL" component="testcell" size="1" type="populationList">
             <notes>Pericalcarine cortex (left)</notes>
-            <property tag="color" value="0.118045230124 0.785825423868 0.827038071525"/>
+            <property tag="color" value="0.786074319039 0.226054690195 0.797806946191"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="53148.32209999999759" y="92071.095100000005914" z="33640.877099999997881"/>
@@ -439,7 +439,7 @@
         </population>
         <population id="lPSTC" component="testcell" size="1" type="populationList">
             <notes>Postcentral gyrus (left)</notes>
-            <property tag="color" value="0.0364951364916 0.665485065625 0.67432653273"/>
+            <property tag="color" value="0.0483105497055 0.83885784847 0.286376367537"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="93568.079100000002654" y="124925.055099999997765" z="81526.675099999993108"/>
@@ -447,7 +447,7 @@
         </population>
         <population id="lPC" component="testcell" size="1" type="populationList">
             <notes>Posterior cingulate cortex (left)</notes>
-            <property tag="color" value="0.373403752749 0.812381568608 0.339926526349"/>
+            <property tag="color" value="0.107602478207 0.207292469204 0.613858998314"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="105774.878100000001723" y="88360.495100000000093" z="79120.222099999999045"/>
@@ -455,7 +455,7 @@
         </population>
         <population id="lPREC" component="testcell" size="1" type="populationList">
             <notes>Precentral gyrus (left)</notes>
-            <property tag="color" value="0.505017319335 0.773563912187 0.42723649496"/>
+            <property tag="color" value="0.547008344803 0.156202928927 0.439248435152"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="106439.642099999997299" y="120274.950100000001839" z="84781.907099999996717"/>
@@ -463,7 +463,7 @@
         </population>
         <population id="lPCUN" component="testcell" size="1" type="populationList">
             <notes>Precuneus (left)</notes>
-            <property tag="color" value="0.364980748757 0.296651428463 0.492406991697"/>
+            <property tag="color" value="0.514245061108 0.28077759456 0.9958455425"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="61882.073100000001432" y="92740.074099999997998" z="65416.127099999997881"/>
@@ -471,7 +471,7 @@
         </population>
         <population id="lRAC" component="testcell" size="1" type="populationList">
             <notes>Rostral anterior cingulate cortex (left)</notes>
-            <property tag="color" value="0.768610507873 0.691084070531 0.99462997486"/>
+            <property tag="color" value="0.433176101077 0.948358431461 0.475204939729"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="164030.21909999998752" y="90623.009099999995669" z="59355.24210000000312"/>
@@ -479,7 +479,7 @@
         </population>
         <population id="lRMF" component="testcell" size="1" type="populationList">
             <notes>Rostral middle frontal cortex (left)</notes>
-            <property tag="color" value="0.829493288619 0.406316303789 0.643242360562"/>
+            <property tag="color" value="0.341189817494 0.893501561685 0.198465204986"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="162938.931099999987055" y="116314.121100000003935" z="73001.900099999998929"/>
@@ -487,7 +487,7 @@
         </population>
         <population id="lSF" component="testcell" size="1" type="populationList">
             <notes>Superior frontal cortex (left)</notes>
-            <property tag="color" value="0.356662587721 0.398816425045 0.493657495371"/>
+            <property tag="color" value="0.478146428234 0.952069737943 0.538943802937"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="145250.437100000010105" y="94766.687099999995553" z="93454.710099999996601"/>
@@ -495,7 +495,7 @@
         </population>
         <population id="lSP" component="testcell" size="1" type="populationList">
             <notes>Superior parietal cortex (left)</notes>
-            <property tag="color" value="0.35872835216 0.339141928434 0.520927897253"/>
+            <property tag="color" value="0.114849502445 0.15119825917 0.425515695162"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="57442.780100000003586" y="105021.189100000003236" z="75112.140100000004168"/>
@@ -503,7 +503,7 @@
         </population>
         <population id="lST" component="testcell" size="1" type="populationList">
             <notes>Superior temporal cortex (left)</notes>
-            <property tag="color" value="0.565292841353 0.12613361129 0.692374369029"/>
+            <property tag="color" value="0.604276044102 0.465044564488 0.249941639768"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="116694.35109999999986" y="133874.863099999987753" z="38539.608099999997648"/>
@@ -511,7 +511,7 @@
         </population>
         <population id="lSMAR" component="testcell" size="1" type="populationList">
             <notes>Supramarginal gyrus (left)</notes>
-            <property tag="color" value="0.900233484551 0.407322153008 0.212104909364"/>
+            <property tag="color" value="0.412828076849 0.986584570188 0.53036428024"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="87007.85109999999986" y="133133.675099999993108" z="63394.909099999997125"/>
@@ -519,7 +519,7 @@
         </population>
         <population id="lTP" component="testcell" size="1" type="populationList">
             <notes>Temporal pole (left)</notes>
-            <property tag="color" value="0.70924294308 0.321762160363 0.67865769358"/>
+            <property tag="color" value="0.929198540645 0.535390073259 0.213941619432"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="149984.410100000008242" y="113969.21809999999823" z="16284.921099999999569"/>
@@ -527,7 +527,7 @@
         </population>
         <population id="lTT" component="testcell" size="1" type="populationList">
             <notes>Transverse temporal cortex (left)</notes>
-            <property tag="color" value="0.270990921906 0.464673997391 0.542088805943"/>
+            <property tag="color" value="0.935881058233 0.0556658189697 0.194078389785"/>
             <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="103352.606100000004517" y="122959.201100000005681" z="48818.731099999997241"/>
