@@ -1,0 +1,849 @@
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="VIS">
+    <notes>Generated network: VIS
+    Generation seed: 1234</notes>
+    <IF_cond_alpha id="dummycell" cm="1." i_offset="0.1" tau_syn_E="0.3" tau_syn_I="0.5" v_init="-65." tau_m="20." tau_refrac="5." v_reset="-65." v_rest="-65." v_thresh="-50." e_rev_E="0." e_rev_I="-70."/>
+    <alphaCondSynapse id="ampa" tau_syn="2." e_rev="-10."/>
+    <network id="VIS">
+        <notes>NOTE: this is only a quick demo!! Do not use it for your research assuming an accurate conversion of the source data!!! </notes>
+        <population id="VISpl5" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.4 0"/>
+            <property tag="region" value="VISpl5"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Posterolateral visual area, layer 5"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-3047.657876644308089" y="-4555.67910876082442" z="-891.053488491941494"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISpl5" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.4 0"/>
+            <property tag="region" value="CONTRA_VISpl5"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Posterolateral visual area, layer 5"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="3049.535306142448917" y="-4555.180572362635758" z="-890.478752388941075"/>
+            </instance>
+        </population>
+        <population id="VISam6a" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="VISam6a"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anteromedial visual area, layer 6a"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-1698.44168362851201" y="-3110.014996833162513" z="-177.229863516208184"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISam6a" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_VISam6a"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anteromedial visual area, layer 6a"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="1699.350056885363074" y="-3110.068121038273148" z="-177.207571731763721"/>
+            </instance>
+        </population>
+        <population id="VISal6a" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="VISal6a"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anterolateral visual area, layer 6a"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-3349.816036254402661" y="-3198.393075884960581" z="-916.896735678896448"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISal6a" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_VISal6a"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anterolateral visual area, layer 6a"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="3350.310679858708227" y="-3198.833266712589648" z="-917.398138404311339"/>
+            </instance>
+        </population>
+        <population id="VISpm5" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.4 0"/>
+            <property tag="region" value="VISpm5"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="posteromedial visual area, layer 5"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-1850.000852489513136" y="-4447.752454499394844" z="-306.60802373808383"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISpm5" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.4 0"/>
+            <property tag="region" value="CONTRA_VISpm5"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="posteromedial visual area, layer 5"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="1850.080033550977305" y="-4447.698117854448356" z="-307.107026739991682"/>
+            </instance>
+        </population>
+        <population id="VISp1" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="region" value="VISp1"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary visual area, layer 1"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-2711.933341670438949" y="-3909.580930530009482" z="131.568424795187383"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISp1" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="region" value="CONTRA_VISp1"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary visual area, layer 1"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="2712.804390623819472" y="-3909.113426799443914" z="131.634056343178287"/>
+            </instance>
+        </population>
+        <population id="VISal1" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="region" value="VISal1"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anterolateral visual area, layer 1"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-3866.201947058633777" y="-3178.393663442556772" z="-303.360933181638813"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISal1" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="region" value="CONTRA_VISal1"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anterolateral visual area, layer 1"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="3867.616498928042347" y="-3178.295514570523665" z="-303.079924096088405"/>
+            </instance>
+        </population>
+        <population id="VISpm6b" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="VISpm6b"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="posteromedial visual area, layer 6b"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-2084.199605173690543" y="-4122.564683214220167" z="-599.316870433582267"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISpm6b" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_VISpm6b"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="posteromedial visual area, layer 6b"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="2084.362673167595858" y="-4122.599958214652361" z="-598.94530323022741"/>
+            </instance>
+        </population>
+        <population id="VISal4" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="region" value="VISal4"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anterolateral visual area, layer 4"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-3618.452343731353722" y="-3161.04315000186898" z="-572.805126583258016"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISal4" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="region" value="CONTRA_VISal4"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anterolateral visual area, layer 4"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="3619.063849167441276" y="-3161.486432788398361" z="-572.031822722303673"/>
+            </instance>
+        </population>
+        <population id="VISpl6b" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="VISpl6b"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Posterolateral visual area, layer 6b"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-2822.820287478480168" y="-4433.333194217650998" z="-1164.392412965583389"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISpl6b" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_VISpl6b"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Posterolateral visual area, layer 6b"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="2823.896660158287887" y="-4434.250537715772225" z="-1164.256857035208213"/>
+            </instance>
+        </population>
+        <population id="VISl1" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="region" value="VISl1"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Lateral visual area, layer 1"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-4007.323887924884275" y="-4053.577393624721935" z="-684.867424087289123"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISl1" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="region" value="CONTRA_VISl1"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Lateral visual area, layer 1"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="4009.085119085702445" y="-4053.600185259911086" z="-684.188105307848673"/>
+            </instance>
+        </population>
+        <population id="VISal6b" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="VISal6b"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anterolateral visual area, layer 6b"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-3263.612104493728111" y="-3151.338368021663882" z="-990.346518145036384"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISal6b" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_VISal6b"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anterolateral visual area, layer 6b"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="3263.99487509275059" y="-3150.908088493285504" z="-990.220175538868261"/>
+            </instance>
+        </population>
+        <population id="VISam6b" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="VISam6b"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anteromedial visual area, layer 6b"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-1671.155460550477756" y="-3101.439125484691431" z="-310.551767729141829"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISam6b" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_VISam6b"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anteromedial visual area, layer 6b"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="1672.819918438655804" y="-3101.470369212320747" z="-310.588048138207512"/>
+            </instance>
+        </population>
+        <population id="VISp6a" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="VISp6a"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary visual area, layer 6a"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-2567.726731819742326" y="-3784.810876224357798" z="-641.269678373693182"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISp6a" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_VISp6a"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary visual area, layer 6a"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="2568.72709484074494" y="-3784.670495346400912" z="-641.274087640988796"/>
+            </instance>
+        </population>
+        <population id="VISal5" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.4 0"/>
+            <property tag="region" value="VISal5"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anterolateral visual area, layer 5"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-3501.611190628242184" y="-3180.757220838582725" z="-737.963908845013634"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISal5" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.4 0"/>
+            <property tag="region" value="CONTRA_VISal5"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anterolateral visual area, layer 5"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="3502.958723771701898" y="-3180.930250377460652" z="-737.808066966848401"/>
+            </instance>
+        </population>
+        <population id="VISam1" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="region" value="VISam1"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anteromedial visual area, layer 1"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-1768.469646304795788" y="-3140.515669360951506" z="595.228411777731139"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISam1" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="region" value="CONTRA_VISam1"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anteromedial visual area, layer 1"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="1768.972164814784037" y="-3140.310337690884353" z="594.687801561236711"/>
+            </instance>
+        </population>
+        <population id="VISp5" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.4 0"/>
+            <property tag="region" value="VISp5"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary visual area, layer 5"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-2596.490751964253377" y="-3854.486303034805132" z="-399.868950621159001"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISp5" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.4 0"/>
+            <property tag="region" value="CONTRA_VISp5"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary visual area, layer 5"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="2597.439160855773935" y="-3854.880111535743708" z="-400.518304715761133"/>
+            </instance>
+        </population>
+        <population id="VISpm1" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="region" value="VISpm1"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="posteromedial visual area, layer 1"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-1594.159874379736721" y="-4510.280787754595622" z="-78.688852591260769"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISpm1" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="region" value="CONTRA_VISpm1"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="posteromedial visual area, layer 1"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="1594.59311202501658" y="-4509.8218082080557" z="-78.887318296257703"/>
+            </instance>
+        </population>
+        <population id="VISpm6a" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="VISpm6a"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="posteromedial visual area, layer 6a"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-2096.444045893160364" y="-4383.872894560427994" z="-576.405594082343214"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISpm6a" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_VISpm6a"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="posteromedial visual area, layer 6a"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="2098.321922610010915" y="-4384.506054245663108" z="-576.465151218112283"/>
+            </instance>
+        </population>
+        <population id="VISl6b" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="VISl6b"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Lateral visual area, layer 6b"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-3295.441226393568286" y="-4064.355368071970133" z="-1349.768262617456685"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISl6b" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_VISl6b"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Lateral visual area, layer 6b"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="3295.910872675193787" y="-4064.076812418450572" z="-1349.082806048274733"/>
+            </instance>
+        </population>
+        <population id="VISp6b" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="VISp6b"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary visual area, layer 6b"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-2534.505489905239301" y="-3543.800591671041275" z="-701.868823030250155"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISp6b" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_VISp6b"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary visual area, layer 6b"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="2535.864693872999851" y="-3544.104089044412831" z="-701.527662066102835"/>
+            </instance>
+        </population>
+        <population id="VISpl6a" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="VISpl6a"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Posterolateral visual area, layer 6a"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-2837.444879031597338" y="-4522.855661129434338" z="-1098.608412152201026"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISpl6a" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_VISpl6a"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Posterolateral visual area, layer 6a"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="2838.432420344358889" y="-4522.905832192158414" z="-1098.410601905806743"/>
+            </instance>
+        </population>
+        <population id="VISC6a" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="VISC6a"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Visceral area, layer 6a"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-3927.133520305516868" y="-370.350874547446551" z="-3234.751938947506005"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISC6a" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_VISC6a"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Visceral area, layer 6a"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="3928.037778370434808" y="-370.275399229516552" z="-3234.160350740870399"/>
+            </instance>
+        </population>
+        <population id="VISpm4" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="region" value="VISpm4"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="posteromedial visual area, layer 4"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-1969.76997524334729" y="-4416.933683734682745" z="-259.741548646970898"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISpm4" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="region" value="CONTRA_VISpm4"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="posteromedial visual area, layer 4"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="1970.614020474200061" y="-4416.32873632157316" z="-259.428553735325522"/>
+            </instance>
+        </population>
+        <population id="VISC6b" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="VISC6b"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Visceral area, layer 6b"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-3649.555463435146521" y="-157.006133398675757" z="-3166.244311197998286"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISC6b" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_VISC6b"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Visceral area, layer 6b"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="3650.746144588559673" y="-156.417682472067327" z="-3166.254225887272696"/>
+            </instance>
+        </population>
+        <population id="VISp4" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="region" value="VISp4"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary visual area, layer 4"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-2645.30697933435431" y="-3867.175925762045154" z="-212.376972671738258"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISp4" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="region" value="CONTRA_VISp4"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary visual area, layer 4"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="2647.089840924402324" y="-3867.019639129809548" z="-212.330191091667757"/>
+            </instance>
+        </population>
+        <population id="VISam5" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.4 0"/>
+            <property tag="region" value="VISam5"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anteromedial visual area, layer 5"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-1740.247914893760253" y="-3129.523795389764473" z="52.799828075735562"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISam5" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.4 0"/>
+            <property tag="region" value="CONTRA_VISam5"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anteromedial visual area, layer 5"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="1741.50871954582226" y="-3130.116196654472333" z="52.213234992641524"/>
+            </instance>
+        </population>
+        <population id="VISpl4" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="region" value="VISpl4"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Posterolateral visual area, layer 4"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-3134.627071749538572" y="-4572.793991370426738" z="-701.977328268683777"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISpl4" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="region" value="CONTRA_VISpl4"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Posterolateral visual area, layer 4"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="3135.151068684591337" y="-4573.276467279203644" z="-702.040184974381873"/>
+            </instance>
+        </population>
+        <population id="VISC5" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.4 0"/>
+            <property tag="region" value="VISC5"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Visceral area, layer 5"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-4208.137887135170786" y="-432.138995718130843" z="-3267.746394315841371"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISC5" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.4 0"/>
+            <property tag="region" value="CONTRA_VISC5"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Visceral area, layer 5"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="4209.731554148157556" y="-432.285950144045728" z="-3267.022006229485669"/>
+            </instance>
+        </population>
+        <population id="VISal2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="VISal2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anterolateral visual area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-3745.366062145267733" y="-3182.283004677206009" z="-444.924194366768404"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISal2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_VISal2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anterolateral visual area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="3745.926373572078319" y="-3182.162011473987604" z="-444.314724369277144"/>
+            </instance>
+        </population>
+        <population id="VISp2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="VISp2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary visual area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-2700.126044815662226" y="-3877.418221834470387" z="-41.733890080322418"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISp2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_VISp2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary visual area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="2700.886893075417447" y="-3877.449208262531556" z="-41.611358314702812"/>
+            </instance>
+        </population>
+        <population id="VISC2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="VISC2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Visceral area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-4537.621915619405627" y="-373.4256625088492" z="-3296.195615154972529"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISC2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_VISC2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Visceral area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="4538.285401056834417" y="-373.276216323333244" z="-3296.465444648284574"/>
+            </instance>
+        </population>
+        <population id="VISC1" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="region" value="VISC1"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Visceral area, layer 1"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-4733.594291551978131" y="-418.877445301635078" z="-3348.990870327324046"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISC1" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="region" value="CONTRA_VISC1"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Visceral area, layer 1"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="4734.499347542961004" y="-419.236361930732528" z="-3348.857516969737389"/>
+            </instance>
+        </population>
+        <population id="VISam4" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="region" value="VISam4"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anteromedial visual area, layer 4"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-1792.908851903940104" y="-3178.799810142360457" z="230.366895581929015"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISam4" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="region" value="CONTRA_VISam4"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anteromedial visual area, layer 4"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="1793.562062106156191" y="-3177.959659037577694" z="230.215115675906503"/>
+            </instance>
+        </population>
+        <population id="VISam2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="VISam2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anteromedial visual area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-1827.962806319844049" y="-3167.685807521080278" z="398.384451817958166"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISam2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_VISam2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anteromedial visual area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="1829.289071013078228" y="-3167.038456917216536" z="397.992176633412214"/>
+            </instance>
+        </population>
+        <population id="VISpl1" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="region" value="VISpl1"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Posterolateral visual area, layer 1"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-3347.011740111853214" y="-4613.146409139967545" z="-439.601446542193457"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISpl1" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="region" value="CONTRA_VISpl1"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Posterolateral visual area, layer 1"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="3347.740340101287984" y="-4613.358489786613063" z="-439.540846958524583"/>
+            </instance>
+        </population>
+        <population id="VISl6a" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="VISl6a"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Lateral visual area, layer 6a"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-3397.402840227121487" y="-4051.897312357545616" z="-1258.795785191359073"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISl6a" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_VISl6a"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Lateral visual area, layer 6a"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="3398.496747437659451" y="-4051.629143802907947" z="-1258.515043931645096"/>
+            </instance>
+        </population>
+        <population id="VISl4" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="region" value="VISl4"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Lateral visual area, layer 4"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-3710.7136475734751" y="-4063.311425321908246" z="-947.333300126055633"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISl4" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="region" value="CONTRA_VISl4"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Lateral visual area, layer 4"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="3711.566165160717901" y="-4063.531221977289533" z="-946.479707207439901"/>
+            </instance>
+        </population>
+        <population id="VISl5" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.4 0"/>
+            <property tag="region" value="VISl5"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Lateral visual area, layer 5"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-3579.099656579822295" y="-4064.920954420877479" z="-1100.737492576117575"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISl5" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.4 0"/>
+            <property tag="region" value="CONTRA_VISl5"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Lateral visual area, layer 5"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="3580.589123772741004" y="-4065.1529987842423" z="-1101.212868767893724"/>
+            </instance>
+        </population>
+        <population id="VISl23" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="VISl23"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Lateral visual area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-3855.941795714486034" y="-4052.313808619320298" z="-806.981083918213471"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISl23" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_VISl23"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Lateral visual area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="3856.708873006463818" y="-4052.163886713159172" z="-807.066646347892515"/>
+            </instance>
+        </population>
+        <population id="VISpl2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="VISpl2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Posterolateral visual area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-3237.394683252055074" y="-4561.403017446627018" z="-539.627924726001879"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISpl2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_VISpl2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Posterolateral visual area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="3238.581810951518946" y="-4561.725067876865069" z="-539.874703220036281"/>
+            </instance>
+        </population>
+        <population id="VISpm2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="VISpm2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="posteromedial visual area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-1827.399177217376746" y="-4547.223116271404251" z="-280.420810070203345"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISpm2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_VISpm2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="posteromedial visual area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="1828.511894208605327" y="-4547.582593618592909" z="-280.828544360364617"/>
+            </instance>
+        </population>
+        <population id="VISC4" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="region" value="VISC4"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Visceral area, layer 4"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-4350.001984448092117" y="-309.67129177481371" z="-3268.409907157797988"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISC4" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="region" value="CONTRA_VISC4"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Visceral area, layer 4"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="4350.865131995611591" y="-309.652573574021119" z="-3268.85246649008559"/>
+            </instance>
+        </population>
+    </network>
+</neuroml>

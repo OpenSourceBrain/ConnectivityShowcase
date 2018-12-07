@@ -15,9 +15,9 @@
                 <location x="-227.174377061307865" y="-784.232452957824648" z="-3557.617914759941414"/>
             </instance>
         </population>
-        <population id="IAM_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_IAM" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="IAM_CONTRA"/>
+            <property tag="region" value="CONTRA_IAM"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Interanteromedial nucleus of the thalamus"/>
             <property tag="area" value="Thalamus"/>
@@ -35,9 +35,9 @@
                 <location x="-1602.991844758512116" y="-2322.639947223162835" z="-2124.880999507208344"/>
             </instance>
         </population>
-        <population id="LP_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_LP" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="LP_CONTRA"/>
+            <property tag="region" value="CONTRA_LP"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lateral posterior nucleus of the thalamus"/>
             <property tag="area" value="Thalamus"/>
@@ -55,9 +55,9 @@
                 <location x="-131.543193305402895" y="-1715.451249924960848" z="-3001.83455652489647"/>
             </instance>
         </population>
-        <population id="IMD_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_IMD" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="IMD_CONTRA"/>
+            <property tag="region" value="CONTRA_IMD"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Intermediodorsal nucleus of the thalamus"/>
             <property tag="area" value="Thalamus"/>
@@ -75,9 +75,9 @@
                 <location x="-2282.390348529512721" y="-3248.363304299395168" z="-3393.56393220908376"/>
             </instance>
         </population>
-        <population id="PP_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_PP" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="PP_CONTRA"/>
+            <property tag="region" value="CONTRA_PP"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Peripeduncular nucleus"/>
             <property tag="area" value="Thalamus"/>
@@ -95,9 +95,9 @@
                 <location x="-591.769209908438938" y="-793.336283195009287" z="-3118.143438593812789"/>
             </instance>
         </population>
-        <population id="IAD_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_IAD" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="IAD_CONTRA"/>
+            <property tag="region" value="CONTRA_IAD"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Interanterodorsal nucleus of the thalamus"/>
             <property tag="area" value="Thalamus"/>
@@ -115,9 +115,9 @@
                 <location x="-1150.502036728633357" y="-755.719000614557103" z="-2763.015394628639115"/>
             </instance>
         </population>
-        <population id="AV_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_AV" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="AV_CONTRA"/>
+            <property tag="region" value="CONTRA_AV"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anteroventral nucleus of thalamus"/>
             <property tag="area" value="Thalamus"/>
@@ -135,9 +135,9 @@
                 <location x="-1787.063456563690352" y="-1819.151257494220317" z="-3097.55038286258241"/>
             </instance>
         </population>
-        <population id="VPM_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_VPM" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="VPM_CONTRA"/>
+            <property tag="region" value="CONTRA_VPM"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral posteromedial nucleus of the thalamus"/>
             <property tag="area" value="Thalamus"/>
@@ -155,9 +155,9 @@
                 <location x="-2314.582789651353778" y="-2412.03937411186871" z="-2282.369986546258133"/>
             </instance>
         </population>
-        <population id="LGd_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_LGd" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="LGd_CONTRA"/>
+            <property tag="region" value="CONTRA_LGd"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Dorsal part of the lateral geniculate complex"/>
             <property tag="area" value="Thalamus"/>
@@ -175,9 +175,9 @@
                 <location x="-276.364981361480261" y="-1559.156663447650544" z="-2041.183704955583607"/>
             </instance>
         </population>
-        <population id="MH_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_MH" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="MH_CONTRA"/>
+            <property tag="region" value="CONTRA_MH"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Medial habenula"/>
             <property tag="area" value="Thalamus"/>
@@ -195,9 +195,9 @@
                 <location x="-1671.264683854884424" y="-2840.169584984721951" z="-3395.866312765288967"/>
             </instance>
         </population>
-        <population id="SPFp_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_SPFp" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="SPFp_CONTRA"/>
+            <property tag="region" value="CONTRA_SPFp"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subparafascicular nucleus, parvicellular part"/>
             <property tag="area" value="Thalamus"/>
@@ -215,9 +215,9 @@
                 <location x="-2534.498821213728206" y="-2528.541782241663896" z="-3547.746024228036276"/>
             </instance>
         </population>
-        <population id="SubG_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_SubG" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="SubG_CONTRA"/>
+            <property tag="region" value="CONTRA_SubG"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subgeniculate nucleus"/>
             <property tag="area" value="Thalamus"/>
@@ -235,9 +235,9 @@
                 <location x="-2180.619000000477627" y="-3126.440140664691171" z="-2510.504672823141846"/>
             </instance>
         </population>
-        <population id="MGd_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_MGd" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="MGd_CONTRA"/>
+            <property tag="region" value="CONTRA_MGd"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Medial geniculate complex, dorsal part"/>
             <property tag="area" value="Thalamus"/>
@@ -255,9 +255,9 @@
                 <location x="-802.026189671742372" y="-842.678163395357501" z="-3316.298383615693183"/>
             </instance>
         </population>
-        <population id="AMd_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_AMd" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="AMd_CONTRA"/>
+            <property tag="region" value="CONTRA_AMd"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anteromedial nucleus, dorsal part"/>
             <property tag="area" value="Thalamus"/>
@@ -275,9 +275,9 @@
                 <location x="-1024.904298108242074" y="-1664.848207188582592" z="-2500.285574457013354"/>
             </instance>
         </population>
-        <population id="CL_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_CL" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="CL_CONTRA"/>
+            <property tag="region" value="CONTRA_CL"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Central lateral nucleus of the thalamus"/>
             <property tag="area" value="Thalamus"/>
@@ -295,9 +295,9 @@
                 <location x="-2028.813683494795669" y="-1658.099435460951781" z="-3205.146546476269123"/>
             </instance>
         </population>
-        <population id="VPL_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_VPL" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="VPL_CONTRA"/>
+            <property tag="region" value="CONTRA_VPL"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral posterolateral nucleus of the thalamus"/>
             <property tag="area" value="Thalamus"/>
@@ -315,9 +315,9 @@
                 <location x="-428.732390051252992" y="-486.688912029805522" z="-3380.678283940158963"/>
             </instance>
         </population>
-        <population id="PT_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_PT" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="PT_CONTRA"/>
+            <property tag="region" value="CONTRA_PT"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Parataenial nucleus"/>
             <property tag="area" value="Thalamus"/>
@@ -335,9 +335,9 @@
                 <location x="-2019.827303369736683" y="-3186.731260324595951" z="-2601.370072056060962"/>
             </instance>
         </population>
-        <population id="SGN_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_SGN" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="SGN_CONTRA"/>
+            <property tag="region" value="CONTRA_SGN"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Suprageniculate nucleus"/>
             <property tag="area" value="Thalamus"/>
@@ -355,9 +355,9 @@
                 <location x="-1261.910415753160123" y="-1354.134203520428173" z="-3383.78263562334314"/>
             </instance>
         </population>
-        <population id="VAL_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_VAL" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="VAL_CONTRA"/>
+            <property tag="region" value="CONTRA_VAL"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral anterior-lateral complex of the thalamus"/>
             <property tag="area" value="Thalamus"/>
@@ -375,9 +375,9 @@
                 <location x="-2029.559381443568554" y="-3071.751961141969787" z="-3035.421376787456666"/>
             </instance>
         </population>
-        <population id="MGm_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_MGm" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="MGm_CONTRA"/>
+            <property tag="region" value="CONTRA_MGm"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Medial geniculate complex, medial part"/>
             <property tag="area" value="Thalamus"/>
@@ -395,9 +395,9 @@
                 <location x="-717.517368063239473" y="-2213.538138941041325" z="-2931.209134257250298"/>
             </instance>
         </population>
-        <population id="PF_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_PF" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="PF_CONTRA"/>
+            <property tag="region" value="CONTRA_PF"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Parafascicular nucleus"/>
             <property tag="area" value="Thalamus"/>
@@ -415,9 +415,9 @@
                 <location x="-237.819045030597067" y="-1400.897933019434731" z="-3446.182573112201226"/>
             </instance>
         </population>
-        <population id="CM_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_CM" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="CM_CONTRA"/>
+            <property tag="region" value="CONTRA_CM"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Central medial nucleus of the thalamus"/>
             <property tag="area" value="Thalamus"/>
@@ -435,9 +435,9 @@
                 <location x="-535.579383490516761" y="-1361.609593087446456" z="-3877.564095677505975"/>
             </instance>
         </population>
-        <population id="SMT_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_SMT" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="SMT_CONTRA"/>
+            <property tag="region" value="CONTRA_SMT"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Submedial nucleus of the thalamus"/>
             <property tag="area" value="Thalamus"/>
@@ -455,9 +455,9 @@
                 <location x="-2342.762054053347129" y="-3189.546920254682391" z="-2865.625510714970915"/>
             </instance>
         </population>
-        <population id="MGv_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_MGv" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="MGv_CONTRA"/>
+            <property tag="region" value="CONTRA_MGv"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Medial geniculate complex, ventral part"/>
             <property tag="area" value="Thalamus"/>
@@ -475,9 +475,9 @@
                 <location x="-165.019922077146475" y="-2246.762122320675644" z="-3314.787673367998195"/>
             </instance>
         </population>
-        <population id="SPA_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_SPA" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="SPA_CONTRA"/>
+            <property tag="region" value="CONTRA_SPA"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subparafascicular area"/>
             <property tag="area" value="Thalamus"/>
@@ -495,9 +495,9 @@
                 <location x="-558.344699085354023" y="-1785.429550972045263" z="-2217.443911560738343"/>
             </instance>
         </population>
-        <population id="LH_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_LH" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="LH_CONTRA"/>
+            <property tag="region" value="CONTRA_LH"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lateral habenula"/>
             <property tag="area" value="Thalamus"/>
@@ -515,9 +515,9 @@
                 <location x="-274.277169007760108" y="-1032.604689749764475" z="-4132.689144993864829"/>
             </instance>
         </population>
-        <population id="RE_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_RE" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="RE_CONTRA"/>
+            <property tag="region" value="CONTRA_RE"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Nucleus of reunions"/>
             <property tag="area" value="Thalamus"/>
@@ -535,9 +535,9 @@
                 <location x="-902.15621152453889" y="-1579.714372890427057" z="-3966.597431570683511"/>
             </instance>
         </population>
-        <population id="VM_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_VM" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="VM_CONTRA"/>
+            <property tag="region" value="CONTRA_VM"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral medial nucleus of the thalamus"/>
             <property tag="area" value="Thalamus"/>
@@ -555,9 +555,9 @@
                 <location x="-1483.781476935170986" y="-2069.001582834131113" z="-2721.621676385841511"/>
             </instance>
         </population>
-        <population id="PO_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_PO" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="PO_CONTRA"/>
+            <property tag="region" value="CONTRA_PO"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Posterior complex of the thalamus"/>
             <property tag="area" value="Thalamus"/>
@@ -575,9 +575,9 @@
                 <location x="-827.964645299267659" y="-812.14167013420581" z="-3642.275757536768197"/>
             </instance>
         </population>
-        <population id="AMv_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_AMv" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="AMv_CONTRA"/>
+            <property tag="region" value="CONTRA_AMv"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anteromedial nucleus, ventral part"/>
             <property tag="area" value="Thalamus"/>
@@ -595,9 +595,9 @@
                 <location x="-546.512187429662504" y="-1310.657810524470506" z="-4188.60956924902257"/>
             </instance>
         </population>
-        <population id="PR_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_PR" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="PR_CONTRA"/>
+            <property tag="region" value="CONTRA_PR"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Perireunensis nucleus"/>
             <property tag="area" value="Thalamus"/>
@@ -615,9 +615,9 @@
                 <location x="-1457.422691759405325" y="-2106.705908383848964" z="-3675.258616364972568"/>
             </instance>
         </population>
-        <population id="VPLpc_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_VPLpc" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="VPLpc_CONTRA"/>
+            <property tag="region" value="CONTRA_VPLpc"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral posterolateral nucleus of the thalamus, parvicellular part"/>
             <property tag="area" value="Thalamus"/>
@@ -635,9 +635,9 @@
                 <location x="-403.762738027978571" y="-2095.97971425063497" z="-3938.011557347324015"/>
             </instance>
         </population>
-        <population id="SPFm_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_SPFm" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="SPFm_CONTRA"/>
+            <property tag="region" value="CONTRA_SPFm"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subparafascicular nucleus, magnocellular part"/>
             <property tag="area" value="Thalamus"/>
@@ -655,9 +655,9 @@
                 <location x="-1990.84671297393993" y="-1213.260688592360566" z="-3205.485261781071131"/>
             </instance>
         </population>
-        <population id="RT_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_RT" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="RT_CONTRA"/>
+            <property tag="region" value="CONTRA_RT"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Reticular nucleus of the thalamus"/>
             <property tag="area" value="Thalamus"/>
@@ -675,9 +675,9 @@
                 <location x="-2628.771242009843718" y="-2459.079904781080131" z="-2968.655670066041694"/>
             </instance>
         </population>
-        <population id="LGv_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_LGv" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="LGv_CONTRA"/>
+            <property tag="region" value="CONTRA_LGv"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral part of the lateral geniculate complex"/>
             <property tag="area" value="Thalamus"/>
@@ -695,9 +695,9 @@
                 <location x="-2568.803223151853217" y="-2522.661242359966764" z="-2682.093209620193193"/>
             </instance>
         </population>
-        <population id="IGL_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_IGL" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="IGL_CONTRA"/>
+            <property tag="region" value="CONTRA_IGL"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Intergeniculate leaflet of the lateral geniculate complex"/>
             <property tag="area" value="Thalamus"/>
@@ -715,9 +715,9 @@
                 <location x="-910.678880649121311" y="-748.611000391545645" z="-2466.324201401359005"/>
             </instance>
         </population>
-        <population id="AD_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_AD" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="AD_CONTRA"/>
+            <property tag="region" value="CONTRA_AD"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anterodorsal nucleus"/>
             <property tag="area" value="Thalamus"/>
@@ -735,9 +735,9 @@
                 <location x="-1794.297108153475165" y="-3031.447609181908319" z="-2821.300967214056072"/>
             </instance>
         </population>
-        <population id="POL_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_POL" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="POL_CONTRA"/>
+            <property tag="region" value="CONTRA_POL"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Posterior limiting nucleus of the thalamus"/>
             <property tag="area" value="Thalamus"/>
@@ -755,9 +755,9 @@
                 <location x="-1567.423701029822041" y="-1414.005265720877105" z="-2128.955866016117852"/>
             </instance>
         </population>
-        <population id="LD_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_LD" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="LD_CONTRA"/>
+            <property tag="region" value="CONTRA_LD"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lateral dorsal nucleus of thalamus"/>
             <property tag="area" value="Thalamus"/>
@@ -775,9 +775,9 @@
                 <location x="-862.393478558485867" y="-1519.056214099320414" z="-3180.040161497213376"/>
             </instance>
         </population>
-        <population id="PCN_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_PCN" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="PCN_CONTRA"/>
+            <property tag="region" value="CONTRA_PCN"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Paracentral nucleus"/>
             <property tag="area" value="Thalamus"/>
@@ -795,9 +795,9 @@
                 <location x="-874.488677033055069" y="-2111.593907606627454" z="-3622.074423704002129"/>
             </instance>
         </population>
-        <population id="VPMpc_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_VPMpc" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="VPMpc_CONTRA"/>
+            <property tag="region" value="CONTRA_VPMpc"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral posteromedial nucleus of the thalamus, parvicellular part"/>
             <property tag="area" value="Thalamus"/>
@@ -815,9 +815,9 @@
                 <location x="-185.018948628376734" y="-1045.09940525140405" z="-2822.783380066203335"/>
             </instance>
         </population>
-        <population id="PVT_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_PVT" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="PVT_CONTRA"/>
+            <property tag="region" value="CONTRA_PVT"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Paraventricular nucleus of the thalamus"/>
             <property tag="area" value="Thalamus"/>
@@ -835,9 +835,9 @@
                 <location x="-231.793581769092157" y="-1285.346173095813583" z="-3718.789874897797745"/>
             </instance>
         </population>
-        <population id="RH_CONTRA" component="dummycell" size="1" type="populationList">
+        <population id="CONTRA_RH" component="dummycell" size="1" type="populationList">
             <property tag="color" value="1 0.6 0.6"/>
-            <property tag="region" value="RH_CONTRA"/>
+            <property tag="region" value="CONTRA_RH"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Rhomboid nucleus"/>
             <property tag="area" value="Thalamus"/>

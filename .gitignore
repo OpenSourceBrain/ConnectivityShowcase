@@ -5,3 +5,4 @@
 *.ini
 .DS_Store
 /Allen/*.nml*.png
+/Allen/*.gv.png
