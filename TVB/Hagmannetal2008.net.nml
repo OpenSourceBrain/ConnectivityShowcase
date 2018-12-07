@@ -6,463 +6,463 @@
     <network id="Hagmannetal2008">
         <notes>NeuroMLlite conversion of network from https://github.com/JohnGriffiths/temp_tvb_tutorials</notes>
         <population id="rBSTS" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.946779623565 0.581157811618 0.546104948296"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.0372620209929 0.178110960928 0.517397388132"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="85821.882100000002538" y="33780.905100000003586" z="43479.953099999998813"/>
             </instance>
         </population>
         <population id="rCAC" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.481789443216 0.48289940648 0.101637580022"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.956796212862 0.884975154111 0.422627345416"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="144362.25810000000638" y="78277.81710000000021" z="76048.494099999996251"/>
             </instance>
         </population>
         <population id="rCMF" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.529565947429 0.313907267686 0.492937534777"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.753956295139 0.512600005416 0.185718345703"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="130680.723100000002887" y="51236.998099999997066" z="92163.099100000006729"/>
             </instance>
         </population>
         <population id="rCUN" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.269326679644 0.944622634666 0.580875395086"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.315983251238 0.70392996107 0.873920200766"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="42987.030100000003586" y="75057.588099999993574" z="49536.55909999999858"/>
             </instance>
         </population>
         <population id="rENT" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.272717498185 0.379589960861 0.45375550276"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.732233582597 0.635943703173 0.065688032674"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="131301.807100000005448" y="57269.312100000002829" z="12890.376099999999497"/>
             </instance>
         </population>
         <population id="rFP" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.0160482061801 0.895541938501 0.0684427924529"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.287359334968 0.13630751396 0.199073791068"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="193098.021100000012666" y="75490.046100000006845" z="63438.284099999997125"/>
             </instance>
         </population>
         <population id="rFUS" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.978661184593 0.0889678863808 0.323682330013"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.584636014113 0.269652323769 0.973207773126"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="89371.729099999996834" y="50893.685100000002421" z="19273.398099999998522"/>
             </instance>
         </population>
         <population id="rIP" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.0721062669531 0.903892282664 0.356545549286"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.359233847756 0.102581742273 0.782813880275"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="59340.377099999997881" y="44052.760099999999511" z="59856.656100000000151"/>
             </instance>
         </population>
         <population id="rIT" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.886363423513 0.289654142795 0.861506771076"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.0421216781345 0.769693466332 0.93884583671"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="103809.041100000002189" y="36247.885099999999511" z="17613.347099999999045"/>
             </instance>
         </population>
         <population id="rISTC" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.633537398073 0.982816325497 0.95892751486"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.561360585792 0.792097343014 0.956822564036"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="81562.93409999999858" y="77465.399099999995087" z="57622.616099999999278"/>
             </instance>
         </population>
         <population id="rLOCC" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.0131943304638 0.650175216084 0.154687626889"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.463302387668 0.613874027793 0.737234675263"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="45228.864099999998871" y="54043.491099999999278" z="26549.708099999999831"/>
             </instance>
         </population>
         <population id="rLOF" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.966744410734 0.0049716895435 0.219836178914"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.413465720338 0.231040695505 0.357175093118"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="166689.61610000001383" y="60825.977099999996426" z="44011.19709999999759"/>
             </instance>
         </population>
         <population id="rLING" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.498069389191 0.671913624003 0.00717096655433"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.128661424953 0.774639777545 0.828155539395"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="65668.552100000000792" y="70590.686100000006263" z="27527.258099999999104"/>
             </instance>
         </population>
         <population id="rMOF" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.88464274531 0.00596445592293 0.826453106305"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.636572570802 0.0604931443996 0.994590881769"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="174789.2331000000122" y="77509.00010000000475" z="47976.487099999998463"/>
             </instance>
         </population>
         <population id="rMT" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.215380951839 0.638777005011 0.0914976994275"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.364936274157 0.546990954113 0.566505878544"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="106807.175099999993108" y="30265.250100000001112" z="27872.695100000000821"/>
             </instance>
         </population>
         <population id="rPARC" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.0465459418107 0.373364730469 0.895090136751"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.255632527392 0.549766190507 0.362990823686"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="88480.807100000005448" y="76806.288100000005215" z="94889.479099999996834"/>
             </instance>
         </population>
         <population id="rPARH" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.418987602314 0.00385516483031 0.533679513008"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.347026124935 0.720164523686 0.978351932911"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="104314.422099999996135" y="59149.941099999996368" z="23085.199100000001636"/>
             </instance>
         </population>
         <population id="rPOPE" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.433662292021 0.670675043895 0.76223771645"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.835671074784 0.444591197619 0.85888138418"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="139908.764100000000326" y="38971.825100000001839" z="63521.73410000000149"/>
             </instance>
         </population>
         <population id="rPORB" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.768905297569 0.138715543225 0.460283975413"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.650531507139 0.0209917509607 0.833272864907"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="172917.813099999999395" y="44546.460099999996601" z="48165.406100000000151"/>
             </instance>
         </population>
         <population id="rPTRI" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.991522245969 0.423865209648 0.164523412317"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.522032120612 0.0487642992701 0.423484250705"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="157288.139100000000326" y="40969.653100000003178" z="55403.247100000000501"/>
             </instance>
         </population>
         <population id="rPCAL" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.15394909765 0.0792390806786 0.776374825083"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.505205991718 0.796775122693 0.706795807856"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="54094.820099999997183" y="73659.56710000000021" z="37221.866099999999278"/>
             </instance>
         </population>
         <population id="rPSTC" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.189010546349 0.443113665047 0.338773717459"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.396009530396 0.950052427172 0.697078834245"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="93347.839099999997416" y="45251.833100000003469" z="85339.18409999999858"/>
             </instance>
         </population>
         <population id="rPC" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.0540135709384 0.245719108996 0.17857456512"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.230748745878 0.271778368467 0.356736437665"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="105856.854099999996834" y="78029.993100000006962" z="80052.960099999996601"/>
             </instance>
         </population>
         <population id="rPREC" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.935521626559 0.147767502235 0.591972614674"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.48223835182 0.0625172155701 0.670728032376"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="107660.332099999999627" y="47404.018100000001141" z="86458.254100000005565"/>
             </instance>
         </population>
         <population id="rPCUN" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.214412263416 0.414055779337 0.269145821055"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.160445315051 0.946615220591 0.714444693896"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="63247.033100000000559" y="75310.222099999999045" z="69219.413100000005215"/>
             </instance>
         </population>
         <population id="rRAC" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.221275213641 0.0260549332016 0.268128821367"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.845363851931 0.923824440598 0.779102932477"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="163144.591099999990547" y="77614.550099999993108" z="56729.077100000002247"/>
             </instance>
         </population>
         <population id="rRMF" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.381168615727 0.353584940807 0.696341482917"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.818347093888 0.581286085213 0.210017396702"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="164402.670099999988452" y="50674.592100000001665" z="73490.873099999997066"/>
             </instance>
         </population>
         <population id="rSF" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.788909874618 0.413493323572 0.961128443697"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.192903962961 0.166483021264 0.0322347961042"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="148300.054100000008475" y="71549.38310000000638" z="92123.412100000001374"/>
             </instance>
         </population>
         <population id="rSP" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.242760160262 0.785209336507 0.808274128541"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.421816195 0.422194218657 0.409674047139"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="58721.042099999998754" y="61502.945099999997183" z="78187.243100000006962"/>
             </instance>
         </population>
         <population id="rST" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.524687102337 0.092456354641 0.904159179864"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.225998984782 0.336895825852 0.635824164671"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="117735.735100000005332" y="34002.382100000002538" z="40196.956100000003062"/>
             </instance>
         </population>
         <population id="rSMAR" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.434015467586 0.267264321296 0.625527249159"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.103744000214 0.877864961647 0.339860758306"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="89887.983099999997648" y="34065.524100000002363" z="70691.530100000003586"/>
             </instance>
         </population>
         <population id="rTP" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.931600002294 0.480239834949 0.283622221781"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.275707620578 0.00966088736587 0.408387569019"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="149954.99110000001383" y="54156.082099999999627" z="15433.378099999999904"/>
             </instance>
         </population>
         <population id="rTT" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.178000139324 0.0731098205415 0.201880688941"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.406719934601 0.587670564063 0.857640897356"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="106514.262100000007194" y="40855.868099999999686" z="49408.025099999998929"/>
             </instance>
         </population>
         <population id="lBSTS" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.477456936538 0.853581293447 0.341417251905"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.549135774275 0.345677807355 0.0181466411907"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="89572.506099999998696" y="134866.747100000007777" z="37710.206100000003062"/>
             </instance>
         </population>
         <population id="lCAC" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.98557392494 0.852843561388 0.251956555911"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.763429739137 0.408528659476 0.893527433292"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="144114.671100000006845" y="89719.797099999996135" z="76600.371100000003935"/>
             </instance>
         </population>
         <population id="lCMF" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.400665603079 0.858126668476 0.450467881199"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.890428609253 0.948806148775 0.45764565386"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="127562.236099999994622" y="117511.287100000001374" z="91501.020099999994272"/>
             </instance>
         </population>
         <population id="lCUN" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.488333530032 0.257861806127 0.743281188457"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.833917010765 0.444694275398 0.239812124809"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="43226.686099999998987" y="90962.337100000004284" z="46018.73410000000149"/>
             </instance>
         </population>
         <population id="lENT" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.095326233449 0.240244284424 0.786790896311"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.230006580777 0.600215252155 0.646574007165"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="133452.11710000000312" y="110933.654099999999744" z="10798.46310000000085"/>
             </instance>
         </population>
         <population id="lFP" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.778244012753 0.0071354373671 0.965730795247"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.549981039513 0.974183988472 0.50232627145"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="191755.816099999996368" y="93984.053100000004633" z="60619.810100000002421"/>
             </instance>
         </population>
         <population id="lFUS" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.432392901709 0.521553241745 0.919134591705"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.531737943924 0.982329063256 0.785892999502"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="86193.169099999999162" y="115137.75109999999404" z="18643.052100000000792"/>
             </instance>
         </population>
         <population id="lIP" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.0446553855273 0.278306298231 0.717147247812"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.120498302523 0.000614231497951 0.49161806812"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="58991.570099999997183" y="123222.04210000000603" z="58563.549099999996542"/>
             </instance>
         </population>
         <population id="lIT" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.653671506415 0.751579818782 0.515146099853"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.504212910056 0.0294753112083 0.578396322627"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="102499.590100000001257" y="131395.928099999990081" z="17783.453099999998813"/>
             </instance>
         </population>
         <population id="lISTC" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.681200535802 0.200414060948 0.143055471744"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.306858148901 0.262735124027 0.614000595181"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="81762.510099999999511" y="90413.980100000000675" z="56017.00510000000213"/>
             </instance>
         </population>
         <population id="lLOCC" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.00730859486124 0.653455453904 0.558676778702"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.572317171426 0.900778634092 0.864763779723"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="41101.728100000000268" y="108004.621100000003935" z="25885.86109999999826"/>
             </instance>
         </population>
         <population id="lLOF" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.277686325325 0.69265074723 0.424888380106"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.851481069264 0.0279744774028 0.390290595343"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="166020.650099999998929" y="107393.873099999997066" z="40793.376100000001315"/>
             </instance>
         </population>
         <population id="lLING" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.427219102739 0.493561222536 0.559563680469"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.999240818269 0.854703940863 0.224875912647"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="67601.058099999994738" y="96716.592099999994389" z="25779.833099999999831"/>
             </instance>
         </population>
         <population id="lMOF" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.859393315507 0.916658617483 0.276114307564"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.505023698106 0.820616911301 0.806744697193"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="173950.412099999986822" y="90725.13310000000638" z="47536.329100000002654"/>
             </instance>
         </population>
         <population id="lMT" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.501788968912 0.998049892636 0.838050096161"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.957245418381 0.453556615248 0.14944635431"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="104923.471099999995204" y="138982.36710000000312" z="27027.866099999999278"/>
             </instance>
         </population>
         <population id="lPARC" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.765935411925 0.591612561468 0.521782588964"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.381777366729 0.221731198563 0.656627297532"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="86055.063099999999395" y="90894.92609999999695" z="92839.850099999996019"/>
             </instance>
         </population>
         <population id="lPARH" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.480695673178 0.961162649088 0.270746296725"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.720672147428 0.557488326522 0.309867818851"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="105800.774099999995087" y="108050.647100000001956" z="22499.128100000001723"/>
             </instance>
         </population>
         <population id="lPOPE" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.71394566493 0.25181547539 0.540126005767"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.505246988522 0.185392762384 0.146075037827"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="138596.304100000008475" y="127762.967099999994389" z="62401.063099999999395"/>
             </instance>
         </population>
         <population id="lPORB" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.497188239331 0.385706653779 0.538428986495"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.386479915283 0.773661369123 0.629798684935"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="172562.244100000010803" y="122245.461100000000442" z="45503.513099999996484"/>
             </instance>
         </population>
         <population id="lPTRI" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.584496951731 0.332133979331 0.896082746053"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.0688096923607 0.59477040153 0.714786765016"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="156357.663100000005215" y="127037.714099999997416" z="55721.409099999997125"/>
             </instance>
         </population>
         <population id="lPCAL" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.186415450202 0.405718356302 0.00330653190116"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.336595097672 0.793757436929 0.0599446682014"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="53148.32209999999759" y="92071.095100000005914" z="33640.877099999997881"/>
             </instance>
         </population>
         <population id="lPSTC" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.182337473525 0.839483833171 0.158667899922"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.221076044718 0.255004616235 0.372117247384"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="93568.079100000002654" y="124925.055099999997765" z="81526.675099999993108"/>
             </instance>
         </population>
         <population id="lPC" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.116367832698 0.153660842818 0.191858149818"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.362189302948 0.579648561304 0.501152211753"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="105774.878100000001723" y="88360.495100000000093" z="79120.222099999999045"/>
             </instance>
         </population>
         <population id="lPREC" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.662907391985 0.197722765613 0.861142238213"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.319147242813 0.481858304736 0.888191123327"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="106439.642099999997299" y="120274.950100000001839" z="84781.907099999996717"/>
             </instance>
         </population>
         <population id="lPCUN" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.615103480756 0.855706853601 0.182153176803"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.323871451498 0.0517784390873 0.229097163885"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="61882.073100000001432" y="92740.074099999997998" z="65416.127099999997881"/>
             </instance>
         </population>
         <population id="lRAC" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.64706672513 0.849672831116 0.961430652906"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.918670693472 0.514263412724 0.933857655365"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="164030.21909999998752" y="90623.009099999995669" z="59355.24210000000312"/>
             </instance>
         </population>
         <population id="lRMF" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.293064302249 0.507532462084 0.541227290263"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.438869315672 0.123925896827 0.0583881397153"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="162938.931099999987055" y="116314.121100000003935" z="73001.900099999998929"/>
             </instance>
         </population>
         <population id="lSF" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.0447884865073 0.595784485911 0.364501169146"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.296796571738 0.616494863553 0.959069282881"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="145250.437100000010105" y="94766.687099999995553" z="93454.710099999996601"/>
             </instance>
         </population>
         <population id="lSP" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.982006542771 0.352147692589 0.125116275238"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.664976126888 0.0135715268675 0.7952406713"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="57442.780100000003586" y="105021.189100000003236" z="75112.140100000004168"/>
             </instance>
         </population>
         <population id="lST" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.364188654201 0.45602525685 0.352084096373"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.943832543705 0.2301922952 0.376210467431"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="116694.35109999999986" y="133874.863099999987753" z="38539.608099999997648"/>
             </instance>
         </population>
         <population id="lSMAR" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.515149415299 0.447211595618 0.246889277613"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.871679014157 0.793162600677 0.911993468407"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="87007.85109999999986" y="133133.675099999993108" z="63394.909099999997125"/>
             </instance>
         </population>
         <population id="lTP" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.590267197179 0.320906674369 0.95143619843"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.714811841618 0.899627112535 0.693291871524"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="149984.410100000008242" y="113969.21809999999823" z="16284.921099999999569"/>
             </instance>
         </population>
         <population id="lTT" component="testcell" size="1" type="populationList">
-            <property tag="color" value="0.92568311787 0.610564932336 0.400534493292"/>
-            <property tag="radius" value="100"/>
+            <property tag="color" value="0.286983479806 0.612958601913 0.0841538961986"/>
+            <property tag="radius" value="5000"/>
             <instance id="0">
                 <location x="103352.606100000004517" y="122959.201100000005681" z="48818.731099999997241"/>
             </instance>
