@@ -1,0 +1,1087 @@
+{
+    "Hagmannetal2008": {
+        "version": "NeuroMLlite v0.1.5", 
+        "notes": "NeuroMLlite conversion of network from https://github.com/JohnGriffiths/temp_tvb_tutorials", 
+        "cells": [
+            {
+                "testcell": {
+                    "pynn_cell": "IF_cond_alpha", 
+                    "parameters": {
+                        "tau_refrac": 5, 
+                        "i_offset": 0
+                    }
+                }
+            }
+        ], 
+        "synapses": [
+            {
+                "ampa": {
+                    "pynn_synapse_type": "cond_alpha", 
+                    "pynn_receptor_type": "excitatory", 
+                    "parameters": {
+                        "e_rev": 0, 
+                        "tau_syn": 2
+                    }
+                }
+            }
+        ], 
+        "populations": [
+            {
+                "rBSTS": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.653313033398 0.523360945591 0.303357211232"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 85.8218821, 
+                            "y": 33.7809051, 
+                            "z": 43.4799531
+                        }
+                    }
+                }
+            }, 
+            {
+                "rCAC": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.807414895682 0.51137593413 0.590084115333"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 144.3622581, 
+                            "y": 78.2778171, 
+                            "z": 76.0484941
+                        }
+                    }
+                }
+            }, 
+            {
+                "rCMF": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.010395325042 0.893240614911 0.336680755262"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 130.6807231, 
+                            "y": 51.2369981, 
+                            "z": 92.1630991
+                        }
+                    }
+                }
+            }, 
+            {
+                "rCUN": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.930460415043 0.0245578111186 0.466672947926"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 42.9870301, 
+                            "y": 75.0575881, 
+                            "z": 49.5365591
+                        }
+                    }
+                }
+            }, 
+            {
+                "rENT": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.950857754536 0.503734205419 0.965998773509"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 131.3018071, 
+                            "y": 57.2693121, 
+                            "z": 12.8903761
+                        }
+                    }
+                }
+            }, 
+            {
+                "rFP": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.0603205908259 0.8930067047 0.957576557857"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 193.0980211, 
+                            "y": 75.4900461, 
+                            "z": 63.4382841
+                        }
+                    }
+                }
+            }, 
+            {
+                "rFUS": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.0398152960458 0.529020824842 0.176611005693"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 89.3717291, 
+                            "y": 50.8936851, 
+                            "z": 19.2733981
+                        }
+                    }
+                }
+            }, 
+            {
+                "rIP": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.757372660732 0.686149259371 0.663383308531"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 59.3403771, 
+                            "y": 44.0527601, 
+                            "z": 59.8566561
+                        }
+                    }
+                }
+            }, 
+            {
+                "rIT": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.39255712798 0.400305697627 0.750400026285"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 103.8090411, 
+                            "y": 36.2478851, 
+                            "z": 17.6133471
+                        }
+                    }
+                }
+            }, 
+            {
+                "rISTC": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.205928354283 0.779059451224 0.475151614926"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 81.5629341, 
+                            "y": 77.4653991, 
+                            "z": 57.6226161
+                        }
+                    }
+                }
+            }, 
+            {
+                "rLOCC": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.15133281701 0.751809632101 0.0511885555459"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 45.2288641, 
+                            "y": 54.0434911, 
+                            "z": 26.5497081
+                        }
+                    }
+                }
+            }, 
+            {
+                "rLOF": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.835603763745 0.71336411646 0.577819898809"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 166.6896161, 
+                            "y": 60.8259771, 
+                            "z": 44.0111971
+                        }
+                    }
+                }
+            }, 
+            {
+                "rLING": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.0828145410241 0.543793037722 0.119341953717"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 65.6685521, 
+                            "y": 70.5906861, 
+                            "z": 27.5272581
+                        }
+                    }
+                }
+            }, 
+            {
+                "rMOF": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.209122280109 0.650567827525 0.608692189598"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 174.7892331, 
+                            "y": 77.5090001, 
+                            "z": 47.9764871
+                        }
+                    }
+                }
+            }, 
+            {
+                "rMT": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.677300790522 0.744873004337 0.469527656422"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 106.8071751, 
+                            "y": 30.2652501, 
+                            "z": 27.8726951
+                        }
+                    }
+                }
+            }, 
+            {
+                "rPARC": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.970167980787 0.86719572365 0.353285286189"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 88.4808071, 
+                            "y": 76.8062881, 
+                            "z": 94.8894791
+                        }
+                    }
+                }
+            }, 
+            {
+                "rPARH": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.916937752407 0.846013126304 0.843416346513"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 104.3144221, 
+                            "y": 59.1499411, 
+                            "z": 23.0851991
+                        }
+                    }
+                }
+            }, 
+            {
+                "rPOPE": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.874056455099 0.893329634958 0.158114692384"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 139.9087641, 
+                            "y": 38.9718251, 
+                            "z": 63.5217341
+                        }
+                    }
+                }
+            }, 
+            {
+                "rPORB": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.149947875277 0.892783628053 0.959800458689"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 172.9178131, 
+                            "y": 44.5464601, 
+                            "z": 48.1654061
+                        }
+                    }
+                }
+            }, 
+            {
+                "rPTRI": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.106213639646 0.360857054704 0.208896359252"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 157.2881391, 
+                            "y": 40.9696531, 
+                            "z": 55.4032471
+                        }
+                    }
+                }
+            }, 
+            {
+                "rPCAL": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.0631660501833 0.752378418255 0.120256396192"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 54.0948201, 
+                            "y": 73.6595671, 
+                            "z": 37.2218661
+                        }
+                    }
+                }
+            }, 
+            {
+                "rPSTC": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.582891313895 0.645516013197 0.408298204248"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 93.3478391, 
+                            "y": 45.2518331, 
+                            "z": 85.3391841
+                        }
+                    }
+                }
+            }, 
+            {
+                "rPC": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.322499036116 0.875000489707 0.127372975717"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 105.8568541, 
+                            "y": 78.0299931, 
+                            "z": 80.0529601
+                        }
+                    }
+                }
+            }, 
+            {
+                "rPREC": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.372438277308 0.614790265027 0.779437602289"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 107.6603321, 
+                            "y": 47.4040181, 
+                            "z": 86.4582541
+                        }
+                    }
+                }
+            }, 
+            {
+                "rPCUN": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.662635212245 0.340647291715 0.398007512858"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 63.2470331, 
+                            "y": 75.3102221, 
+                            "z": 69.2194131
+                        }
+                    }
+                }
+            }, 
+            {
+                "rRAC": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.717986871702 0.695009276658 0.783798722896"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 163.1445911, 
+                            "y": 77.6145501, 
+                            "z": 56.7290771
+                        }
+                    }
+                }
+            }, 
+            {
+                "rRMF": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.706284650119 0.339471962648 0.915090467601"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 164.4026701, 
+                            "y": 50.6745921, 
+                            "z": 73.4908731
+                        }
+                    }
+                }
+            }, 
+            {
+                "rSF": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.213813215276 0.410657705476 0.985126574298"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 148.3000541, 
+                            "y": 71.5493831, 
+                            "z": 92.1234121
+                        }
+                    }
+                }
+            }, 
+            {
+                "rSP": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.551025574097 0.295573772711 0.749918802242"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 58.7210421, 
+                            "y": 61.5029451, 
+                            "z": 78.1872431
+                        }
+                    }
+                }
+            }, 
+            {
+                "rST": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.610079976298 0.854689679802 0.265083746991"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 117.7357351, 
+                            "y": 34.0023821, 
+                            "z": 40.1969561
+                        }
+                    }
+                }
+            }, 
+            {
+                "rSMAR": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.52162856991 0.950546626566 0.817423416582"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 89.8879831, 
+                            "y": 34.0655241, 
+                            "z": 70.6915301
+                        }
+                    }
+                }
+            }, 
+            {
+                "rTP": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.0586879183638 0.542766228784 0.946835691205"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 149.9549911, 
+                            "y": 54.1560821, 
+                            "z": 15.4333781
+                        }
+                    }
+                }
+            }, 
+            {
+                "rTT": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.0274843219655 0.533852267031 0.941558654624"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 106.5142621, 
+                            "y": 40.8558681, 
+                            "z": 49.4080251
+                        }
+                    }
+                }
+            }, 
+            {
+                "lBSTS": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.909609768964 0.182815836795 0.146171525407"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 89.5725061, 
+                            "y": 134.8667471, 
+                            "z": 37.7102061
+                        }
+                    }
+                }
+            }, 
+            {
+                "lCAC": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.588967173221 0.206481018895 0.189522466939"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 144.1146711, 
+                            "y": 89.7197971, 
+                            "z": 76.6003711
+                        }
+                    }
+                }
+            }, 
+            {
+                "lCMF": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.897446245686 0.541727203001 0.0316741408294"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 127.5622361, 
+                            "y": 117.5112871, 
+                            "z": 91.5010201
+                        }
+                    }
+                }
+            }, 
+            {
+                "lCUN": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.9943695351 0.279912380217 0.492891153763"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 43.2266861, 
+                            "y": 90.9623371, 
+                            "z": 46.0187341
+                        }
+                    }
+                }
+            }, 
+            {
+                "lENT": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.77264714471 0.0696617503471 0.635115056976"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 133.4521171, 
+                            "y": 110.9336541, 
+                            "z": 10.7984631
+                        }
+                    }
+                }
+            }, 
+            {
+                "lFP": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.346190800792 0.87082850004 0.471761031757"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 191.7558161, 
+                            "y": 93.9840531, 
+                            "z": 60.6198101
+                        }
+                    }
+                }
+            }, 
+            {
+                "lFUS": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.349787200077 0.802415793954 0.367335459862"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 86.1931691, 
+                            "y": 115.1377511, 
+                            "z": 18.6430521
+                        }
+                    }
+                }
+            }, 
+            {
+                "lIP": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.562628297999 0.858783727387 0.217648555254"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 58.9915701, 
+                            "y": 123.2220421, 
+                            "z": 58.5635491
+                        }
+                    }
+                }
+            }, 
+            {
+                "lIT": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.372510069337 0.14290294526 0.351247246177"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 102.4995901, 
+                            "y": 131.3959281, 
+                            "z": 17.7834531
+                        }
+                    }
+                }
+            }, 
+            {
+                "lISTC": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.251493984315 0.287074206999 0.76643614463"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 81.7625101, 
+                            "y": 90.4139801, 
+                            "z": 56.0170051
+                        }
+                    }
+                }
+            }, 
+            {
+                "lLOCC": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.740010242626 0.839619708729 0.0426899774367"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 41.1017281, 
+                            "y": 108.0046211, 
+                            "z": 25.8858611
+                        }
+                    }
+                }
+            }, 
+            {
+                "lLOF": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.659171533833 0.393979016441 0.868689855133"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 166.0206501, 
+                            "y": 107.3938731, 
+                            "z": 40.7933761
+                        }
+                    }
+                }
+            }, 
+            {
+                "lLING": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.62232375712 0.262721397357 0.53560106678"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 67.6010581, 
+                            "y": 96.7165921, 
+                            "z": 25.7798331
+                        }
+                    }
+                }
+            }, 
+            {
+                "lMOF": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.851283037215 0.910726755884 0.813320897912"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 173.9504121, 
+                            "y": 90.7251331, 
+                            "z": 47.5363291
+                        }
+                    }
+                }
+            }, 
+            {
+                "lMT": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.314281771405 0.968483420402 0.860018112753"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 104.9234711, 
+                            "y": 138.9823671, 
+                            "z": 27.0278661
+                        }
+                    }
+                }
+            }, 
+            {
+                "lPARC": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.099642830499 0.809214964824 0.779629329498"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 86.0550631, 
+                            "y": 90.8949261, 
+                            "z": 92.8398501
+                        }
+                    }
+                }
+            }, 
+            {
+                "lPARH": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.227358404092 0.484969837794 0.766686744907"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 105.8007741, 
+                            "y": 108.0506471, 
+                            "z": 22.4991281
+                        }
+                    }
+                }
+            }, 
+            {
+                "lPOPE": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.114925928076 0.44145271117 0.316401214782"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 138.5963041, 
+                            "y": 127.7629671, 
+                            "z": 62.4010631
+                        }
+                    }
+                }
+            }, 
+            {
+                "lPORB": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.705200027076 0.978172463811 0.32576969419"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 172.5622441, 
+                            "y": 122.2454611, 
+                            "z": 45.5035131
+                        }
+                    }
+                }
+            }, 
+            {
+                "lPTRI": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.595636085343 0.627234769826 0.433795946915"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 156.3576631, 
+                            "y": 127.0377141, 
+                            "z": 55.7214091
+                        }
+                    }
+                }
+            }, 
+            {
+                "lPCAL": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.0806328443323 0.139770157294 0.914825213336"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 53.1483221, 
+                            "y": 92.0710951, 
+                            "z": 33.6408771
+                        }
+                    }
+                }
+            }, 
+            {
+                "lPSTC": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.538161399328 0.995052677124 0.0614029134445"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 93.5680791, 
+                            "y": 124.9250551, 
+                            "z": 81.5266751
+                        }
+                    }
+                }
+            }, 
+            {
+                "lPC": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.368851545316 0.924261112002 0.698131800049"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 105.7748781, 
+                            "y": 88.3604951, 
+                            "z": 79.1202221
+                        }
+                    }
+                }
+            }, 
+            {
+                "lPREC": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.350799778775 0.0459070832435 0.726132595103"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 106.4396421, 
+                            "y": 120.2749501, 
+                            "z": 84.7819071
+                        }
+                    }
+                }
+            }, 
+            {
+                "lPCUN": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.465051059768 0.415358396645 0.580276722716"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 61.8820731, 
+                            "y": 92.7400741, 
+                            "z": 65.4161271
+                        }
+                    }
+                }
+            }, 
+            {
+                "lRAC": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.532490190031 0.664471620568 0.225004180417"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 164.0302191, 
+                            "y": 90.6230091, 
+                            "z": 59.3552421
+                        }
+                    }
+                }
+            }, 
+            {
+                "lRMF": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.0175769764285 0.922995610875 0.928074780205"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 162.9389311, 
+                            "y": 116.3141211, 
+                            "z": 73.0019001
+                        }
+                    }
+                }
+            }, 
+            {
+                "lSF": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.144182499816 0.465825944184 0.670444640359"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 145.2504371, 
+                            "y": 94.7666871, 
+                            "z": 93.4547101
+                        }
+                    }
+                }
+            }, 
+            {
+                "lSP": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.482868705214 0.664256019937 0.523659431564"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 57.4427801, 
+                            "y": 105.0211891, 
+                            "z": 75.1121401
+                        }
+                    }
+                }
+            }, 
+            {
+                "lST": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.664173665877 0.278133542138 0.116900087865"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 116.6943511, 
+                            "y": 133.8748631, 
+                            "z": 38.5396081
+                        }
+                    }
+                }
+            }, 
+            {
+                "lSMAR": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.274543459044 0.231180160506 0.0644215345833"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 87.0078511, 
+                            "y": 133.1336751, 
+                            "z": 63.3949091
+                        }
+                    }
+                }
+            }, 
+            {
+                "lTP": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.425743634214 0.348599705962 0.341182234742"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 149.9844101, 
+                            "y": 113.9692181, 
+                            "z": 16.2849211
+                        }
+                    }
+                }
+            }, 
+            {
+                "lTT": {
+                    "size": 1, 
+                    "component": "testcell", 
+                    "properties": {
+                        "color": "0.177260324585 0.0046008352833 0.475600860732"
+                    }, 
+                    "single_location": {
+                        "location": {
+                            "x": 103.3526061, 
+                            "y": 122.9592011, 
+                            "z": 48.8187311
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

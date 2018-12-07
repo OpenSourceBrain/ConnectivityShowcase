@@ -1,0 +1,339 @@
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="Hagmannetal2008">
+    <notes>Generated network: Hagmannetal2008
+    Generation seed: 1234</notes>
+    <IF_cond_alpha id="testcell" cm="1." i_offset="0." tau_syn_E="0.3" tau_syn_I="0.5" v_init="-65." tau_m="20." tau_refrac="5." v_reset="-65." v_rest="-65." v_thresh="-50." e_rev_E="0." e_rev_I="-70."/>
+    <alphaCondSynapse id="ampa" tau_syn="2." e_rev="0."/>
+    <network id="Hagmannetal2008">
+        <notes>NeuroMLlite conversion of network from https://github.com/JohnGriffiths/temp_tvb_tutorials</notes>
+        <population id="rBSTS" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="85.821882099999996" y="33.780905099999998" z="43.479953100000003"/>
+            </instance>
+        </population>
+        <population id="rCAC" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="144.362258099999991" y="78.277817099999993" z="76.048494099999999"/>
+            </instance>
+        </population>
+        <population id="rCMF" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="130.680723099999994" y="51.236998100000001" z="92.163099099999997"/>
+            </instance>
+        </population>
+        <population id="rCUN" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="42.987030099999998" y="75.057588100000004" z="49.536559099999998"/>
+            </instance>
+        </population>
+        <population id="rENT" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="131.301807099999991" y="57.2693121" z="12.890376099999999"/>
+            </instance>
+        </population>
+        <population id="rFP" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="193.098021100000011" y="75.490046100000001" z="63.438284099999997"/>
+            </instance>
+        </population>
+        <population id="rFUS" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="89.371729099999996" y="50.893685099999999" z="19.273398100000001"/>
+            </instance>
+        </population>
+        <population id="rIP" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="59.340377099999998" y="44.0527601" z="59.856656100000002"/>
+            </instance>
+        </population>
+        <population id="rIT" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="103.809041100000002" y="36.247885099999998" z="17.613347099999999"/>
+            </instance>
+        </population>
+        <population id="rISTC" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="81.562934100000007" y="77.465399099999999" z="57.622616100000002"/>
+            </instance>
+        </population>
+        <population id="rLOCC" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="45.228864100000003" y="54.043491099999997" z="26.5497081"/>
+            </instance>
+        </population>
+        <population id="rLOF" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="166.689616099999995" y="60.825977100000003" z="44.011197099999997"/>
+            </instance>
+        </population>
+        <population id="rLING" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="65.668552099999999" y="70.590686099999999" z="27.527258100000001"/>
+            </instance>
+        </population>
+        <population id="rMOF" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="174.78923309999999" y="77.509000099999994" z="47.9764871"/>
+            </instance>
+        </population>
+        <population id="rMT" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="106.807175099999995" y="30.265250099999999" z="27.872695100000001"/>
+            </instance>
+        </population>
+        <population id="rPARC" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="88.480807100000007" y="76.806288100000003" z="94.889479100000003"/>
+            </instance>
+        </population>
+        <population id="rPARH" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="104.314422100000002" y="59.149941099999999" z="23.085199100000001"/>
+            </instance>
+        </population>
+        <population id="rPOPE" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="139.908764100000013" y="38.971825099999997" z="63.521734100000003"/>
+            </instance>
+        </population>
+        <population id="rPORB" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="172.917813099999989" y="44.546460099999997" z="48.165406099999998"/>
+            </instance>
+        </population>
+        <population id="rPTRI" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="157.288139099999995" y="40.969653100000002" z="55.403247100000002"/>
+            </instance>
+        </population>
+        <population id="rPCAL" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="54.0948201" y="73.659567100000004" z="37.2218661"/>
+            </instance>
+        </population>
+        <population id="rPSTC" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="93.347839100000002" y="45.251833099999999" z="85.339184099999997"/>
+            </instance>
+        </population>
+        <population id="rPC" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="105.856854100000007" y="78.029993099999999" z="80.052960100000007"/>
+            </instance>
+        </population>
+        <population id="rPREC" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="107.660332100000005" y="47.404018100000002" z="86.458254100000005"/>
+            </instance>
+        </population>
+        <population id="rPCUN" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="63.247033100000003" y="75.310222100000004" z="69.219413099999997"/>
+            </instance>
+        </population>
+        <population id="rRAC" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="163.144591100000014" y="77.614550100000002" z="56.729077099999998"/>
+            </instance>
+        </population>
+        <population id="rRMF" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="164.402670099999995" y="50.674592099999998" z="73.490873100000002"/>
+            </instance>
+        </population>
+        <population id="rSF" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="148.300054100000011" y="71.5493831" z="92.123412099999996"/>
+            </instance>
+        </population>
+        <population id="rSP" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="58.721042099999998" y="61.502945099999998" z="78.187243100000003"/>
+            </instance>
+        </population>
+        <population id="rST" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="117.735735099999999" y="34.002382099999998" z="40.196956100000001"/>
+            </instance>
+        </population>
+        <population id="rSMAR" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="89.8879831" y="34.065524099999998" z="70.691530099999994"/>
+            </instance>
+        </population>
+        <population id="rTP" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="149.954991100000001" y="54.156082099999999" z="15.433378100000001"/>
+            </instance>
+        </population>
+        <population id="rTT" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="106.514262099999996" y="40.855868100000002" z="49.408025100000003"/>
+            </instance>
+        </population>
+        <population id="lBSTS" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="89.572506099999998" y="134.866747099999998" z="37.710206100000001"/>
+            </instance>
+        </population>
+        <population id="lCAC" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="144.11467110000001" y="89.719797099999994" z="76.600371100000004"/>
+            </instance>
+        </population>
+        <population id="lCMF" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="127.562236100000007" y="117.511287100000004" z="91.501020100000005"/>
+            </instance>
+        </population>
+        <population id="lCUN" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="43.226686100000002" y="90.962337099999999" z="46.018734100000003"/>
+            </instance>
+        </population>
+        <population id="lENT" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="133.452117100000009" y="110.933654099999998" z="10.798463099999999"/>
+            </instance>
+        </population>
+        <population id="lFP" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="191.755816100000004" y="93.984053099999997" z="60.619810100000002"/>
+            </instance>
+        </population>
+        <population id="lFUS" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="86.193169100000006" y="115.137751100000003" z="18.643052099999998"/>
+            </instance>
+        </population>
+        <population id="lIP" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="58.991570099999997" y="123.222042099999996" z="58.563549100000003"/>
+            </instance>
+        </population>
+        <population id="lIT" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="102.499590100000006" y="131.395928099999992" z="17.783453099999999"/>
+            </instance>
+        </population>
+        <population id="lISTC" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="81.7625101" y="90.413980100000003" z="56.017005099999999"/>
+            </instance>
+        </population>
+        <population id="lLOCC" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="41.101728100000003" y="108.004621099999994" z="25.8858611"/>
+            </instance>
+        </population>
+        <population id="lLOF" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="166.020650100000012" y="107.393873099999993" z="40.793376100000003"/>
+            </instance>
+        </population>
+        <population id="lLING" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="67.601058100000003" y="96.7165921" z="25.779833100000001"/>
+            </instance>
+        </population>
+        <population id="lMOF" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="173.950412099999994" y="90.725133099999994" z="47.536329100000003"/>
+            </instance>
+        </population>
+        <population id="lMT" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="104.9234711" y="138.982367100000005" z="27.027866100000001"/>
+            </instance>
+        </population>
+        <population id="lPARC" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="86.055063099999998" y="90.894926100000006" z="92.839850100000007"/>
+            </instance>
+        </population>
+        <population id="lPARH" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="105.800774099999998" y="108.050647100000006" z="22.4991281"/>
+            </instance>
+        </population>
+        <population id="lPOPE" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="138.596304099999998" y="127.762967099999997" z="62.401063100000002"/>
+            </instance>
+        </population>
+        <population id="lPORB" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="172.562244099999987" y="122.2454611" z="45.503513099999999"/>
+            </instance>
+        </population>
+        <population id="lPTRI" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="156.357663099999996" y="127.037714100000002" z="55.721409100000002"/>
+            </instance>
+        </population>
+        <population id="lPCAL" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="53.148322100000001" y="92.071095099999994" z="33.640877099999997"/>
+            </instance>
+        </population>
+        <population id="lPSTC" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="93.568079100000006" y="124.925055099999994" z="81.526675100000006"/>
+            </instance>
+        </population>
+        <population id="lPC" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="105.774878099999995" y="88.360495099999994" z="79.120222100000007"/>
+            </instance>
+        </population>
+        <population id="lPREC" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="106.4396421" y="120.274950099999998" z="84.781907099999998"/>
+            </instance>
+        </population>
+        <population id="lPCUN" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="61.882073099999999" y="92.740074100000001" z="65.416127099999997"/>
+            </instance>
+        </population>
+        <population id="lRAC" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="164.030219100000011" y="90.623009100000004" z="59.355242099999998"/>
+            </instance>
+        </population>
+        <population id="lRMF" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="162.938931099999991" y="116.314121099999994" z="73.0019001"/>
+            </instance>
+        </population>
+        <population id="lSF" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="145.250437099999999" y="94.766687099999999" z="93.4547101"/>
+            </instance>
+        </population>
+        <population id="lSP" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="57.4427801" y="105.021189100000001" z="75.112140100000005"/>
+            </instance>
+        </population>
+        <population id="lST" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="116.694351100000006" y="133.874863099999999" z="38.539608100000002"/>
+            </instance>
+        </population>
+        <population id="lSMAR" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="87.007851099999996" y="133.133675100000005" z="63.3949091"/>
+            </instance>
+        </population>
+        <population id="lTP" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="149.984410099999991" y="113.969218100000006" z="16.284921099999998"/>
+            </instance>
+        </population>
+        <population id="lTT" component="testcell" size="1" type="populationList">
+            <instance id="0">
+                <location x="103.352606100000003" y="122.959201100000001" z="48.818731100000001"/>
+            </instance>
+        </population>
+    </network>
+</neuroml>
