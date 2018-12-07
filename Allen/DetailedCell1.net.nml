@@ -1,0 +1,1497 @@
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="DetailedCell1">
+    <notes>Generated network: DetailedCell1
+    Generation seed: 1234</notes>
+    <include href="AA0289_active.cell.nml"/>
+    <IF_cond_alpha id="dummycell" cm="1." i_offset="0.1" tau_syn_E="0.3" tau_syn_I="0.5" v_init="-65." tau_m="20." tau_refrac="5." v_reset="-65." v_rest="-65." v_thresh="-50." e_rev_E="0." e_rev_I="-70."/>
+    <alphaCondSynapse id="ampa" tau_syn="2." e_rev="-10."/>
+    <network id="DetailedCell1">
+        <notes>NOTE: this is only a quick demo!! Do not use it for your research assuming an accurate conversion of the source data!!! </notes>
+        <population id="popMo" component="AA0289" size="1" type="populationList">
+            <property tag="color" value=".8 0 0"/>
+            <property tag="region" value="region2"/>
+            <instance id="0">
+                <location x="9.664535356921387" y="4.407325991753527" z="0.074914700585872"/>
+            </instance>
+        </population>
+        <population id="OT2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value=".8 .8 .8"/>
+            <property tag="region" value="OT2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Olfactory tubercle, pyramidal layer"/>
+            <property tag="area" value="???"/>
+            <instance id="0">
+                <location x="-1708.963522747550769" y="1057.86024024736389" z="-5756.433662596940849"/>
+            </instance>
+        </population>
+        <population id="CONTRA_OT2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value=".8 .8 .8"/>
+            <property tag="region" value="CONTRA_OT2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Olfactory tubercle, pyramidal layer"/>
+            <property tag="area" value="???"/>
+            <instance id="0">
+                <location x="1710.546062191487863" y="1057.004909476837156" z="-5756.249409237208056"/>
+            </instance>
+        </population>
+        <population id="ORBl2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="ORBl2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Orbital area, lateral part, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-1763.33567120463681" y="2332.054625651726838" z="-2956.360922722763462"/>
+            </instance>
+        </population>
+        <population id="CONTRA_ORBl2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_ORBl2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Orbital area, lateral part, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="1763.918569945597028" y="2332.647093105039403" z="-2956.53387974489624"/>
+            </instance>
+        </population>
+        <population id="ORBm2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="ORBm2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Orbital area, medial part, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-466.073566608291742" y="2561.400101357410222" z="-2322.206868330311408"/>
+            </instance>
+        </population>
+        <population id="CONTRA_ORBm2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_ORBm2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Orbital area, medial part, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="466.236740027486917" y="2561.703762250604996" z="-2321.356379739083877"/>
+            </instance>
+        </population>
+        <population id="ENTl2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="ENTl2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Entorhinal area, lateral part, layer 2"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="-4719.718130469022981" y="-2500.639838564448837" z="-4168.494434920991807"/>
+            </instance>
+        </population>
+        <population id="CONTRA_ENTl2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_ENTl2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Entorhinal area, lateral part, layer 2"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="4720.384156199561403" y="-2501.091997920009362" z="-4168.381330793812594"/>
+            </instance>
+        </population>
+        <population id="ENTm2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="ENTm2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Entorhinal area, medial part, dorsal zone, layer 2"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="-3272.181320916180539" y="-4546.050916809443152" z="-3310.874464115821866"/>
+            </instance>
+        </population>
+        <population id="CONTRA_ENTm2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_ENTm2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Entorhinal area, medial part, dorsal zone, layer 2"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="3272.931942791366509" y="-4546.252110222556439" z="-3311.269946228639128"/>
+            </instance>
+        </population>
+        <population id="AUDpo2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="AUDpo2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Posterior auditory area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-4720.333524891957495" y="-3665.638117840523591" z="-1810.520803793088362"/>
+            </instance>
+        </population>
+        <population id="CONTRA_AUDpo2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_AUDpo2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Posterior auditory area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="4721.286339956310258" y="-3665.583403934219859" z="-1811.045184762582267"/>
+            </instance>
+        </population>
+        <population id="CA2sp" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CA2sp"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Field CA2, pyramidal layer"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="-2485.74305896240412" y="-2095.680344674652588" z="-1548.829067389227475"/>
+            </instance>
+        </population>
+        <population id="CONTRA_CA2sp" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_CA2sp"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Field CA2, pyramidal layer"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="2485.941002588645915" y="-2095.565643091868878" z="-1549.042411606258156"/>
+            </instance>
+        </population>
+        <population id="SSp_n2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="SSp_n2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary somatosensory area, nose, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-3984.407890602558382" y="719.491419351601962" z="-2167.28982531530346"/>
+            </instance>
+        </population>
+        <population id="CONTRA_SSp_n2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_SSp_n2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary somatosensory area, nose, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="3985.736200811519666" y="720.304106752349412" z="-2168.08590463558312"/>
+            </instance>
+        </population>
+        <population id="CA2sr" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CA2sr"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Field CA2, stratum radiatum"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="-2218.47618064171229" y="-2014.488046355771985" z="-1526.627000685208259"/>
+            </instance>
+        </population>
+        <population id="CONTRA_CA2sr" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_CA2sr"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Field CA2, stratum radiatum"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="2219.588085855115878" y="-2014.350292944721787" z="-1526.749213865289221"/>
+            </instance>
+        </population>
+        <population id="CENT2mo" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.4 0"/>
+            <property tag="region" value="CENT2mo"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Lobule II, molecular layer"/>
+            <property tag="area" value="Cerebellar Cortex"/>
+            <instance id="0">
+                <location x="-456.239881882297595" y="-5444.564230769910864" z="-2389.722553425849128"/>
+            </instance>
+        </population>
+        <population id="CONTRA_CENT2mo" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.4 0"/>
+            <property tag="region" value="CONTRA_CENT2mo"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Lobule II, molecular layer"/>
+            <property tag="area" value="Cerebellar Cortex"/>
+            <instance id="0">
+                <location x="457.235663344271757" y="-5444.332598641663935" z="-2390.206850418036538"/>
+            </instance>
+        </population>
+        <population id="RSPv2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="RSPv2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Retrosplenial area, ventral part, layer 2"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-409.072393880249535" y="-2852.482949873285634" z="-348.023931802868276"/>
+            </instance>
+        </population>
+        <population id="CONTRA_RSPv2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_RSPv2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Retrosplenial area, ventral part, layer 2"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="410.196991962522418" y="-2852.828572804691248" z="-347.682522704141832"/>
+            </instance>
+        </population>
+        <population id="AUDv2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="AUDv2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Ventral auditory area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-4890.099790661344741" y="-2164.200483602320674" z="-2423.143344372207594"/>
+            </instance>
+        </population>
+        <population id="CONTRA_AUDv2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_AUDv2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Ventral auditory area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="4891.796099420257633" y="-2164.344401084357742" z="-2423.800531295693418"/>
+            </instance>
+        </population>
+        <population id="TEa2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="TEa2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Temporal association areas, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-4606.999954129254547" y="-3254.442157236400817" z="-2226.15059132298893"/>
+            </instance>
+        </population>
+        <population id="CONTRA_TEa2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_TEa2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Temporal association areas, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="4607.715375131758265" y="-3254.048795868582602" z="-2225.784857577013554"/>
+            </instance>
+        </population>
+        <population id="COAa2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="region" value="COAa2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Cortical amygdalar area, anterior part, layer 2"/>
+            <property tag="area" value="Olfactory Areas"/>
+            <instance id="0">
+                <location x="-2604.534229058298024" y="-909.437611794460508" z="-5808.741040078848528"/>
+            </instance>
+        </population>
+        <population id="CONTRA_COAa2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="region" value="CONTRA_COAa2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Cortical amygdalar area, anterior part, layer 2"/>
+            <property tag="area" value="Olfactory Areas"/>
+            <instance id="0">
+                <location x="2605.697311985204124" y="-909.391344467951626" z="-5808.57214252626909"/>
+            </instance>
+        </population>
+        <population id="SSp_tr2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="SSp_tr2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary somatosensory area, trunk, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-2490.76514949521561" y="-1467.998423680884571" z="35.69694746653682"/>
+            </instance>
+        </population>
+        <population id="CONTRA_SSp_tr2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_SSp_tr2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary somatosensory area, trunk, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="2491.077165575746676" y="-1468.065935134805613" z="36.147745079141004"/>
+            </instance>
+        </population>
+        <population id="AIv2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="AIv2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Agranular insular area, ventral part, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-3007.110699424226368" y="1527.035668164255867" z="-3712.403161304760943"/>
+            </instance>
+        </population>
+        <population id="CONTRA_AIv2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_AIv2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Agranular insular area, ventral part, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="3008.299504870263718" y="1526.636732795403987" z="-3712.187801686060538"/>
+            </instance>
+        </population>
+        <population id="POST2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="POST2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Postsubiculum, layer 2"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="-2121.424033674983093" y="-4251.332759108056052" z="-1259.516141581057809"/>
+            </instance>
+        </population>
+        <population id="CONTRA_POST2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_POST2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Postsubiculum, layer 2"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="2122.394853916839565" y="-4251.140086660428096" z="-1259.286823353343152"/>
+            </instance>
+        </population>
+        <population id="RSPagl2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="RSPagl2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Retrosplenial area, lateral agranular part, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-1184.833755419989075" y="-3428.105336155663281" z="455.497299876887723"/>
+            </instance>
+        </population>
+        <population id="CONTRA_RSPagl2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_RSPagl2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Retrosplenial area, lateral agranular part, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="1185.851806136431605" y="-3427.74525950196994" z="455.441767758543335"/>
+            </instance>
+        </population>
+        <population id="PTLp2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="PTLp2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Posterior parietal association areas, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-2791.784558424806164" y="-2639.104292588450335" z="-147.612919759274746"/>
+            </instance>
+        </population>
+        <population id="CONTRA_PTLp2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_PTLp2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Posterior parietal association areas, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="2792.681722854760665" y="-2638.990620951041365" z="-148.139018588250195"/>
+            </instance>
+        </population>
+        <population id="PERI2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="PERI2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Perirhinal area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-4671.741844516999663" y="-2645.382401374412893" z="-3480.22868922310272"/>
+            </instance>
+        </population>
+        <population id="CONTRA_PERI2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_PERI2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Perirhinal area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="4672.775220608402378" y="-2645.312923739434609" z="-3480.629327642201133"/>
+            </instance>
+        </population>
+        <population id="ORBvl2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="ORBvl2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Orbital area, ventrolateral part, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-1059.156144255641038" y="2385.263004507841288" z="-2852.287080995807173"/>
+            </instance>
+        </population>
+        <population id="CONTRA_ORBvl2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_ORBvl2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Orbital area, ventrolateral part, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="1060.742320854483296" y="2385.27769443255329" z="-2852.452910287506256"/>
+            </instance>
+        </population>
+        <population id="SSs2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="SSs2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Supplemental somatosensory area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-4520.435031789565073" y="-536.091582296516549" z="-2350.583825510870611"/>
+            </instance>
+        </population>
+        <population id="CONTRA_SSs2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_SSs2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Supplemental somatosensory area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="4521.408303506652373" y="-536.646338501682521" z="-2351.183886524971058"/>
+            </instance>
+        </population>
+        <population id="DP2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="DP2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Dorsal peduncular area, layer 2/3"/>
+            <property tag="area" value="???"/>
+            <instance id="0">
+                <location x="-586.891156546799948" y="1808.226631048426952" z="-3227.750972973325133"/>
+            </instance>
+        </population>
+        <population id="CONTRA_DP2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_DP2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Dorsal peduncular area, layer 2/3"/>
+            <property tag="area" value="???"/>
+            <instance id="0">
+                <location x="587.65077169585345" y="1807.700207779324273" z="-3228.172219397998106"/>
+            </instance>
+        </population>
+        <population id="PAA2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="region" value="PAA2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Piriform-amygdalar area, pyramidal layer"/>
+            <property tag="area" value="Olfactory Areas"/>
+            <instance id="0">
+                <location x="-3196.372954491440396" y="-1857.417231724067506" z="-5978.896637817272676"/>
+            </instance>
+        </population>
+        <population id="CONTRA_PAA2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="region" value="CONTRA_PAA2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Piriform-amygdalar area, pyramidal layer"/>
+            <property tag="area" value="Olfactory Areas"/>
+            <instance id="0">
+                <location x="3197.628563795645732" y="-1857.772755492045462" z="-5978.229471040738645"/>
+            </instance>
+        </population>
+        <population id="PAR2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="PAR2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Parasubiculum, layer 2"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="-2786.345715785597804" y="-4356.16002442980971" z="-2914.470275630667857"/>
+            </instance>
+        </population>
+        <population id="CONTRA_PAR2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_PAR2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Parasubiculum, layer 2"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="2787.727777316240008" y="-4356.012242059764503" z="-2914.544434143864237"/>
+            </instance>
+        </population>
+        <population id="TTd2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value=".8 .8 .8"/>
+            <property tag="region" value="TTd2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Taenia tecta, dorsal part, layer 2"/>
+            <property tag="area" value="???"/>
+            <instance id="0">
+                <location x="-550.105739966177907" y="1935.691086425527601" z="-3591.053092916958576"/>
+            </instance>
+        </population>
+        <population id="CONTRA_TTd2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value=".8 .8 .8"/>
+            <property tag="region" value="CONTRA_TTd2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Taenia tecta, dorsal part, layer 2"/>
+            <property tag="area" value="???"/>
+            <instance id="0">
+                <location x="551.354765772461178" y="1936.456041959572985" z="-3591.036666150683686"/>
+            </instance>
+        </population>
+        <population id="SSp_m2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="SSp_m2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary somatosensory area, mouth, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-3460.634316055408362" y="1008.894253440796547" z="-1602.269479166381643"/>
+            </instance>
+        </population>
+        <population id="CONTRA_SSp_m2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_SSp_m2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary somatosensory area, mouth, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="3461.464291604829214" y="1009.106414505869225" z="-1602.430866035841518"/>
+            </instance>
+        </population>
+        <population id="AUDp2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="AUDp2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary auditory area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-4762.7027216418428" y="-2544.044364480045715" z="-1796.683419189485448"/>
+            </instance>
+        </population>
+        <population id="CONTRA_AUDp2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_AUDp2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary auditory area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="4763.745472724732281" y="-2544.177002407205691" z="-1797.386979936768512"/>
+            </instance>
+        </population>
+        <population id="ENTm2a" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="ENTm2a"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Entorhinal area, medial part, dorsal zone, layer 2a"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="-3594.306041227921924" y="-3816.152150113987318" z="-4993.291362169276908"/>
+            </instance>
+        </population>
+        <population id="CONTRA_ENTm2a" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_ENTm2a"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Entorhinal area, medial part, dorsal zone, layer 2a"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="3595.180619804337766" y="-3816.180548614470354" z="-4993.496196479021819"/>
+            </instance>
+        </population>
+        <population id="MOs2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="MOs2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Secondary motor area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-1134.944471184582426" y="1465.315108207468484" z="-766.622925369402765"/>
+            </instance>
+        </population>
+        <population id="CONTRA_MOs2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_MOs2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Secondary motor area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="1135.431799570594649" y="1465.464447096150934" z="-766.293746430972647"/>
+            </instance>
+        </population>
+        <population id="ENTmv2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="ENTmv2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Entorhinal area, medial part, ventral zone, layer 2"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="-3204.155906783166301" y="-3382.740637848333336" z="-5156.185542218284354"/>
+            </instance>
+        </population>
+        <population id="CONTRA_ENTmv2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_ENTmv2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Entorhinal area, medial part, ventral zone, layer 2"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="3205.414669408021382" y="-3382.683397980635164" z="-5156.184678377324417"/>
+            </instance>
+        </population>
+        <population id="ANcr2gr" component="dummycell" size="1" type="populationList">
+            <property tag="color" value=".8 .8 .8"/>
+            <property tag="region" value="ANcr2gr"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Crus 2, granular layer"/>
+            <property tag="area" value="???"/>
+            <instance id="0">
+                <location x="-2883.098903837038506" y="-7062.886155029732436" z="-2327.114353599737569"/>
+            </instance>
+        </population>
+        <population id="CONTRA_ANcr2gr" component="dummycell" size="1" type="populationList">
+            <property tag="color" value=".8 .8 .8"/>
+            <property tag="region" value="CONTRA_ANcr2gr"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Crus 2, granular layer"/>
+            <property tag="area" value="???"/>
+            <instance id="0">
+                <location x="2883.267807396060107" y="-7063.112771122360755" z="-2327.003053821071262"/>
+            </instance>
+        </population>
+        <population id="ACAd2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="ACAd2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anterior cingulate area, dorsal part, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-417.832171996843954" y="722.078731430422295" z="-796.930687925093594"/>
+            </instance>
+        </population>
+        <population id="CONTRA_ACAd2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_ACAd2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anterior cingulate area, dorsal part, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="419.415867413156093" y="721.397182166919947" z="-796.998211674041841"/>
+            </instance>
+        </population>
+        <population id="COApm2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="region" value="COApm2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Cortical amygdalar area, posterior part, medial zone, layer 2"/>
+            <property tag="area" value="Olfactory Areas"/>
+            <instance id="0">
+                <location x="-2749.219310796921945" y="-2600.521059617216451" z="-5478.068401360587814"/>
+            </instance>
+        </population>
+        <population id="CONTRA_COApm2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="region" value="CONTRA_COApm2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Cortical amygdalar area, posterior part, medial zone, layer 2"/>
+            <property tag="area" value="Olfactory Areas"/>
+            <instance id="0">
+                <location x="2749.744463868146795" y="-2600.652745359966957" z="-5478.083148030193115"/>
+            </instance>
+        </population>
+        <population id="NLOT2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="region" value="NLOT2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Nucleus of the lateral olfactory tract, pyramidal layer"/>
+            <property tag="area" value="Olfactory Areas"/>
+            <instance id="0">
+                <location x="-2301.134333478712051" y="-745.304601937612802" z="-5728.555363606525134"/>
+            </instance>
+        </population>
+        <population id="CONTRA_NLOT2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="region" value="CONTRA_NLOT2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Nucleus of the lateral olfactory tract, pyramidal layer"/>
+            <property tag="area" value="Olfactory Areas"/>
+            <instance id="0">
+                <location x="2302.002602002878575" y="-745.585744468545613" z="-5728.627494051359463"/>
+            </instance>
+        </population>
+        <population id="AId2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="AId2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Agranular insular area, dorsal part, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-2755.378510232340432" y="2019.751671517092063" z="-3232.944431701645044"/>
+            </instance>
+        </population>
+        <population id="CONTRA_AId2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_AId2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Agranular insular area, dorsal part, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="2756.962321096524647" y="2019.419592388091814" z="-3233.355593454055906"/>
+            </instance>
+        </population>
+        <population id="SSp_bfd2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="SSp_bfd2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary somatosensory area, barrel field, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-3860.654461499281751" y="-819.709091915289378" z="-1005.175734035439973"/>
+            </instance>
+        </population>
+        <population id="CONTRA_SSp_bfd2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_SSp_bfd2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary somatosensory area, barrel field, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="3861.656655260177558" y="-819.079846108877177" z="-1005.175749836117689"/>
+            </instance>
+        </population>
+        <population id="CA2so" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CA2so"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Field CA2, stratum oriens"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="-2594.412372787258846" y="-2078.956626174242047" z="-1459.457411197893634"/>
+            </instance>
+        </population>
+        <population id="CONTRA_CA2so" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_CA2so"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Field CA2, stratum oriens"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="2594.997022135513816" y="-2078.631600779320252" z="-1459.66753390721351"/>
+            </instance>
+        </population>
+        <population id="GU2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="GU2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Gustatory areas, layer 2/3"/>
+            <property tag="area" value="???"/>
+            <instance id="0">
+                <location x="-3767.254628753536053" y="1002.567286716840613" z="-3239.782272076892696"/>
+            </instance>
+        </population>
+        <population id="CONTRA_GU2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_GU2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Gustatory areas, layer 2/3"/>
+            <property tag="area" value="???"/>
+            <instance id="0">
+                <location x="3768.457085477944929" y="1002.3109258233726" z="-3239.190912844002014"/>
+            </instance>
+        </population>
+        <population id="AUDd2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="AUDd2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Dorsal auditory area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-4435.000159528481163" y="-2533.240181976865188" z="-1259.92845648803609"/>
+            </instance>
+        </population>
+        <population id="CONTRA_AUDd2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_AUDd2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Dorsal auditory area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="4435.84544524262401" y="-2533.071857321403968" z="-1259.552588246203186"/>
+            </instance>
+        </population>
+        <population id="ORBm2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="ORBm2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Orbital area, medial part, layer 2"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-339.008243429394668" y="2353.085234301407581" z="-2596.759655916364864"/>
+            </instance>
+        </population>
+        <population id="CONTRA_ORBm2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_ORBm2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Orbital area, medial part, layer 2"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="340.578287939907852" y="2353.090827524185897" z="-2596.342978737798148"/>
+            </instance>
+        </population>
+        <population id="PL2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="PL2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Prelimbic area, layer 2/3"/>
+            <property tag="area" value="???"/>
+            <instance id="0">
+                <location x="-461.271583019387947" y="2182.885169694978686" z="-1718.199085520085873"/>
+            </instance>
+        </population>
+        <population id="CONTRA_PL2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_PL2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Prelimbic area, layer 2/3"/>
+            <property tag="area" value="???"/>
+            <instance id="0">
+                <location x="462.01987236146357" y="2183.494367963326113" z="-1717.85233983471403"/>
+            </instance>
+        </population>
+        <population id="ENTm2b" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="ENTm2b"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Entorhinal area, medial part, dorsal zone, layer 2b"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="-3600.611889273973247" y="-3816.763032493397077" z="-4912.676062143076706"/>
+            </instance>
+        </population>
+        <population id="CONTRA_ENTm2b" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_ENTm2b"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Entorhinal area, medial part, dorsal zone, layer 2b"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="3601.473473667199414" y="-3816.872060640227119" z="-4912.791446800200902"/>
+            </instance>
+        </population>
+        <population id="PRE2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="PRE2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Presubiculum, layer 2"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="-2610.154774640454889" y="-4157.583510376419326" z="-2252.316220295111179"/>
+            </instance>
+        </population>
+        <population id="CONTRA_PRE2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_PRE2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Presubiculum, layer 2"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="2611.202347890070996" y="-4157.626922460734022" z="-2252.475077098502879"/>
+            </instance>
+        </population>
+        <population id="ILA2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="ILA2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Infralimbic area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-565.713543776667279" y="1773.853350660462866" z="-2685.699051624943422"/>
+            </instance>
+        </population>
+        <population id="CONTRA_ILA2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_ILA2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Infralimbic area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="566.130632160505343" y="1774.565047493075099" z="-2685.813019613055076"/>
+            </instance>
+        </population>
+        <population id="ACAv2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="ACAv2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anterior cingulate area, ventral part, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-381.045715449891986" y="-9.367882474946832" z="-1242.47278480487762"/>
+            </instance>
+        </population>
+        <population id="CONTRA_ACAv2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_ACAv2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anterior cingulate area, ventral part, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="381.873577842226439" y="-9.780490481162399" z="-1242.232068322204441"/>
+            </instance>
+        </population>
+        <population id="AIp2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="AIp2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Agranular insular area, posterior part, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-4250.506300228372311" y="-384.712163338331266" z="-3882.032706690042687"/>
+            </instance>
+        </population>
+        <population id="CONTRA_AIp2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_AIp2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Agranular insular area, posterior part, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="4252.086380652490334" y="-384.166989607644211" z="-3881.915153960535008"/>
+            </instance>
+        </population>
+        <population id="CENT2gr" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.4 0"/>
+            <property tag="region" value="CENT2gr"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Lobule II, granular layer"/>
+            <property tag="area" value="Cerebellar Cortex"/>
+            <instance id="0">
+                <location x="-476.382219355384791" y="-5516.203980586762555" z="-2445.461314072392724"/>
+            </instance>
+        </population>
+        <population id="CONTRA_CENT2gr" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.4 0"/>
+            <property tag="region" value="CONTRA_CENT2gr"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Lobule II, granular layer"/>
+            <property tag="area" value="Cerebellar Cortex"/>
+            <instance id="0">
+                <location x="477.420524927151746" y="-5515.921164791919182" z="-2445.620454909880664"/>
+            </instance>
+        </population>
+        <population id="ENTl2a" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="ENTl2a"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Entorhinal area, lateral part, layer 2a"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="-4390.900966573025471" y="-3873.201829958161852" z="-3990.861731925542699"/>
+            </instance>
+        </population>
+        <population id="CONTRA_ENTl2a" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_ENTl2a"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Entorhinal area, lateral part, layer 2a"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="4391.828063133447358" y="-3873.690066688222032" z="-3991.349653177445816"/>
+            </instance>
+        </population>
+        <population id="VISal2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="VISal2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anterolateral visual area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-3744.621200752038476" y="-3181.939675435775371" z="-444.948011343775534"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISal2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_VISal2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anterolateral visual area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="3746.445371020026869" y="-3182.122874114132173" z="-444.399760923454437"/>
+            </instance>
+        </population>
+        <population id="SSp_un2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="SSp_un2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary somatosensory area, unassigned, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-3378.37636387886505" y="159.476525171476595" z="-1318.759349370614473"/>
+            </instance>
+        </population>
+        <population id="CONTRA_SSp_un2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_SSp_un2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary somatosensory area, unassigned, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="3378.982326308609572" y="159.08861606077437" z="-1319.225007519624569"/>
+            </instance>
+        </population>
+        <population id="TR2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value=".8 .8 .8"/>
+            <property tag="region" value="TR2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Postpiriform transition area, layers 2"/>
+            <property tag="area" value="???"/>
+            <instance id="0">
+                <location x="-3899.008185882529233" y="-3080.966205039526812" z="-5168.305845459453849"/>
+            </instance>
+        </population>
+        <population id="CONTRA_TR2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value=".8 .8 .8"/>
+            <property tag="region" value="CONTRA_TR2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Postpiriform transition area, layers 2"/>
+            <property tag="area" value="???"/>
+            <instance id="0">
+                <location x="3900.858635485465129" y="-3080.552689881329115" z="-5168.312185811646486"/>
+            </instance>
+        </population>
+        <population id="VISp2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="VISp2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary visual area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-2700.068436315551935" y="-3877.496496884212775" z="-41.848996888857606"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISp2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_VISp2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary visual area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="2701.532239640078387" y="-3877.106590631277413" z="-41.569168457116845"/>
+            </instance>
+        </population>
+        <population id="VISC2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="VISC2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Visceral area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-4537.371115681689844" y="-373.033554700460456" z="-3296.248451793399454"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISC2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_VISC2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Visceral area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="4538.795132484927308" y="-373.400968589879994" z="-3296.716677911518673"/>
+            </instance>
+        </population>
+        <population id="CA2slm" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CA2slm"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Field CA2, stratum lacunosum-moleculare"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="-2463.287190685178302" y="-2257.051421984303033" z="-1754.383537468278746"/>
+            </instance>
+        </population>
+        <population id="CONTRA_CA2slm" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_CA2slm"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Field CA2, stratum lacunosum-moleculare"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="2463.653158799298126" y="-2256.378865957220114" z="-1754.664881516312562"/>
+            </instance>
+        </population>
+        <population id="ILA2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="ILA2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Infralimbic area, layer 2"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-517.770592600469968" y="2132.543683800286544" z="-3157.119921069636348"/>
+            </instance>
+        </population>
+        <population id="CONTRA_ILA2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_ILA2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Infralimbic area, layer 2"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="519.204858608090944" y="2132.841636489472876" z="-3157.360347737814664"/>
+            </instance>
+        </population>
+        <population id="COApl2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="region" value="COApl2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Cortical amygdalar area, posterior part, lateral zone, layer 2"/>
+            <property tag="area" value="Olfactory Areas"/>
+            <instance id="0">
+                <location x="-2841.226198111543908" y="-1933.278512255037867" z="-5771.180802497894547"/>
+            </instance>
+        </population>
+        <population id="CONTRA_COApl2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="region" value="CONTRA_COApl2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Cortical amygdalar area, posterior part, lateral zone, layer 2"/>
+            <property tag="area" value="Olfactory Areas"/>
+            <instance id="0">
+                <location x="2842.052989833453466" y="-1933.407015757994941" z="-5770.703552795208452"/>
+            </instance>
+        </population>
+        <population id="ANcr2mo" component="dummycell" size="1" type="populationList">
+            <property tag="color" value=".8 .8 .8"/>
+            <property tag="region" value="ANcr2mo"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Crus 2, molecular layer"/>
+            <property tag="area" value="???"/>
+            <instance id="0">
+                <location x="-2976.925187977511087" y="-7010.155467887242594" z="-2302.948433630676391"/>
+            </instance>
+        </population>
+        <population id="CONTRA_ANcr2mo" component="dummycell" size="1" type="populationList">
+            <property tag="color" value=".8 .8 .8"/>
+            <property tag="region" value="CONTRA_ANcr2mo"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Crus 2, molecular layer"/>
+            <property tag="area" value="???"/>
+            <instance id="0">
+                <location x="2978.247346602315247" y="-7009.736155309908099" z="-2303.601010469569246"/>
+            </instance>
+        </population>
+        <population id="ENTl2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="ENTl2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Entorhinal area, lateral part, layer 2/3"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="-4484.61133372317363" y="-2405.436918716576656" z="-3715.738916057697679"/>
+            </instance>
+        </population>
+        <population id="CONTRA_ENTl2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_ENTl2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Entorhinal area, lateral part, layer 2/3"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="4485.716293148861951" y="-2404.719279543741777" z="-3715.725916065242473"/>
+            </instance>
+        </population>
+        <population id="ECT2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="ECT2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Ectorhinal area/Layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-4452.053246590792696" y="-3701.873594112886167" z="-2429.884272826608139"/>
+            </instance>
+        </population>
+        <population id="CONTRA_ECT2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_ECT2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Ectorhinal area/Layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="4452.881148148486318" y="-3701.490508662200227" z="-2429.143597959423914"/>
+            </instance>
+        </population>
+        <population id="FRP2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="FRP2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Frontal pole, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-1026.255938391664358" y="3103.465303513154595" z="-1809.709715216677978"/>
+            </instance>
+        </population>
+        <population id="CONTRA_FRP2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_FRP2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Frontal pole, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="1027.114651048149199" y="3104.013314611545866" z="-1810.148713416914688"/>
+            </instance>
+        </population>
+        <population id="RSPd2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="RSPd2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Retrosplenial area, dorsal part, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-779.035306811635337" y="-3123.004935738385939" z="202.019867266055684"/>
+            </instance>
+        </population>
+        <population id="CONTRA_RSPd2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_RSPd2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Retrosplenial area, dorsal part, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="779.610522273838001" y="-3122.917727161660423" z="201.883569385137292"/>
+            </instance>
+        </population>
+        <population id="PIR2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="region" value="PIR2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Piriform area, pyramidal layer"/>
+            <property tag="area" value="Olfactory Areas"/>
+            <instance id="0">
+                <location x="-3281.965360587993473" y="76.114575316561954" z="-4827.062146786860467"/>
+            </instance>
+        </population>
+        <population id="CONTRA_PIR2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="region" value="CONTRA_PIR2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Piriform area, pyramidal layer"/>
+            <property tag="area" value="Olfactory Areas"/>
+            <instance id="0">
+                <location x="3282.094492890124002" y="75.199434659025385" z="-4826.698537713860787"/>
+            </instance>
+        </population>
+        <population id="SSp_ul2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="SSp_ul2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary somatosensory area, upper limb, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-2876.548709284801589" y="86.4425507205206" z="-615.961249986987923"/>
+            </instance>
+        </population>
+        <population id="CONTRA_SSp_ul2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_SSp_ul2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary somatosensory area, upper limb, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="2877.902299115773076" y="86.817366365357145" z="-616.038400368434623"/>
+            </instance>
+        </population>
+        <population id="RSPv2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="RSPv2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Retrosplenial area, ventral part, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-578.648172955087489" y="-2957.20569347034143" z="-369.379279437809203"/>
+            </instance>
+        </population>
+        <population id="CONTRA_RSPv2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_RSPv2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Retrosplenial area, ventral part, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="579.411036009736108" y="-2957.25664745542781" z="-368.478256261937474"/>
+            </instance>
+        </population>
+        <population id="MOp2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="MOp2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary motor area, Layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-2097.873033593119544" y="1205.951678165404246" z="-1054.495023960565049"/>
+            </instance>
+        </population>
+        <population id="CONTRA_MOp2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_MOp2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary motor area, Layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="2098.73294035713252" y="1205.946425312378551" z="-1054.910105935717866"/>
+            </instance>
+        </population>
+        <population id="VISam2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="VISam2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anteromedial visual area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-1828.505535985800179" y="-3167.539397370731422" z="398.200237689932976"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISam2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_VISam2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Anteromedial visual area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="1829.294880930827958" y="-3167.715668672295578" z="398.587306971727401"/>
+            </instance>
+        </population>
+        <population id="ENTl2b" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="ENTl2b"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Entorhinal area, lateral part, layer 2b"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="-4355.027915324017158" y="-3836.839313030363428" z="-3940.620241743672977"/>
+            </instance>
+        </population>
+        <population id="CONTRA_ENTl2b" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="region" value="CONTRA_ENTl2b"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Entorhinal area, lateral part, layer 2b"/>
+            <property tag="area" value="Hippocampal Formation"/>
+            <instance id="0">
+                <location x="4355.667383733828501" y="-3837.238668377942304" z="-3940.143595850450765"/>
+            </instance>
+        </population>
+        <population id="TTv2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value=".8 .8 .8"/>
+            <property tag="region" value="TTv2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Taenia tecta, ventral part, layer 2"/>
+            <property tag="area" value="???"/>
+            <instance id="0">
+                <location x="-701.891764345123534" y="2195.461089811716192" z="-4780.253376203302651"/>
+            </instance>
+        </population>
+        <population id="CONTRA_TTv2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value=".8 .8 .8"/>
+            <property tag="region" value="CONTRA_TTv2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Taenia tecta, ventral part, layer 2"/>
+            <property tag="area" value="???"/>
+            <instance id="0">
+                <location x="703.754619503542017" y="2196.224956995846696" z="-4780.132086480294674"/>
+            </instance>
+        </population>
+        <population id="VISl23" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="VISl23"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Lateral visual area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-3855.466942531438235" y="-4052.643291815753855" z="-806.841976335027653"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISl23" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_VISl23"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Lateral visual area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="3856.560671204975733" y="-4052.293484373392403" z="-806.568042977576624"/>
+            </instance>
+        </population>
+        <population id="SSp_ll2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="SSp_ll2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary somatosensory area, lower limb, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-2014.174674405988753" y="-361.652620195014777" z="-142.366430197562693"/>
+            </instance>
+        </population>
+        <population id="CONTRA_SSp_ll2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_SSp_ll2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Primary somatosensory area, lower limb, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="2015.538575487999424" y="-361.009715383893422" z="-142.125378348187496"/>
+            </instance>
+        </population>
+        <population id="VISpl2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="VISpl2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Posterolateral visual area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-3237.119549659421409" y="-4561.099502874192694" z="-539.746389901596558"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISpl2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_VISpl2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Posterolateral visual area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="3238.731458075095361" y="-4561.728884398759874" z="-539.621418592168425"/>
+            </instance>
+        </population>
+        <population id="PL2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value=".8 .8 .8"/>
+            <property tag="region" value="PL2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Prelimbic area, layer 2"/>
+            <property tag="area" value="???"/>
+            <instance id="0">
+                <location x="-331.395631692377719" y="2001.117623427281387" z="-1759.849774467304314"/>
+            </instance>
+        </population>
+        <population id="CONTRA_PL2" component="dummycell" size="1" type="populationList">
+            <property tag="color" value=".8 .8 .8"/>
+            <property tag="region" value="CONTRA_PL2"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="Prelimbic area, layer 2"/>
+            <property tag="area" value="???"/>
+            <instance id="0">
+                <location x="332.216742740088023" y="2001.082065578817947" z="-1759.732365545139146"/>
+            </instance>
+        </population>
+        <population id="VISpm2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="VISpm2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="posteromedial visual area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="-1827.060646425806453" y="-4547.579728831095963" z="-280.985410204453103"/>
+            </instance>
+        </population>
+        <population id="CONTRA_VISpm2_3" component="dummycell" size="1" type="populationList">
+            <property tag="color" value="0.6 0 0"/>
+            <property tag="region" value="CONTRA_VISpm2_3"/>
+            <property tag="radius" value="50"/>
+            <property tag="name" value="posteromedial visual area, layer 2/3"/>
+            <property tag="area" value="Isocortex"/>
+            <instance id="0">
+                <location x="1827.738775396281198" y="-4547.585584318539986" z="-281.059477225871376"/>
+            </instance>
+        </population>
+    </network>
+</neuroml>

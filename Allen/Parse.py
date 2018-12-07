@@ -3,10 +3,14 @@ from neuromllite import *
 import random
 import opencortex.utils.color as occ
 
-
 import csv
+import sys
 
-def generate(reference, only_areas=None):
+def generate(reference, 
+             only_areas_matching=None, 
+             only_ids_matching=None,
+             include_contra=False,
+             include_connections=True):
 
     colors = {}
     centres = {}
@@ -59,15 +63,18 @@ def generate(reference, only_areas=None):
     net.cells.append(default_cell)
     p0 = Population(id='pop0', size=5, component=default_cell.id, properties={'color':'0 .8 0'})
     net.populations.append(p0)
-    net.populations[0].random_layout = RandomLayout(region=r1.id)
+    net.populations[0].random_layout = RandomLayout(region=r1.id)'''
 
-    r2 = RectangularRegion(id='region2', x=-5000,y=-6000,z=-3000,width=10,height=10,depth=10)
+    r2 = RectangularRegion(id='region2', x=0,y=0,z=0,width=10,height=10,depth=10)
     net.regions.append(r2)
-    mo = Cell(id='AA0289', neuroml2_source_file='AA0289.cell.nml')
+    mo = Cell(id='AA0289', neuroml2_source_file='AA0289_active.cell.nml')
     net.cells.append(mo)
-    p1 = Population(id='popMo', size=1, component=mo.id, properties={'color':'.8 0 0'})
+    p1 = Population(id='popMo', 
+                    size=1, 
+                    component=mo.id, 
+                    properties={'color':'.8 0 0'},
+                    random_layout = RandomLayout(region=r2.id))
     net.populations.append(p1)
-    net.populations[1].random_layout = RandomLayout(region=r2.id)'''
 
 
     f = open('ABA12.tsv')
@@ -77,130 +84,151 @@ def generate(reference, only_areas=None):
         pre_id = w[0].replace('-','_').replace('/','_')
         if pre_id != '[0]':
 
-            scale = 1000
-            x0 = float(w[2])*scale
-            all = [ (pre_id, x0), ('%s_CONTRA'%pre_id, x0*-1)]
-            #all = [ (pre_id, x0)]
-
-            for a in all:
-                id = a[0]
-                x = a[1]
-                centres[id] = (x,float(w[3])*scale,float(w[4])*scale)
-                colors[id] = w[1]
-
-                repl = id
-                name = names[w[0]]
-                short_name3 = w[0][:3]
-                short_name4 = w[0][:4]
-                short_name5 = w[0][:5]
-                short_name6 = w[0][:6]
-                short_name7 = w[0][:7]
-
-                if w[0] in areas:
-                    area = areas[w[0]]  
-                elif short_name7 in areas:
-                       area = areas[short_name7]  
-                elif short_name6 in areas:
-                       area = areas[short_name6]  
-                elif short_name5 in areas:
-                       area = areas[short_name5]  
-                elif short_name4 in areas:
-                       area = areas[short_name4]  
-                elif short_name3 in areas:
-                       area = areas[short_name3]  
-                else:
-                    area = '???'
-
-                if 'Thalamus' in area:
-
-                    p = centres[repl]
-                    used_ids[id] = '_%s'%repl if repl[0].isdigit() else repl
-
-                    region_name = name.split(',')[0].replace(' ','_')
-                    region_name = used_ids[id]
-                    r = RectangularRegion(id=region_name, x=p[0],y=p[1],z=p[2],width=1,height=1,depth=1)
-                    net.regions.append(r)
-
-
-                    color = '.8 .8 .8'
-                    if 'Thalamus' in area:
-                        color = occ.THALAMUS_2
-                    if 'Isocortex' in area:
-                        color = occ.L23_PRINCIPAL_CELL
-                    if 'Olfactory' in area:
-                        color = occ.L4_PRINCIPAL_CELL
-                    if 'Cerebe' in area:
-                        color = occ.L5_PRINCIPAL_CELL
-                    if 'Hippocampal' in area:
-                        color = occ.L6_PRINCIPAL_CELL
-                    '''
-                    if '1' in id:
-                        color = occ.THALAMUS_2
-                    if '2_3' in id:
-                        color = occ.L23_PRINCIPAL_CELL
-                    if '4' in id:
-                        color = occ.L4_PRINCIPAL_CELL
-                    if '5' in id:
-                        color = occ.L5_PRINCIPAL_CELL
-                    if '6' in id:
-                        color = occ.L6_PRINCIPAL_CELL'''
-
-
-                    p0 = Population(id=used_ids[id], 
-                                    size=1, 
-                                    component=cell.id, 
-                                    properties={'color':'%s'%(color),
-                                                'radius':50,
-                                                'name':name,
-                                                'area':area},
-                                    random_layout = RandomLayout(region=r.id))
-
-                    net.populations.append(p0)
-                    pop_ids.append(id)
-
-    print centres.keys()
-
-
-
-    with open('nature13186-s4_W_ipsi.csv', 'rb') as csvfile:
-        reader = csv.reader(csvfile, delimiter=',', quotechar='"')
-        indices = {}
-        for w in reader:
-            #print w
-            if w[0]=='ROOT':
-                for i in range(len(w)):
-                    indices[i]=w[i]
-                print indices
+            match = False
+            if only_ids_matching==None:
+                match = True
             else:
-                pre = w[0]
-                for i in range(len(w)):
-                    if i!=0:
-                        weight = float(w[i])
-                        if weight>0:
-                            post = indices[i]
-                            print('Connection %s -> %s of %s'%(pre, post, weight))
-
-                            if weight>0.0:
-
-                                if pre in used_ids and post in used_ids:
-                                    print('Adding conn from %s -> %s of %s'%(pre, post, weight))
+                for i in only_ids_matching:
+                    if i in pre_id:
+                        match = True
 
 
-                                    ################################################################################
-                                    ###   Add a projection
+            if match:
 
-                                    net.projections.append(Projection(id='proj_%s_%s'%(used_ids[pre],used_ids[post]),
-                                                                      presynaptic=used_ids[pre], 
-                                                                      postsynaptic=used_ids[post],
-                                                                      synapse='ampa',
-                                                                      weight=weight,
-                                                                      random_connectivity=RandomConnectivity(probability=1)))
+                scale = 1000
+                x0 = float(w[2])*scale
+                all = [ (pre_id, x0)]
+                if include_contra:
+                    all = [ (pre_id, x0), ('CONTRA_%s'%pre_id, x0*-1)]
+
+                for a in all:
+                    id = a[0]
+                    x = a[1]
+                    centres[id] = (x,float(w[3])*scale,float(w[4])*scale)
+                    colors[id] = w[1]
+
+                    repl = id
+                    name = names[w[0]]
+                    short_name3 = w[0][:3]
+                    short_name4 = w[0][:4]
+                    short_name5 = w[0][:5]
+                    short_name6 = w[0][:6]
+                    short_name7 = w[0][:7]
+
+                    if w[0] in areas:
+                        area = areas[w[0]]  
+                    elif short_name7 in areas:
+                           area = areas[short_name7]  
+                    elif short_name6 in areas:
+                           area = areas[short_name6]  
+                    elif short_name5 in areas:
+                           area = areas[short_name5]  
+                    elif short_name4 in areas:
+                           area = areas[short_name4]  
+                    elif short_name3 in areas:
+                           area = areas[short_name3]  
+                    else:
+                        area = '???'
+
+                    match = False
+                    if only_areas_matching==None:
+                        match = True
+                    else:
+                        for a in only_areas_matching:
+                            if a in area:
+                                match = True
+
+
+                    if match:
+
+                        p = centres[repl]
+                        used_ids[id] = '_%s'%repl if repl[0].isdigit() else repl
+
+                        region_name = name.split(',')[0].replace(' ','_')
+                        region_name = used_ids[id]
+                        r = RectangularRegion(id=region_name, x=p[0],y=p[1],z=p[2],width=1,height=1,depth=1)
+                        net.regions.append(r)
+
+
+                        color = '.8 .8 .8'
+                        if 'Thalamus' in area:
+                            color = occ.THALAMUS_2
+                        if 'Isocortex' in area:
+                            color = occ.L23_PRINCIPAL_CELL
+                        if 'Olfactory' in area:
+                            color = occ.L4_PRINCIPAL_CELL
+                        if 'Cerebe' in area:
+                            color = occ.L5_PRINCIPAL_CELL
+                        if 'Hippocampal' in area:
+                            color = occ.L6_PRINCIPAL_CELL
+
+                        if '1' in id:
+                            color = occ.THALAMUS_2
+                        if '2_3' in id:
+                            color = occ.L23_PRINCIPAL_CELL
+                        if '4' in id:
+                            color = occ.L4_PRINCIPAL_CELL
+                        if '5' in id:
+                            color = occ.L5_PRINCIPAL_CELL
+                        if '6' in id:
+                            color = occ.L6_PRINCIPAL_CELL
+
+
+                        p0 = Population(id=used_ids[id], 
+                                        size=1, 
+                                        component=cell.id, 
+                                        properties={'color':'%s'%(color),
+                                                    'radius':50,
+                                                    'name':name,
+                                                    'area':area},
+                                        random_layout = RandomLayout(region=r.id))
+
+                        net.populations.append(p0)
+                        pop_ids.append(id)
+
+    #print centres.keys()
+
+
+    if include_connections:
+        with open('nature13186-s4_W_ipsi.csv', 'rb') as csvfile:
+            reader = csv.reader(csvfile, delimiter=',', quotechar='"')
+            indices = {}
+            for w in reader:
+                #print w
+                if w[0]=='ROOT':
+                    for i in range(len(w)):
+                        indices[i]=w[i]
+                    print indices
+                else:
+                    pre = w[0]
+                    for i in range(len(w)):
+                        if i!=0:
+                            weight = float(w[i])
+                            if weight>0:
+                                post = indices[i]
+                                print('Connection %s -> %s of %s'%(pre, post, weight))
+
+                                if weight>0.0:
+
+                                    if pre in used_ids and post in used_ids:
+                                        print('Adding conn from %s -> %s of %s'%(pre, post, weight))
+
+
+                                        ################################################################################
+                                        ###   Add a projection
+
+                                        net.projections.append(Projection(id='proj_%s_%s'%(used_ids[pre],used_ids[post]),
+                                                                          presynaptic=used_ids[pre], 
+                                                                          postsynaptic=used_ids[post],
+                                                                          synapse='ampa',
+                                                                          weight=weight,
+                                                                          random_connectivity=RandomConnectivity(probability=1)))
 
 
 
 
     from neuromllite import Simulation
-    print(net)
+    #print(net)
 
     print(net.to_json())
     new_file = net.to_json_file('%s.json'%net.id)
@@ -225,4 +253,29 @@ def generate(reference, only_areas=None):
 
 if __name__ == '__main__':
     
-    generate('Thalamus','Thalamus')
+    if '-thal' in sys.argv:
+        generate('Thalamus',only_areas_matching=['Thalamus'],
+             include_contra=True,
+             include_connections=True)
+        
+    elif '-olf' in sys.argv:
+        generate('OlfactoryAreas',only_areas_matching=['Olfactory Areas'],
+             include_contra=False,
+             include_connections=True)
+             
+    elif '-mo' in sys.argv:
+        generate('MCortex',only_ids_matching=['MO'],
+             include_contra=False,
+             include_connections=True)
+             
+    elif '-vis' in sys.argv:
+        generate('VIS',only_ids_matching=['VIS'],
+             include_contra=True,
+             include_connections=True)
+             
+    elif '-cell' in sys.argv:
+        generate('DetailedCell1',only_ids_matching=['2'],
+             include_contra=True,
+             include_connections=False)
+    else:  
+        generate('Full')
