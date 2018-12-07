@@ -4,3 +4,4 @@
 *.pov
 *.ini
 .DS_Store
+/Allen/*.nml*.png
