@@ -226,15 +226,15 @@ def generate(reference,
 
                         color = '.8 .8 .8'
                         if 'Thalamus' in area:
-                            color = occ.THALAMUS_2
+                            color = '.3 .3 .3'
                         if 'Isocortex' in area:
                             color = occ.L23_PRINCIPAL_CELL
                         if 'bulb' in area:
                             color = '0 0 1'
                         if 'Cerebe' in area:
-                            color = occ.L5_PRINCIPAL_CELL
-                        if 'Hippocampal' in area:
-                            color = occ.L6_PRINCIPAL_CELL
+                            color = '.6 .6 .6'
+                        #if 'Hippocampal' in area:
+                        #    color = occ.L6_PRINCIPAL_CELL
 
                         if '1' in id:
                             color = occ.THALAMUS_2
@@ -351,6 +351,12 @@ if __name__ == '__main__':
         generate('DetailedCell1',only_ids_matching=['*'],
              include_contra=True,
              include_connections=False,
+             include_detailed_cells=True)
+             
+    elif '-cellnet' in sys.argv:
+        generate('DetailedCell1',only_ids_matching=['*'],
+             include_contra=True,
+             include_connections=True,
              include_detailed_cells=True)
              
     elif '-test' in sys.argv:

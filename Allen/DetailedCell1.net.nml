@@ -571,7 +571,7 @@
             </instance>
         </population>
         <population id="ENTl2" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="ENTl2"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Entorhinal area, lateral part, layer 2"/>
@@ -581,7 +581,7 @@
             </instance>
         </population>
         <population id="CONTRA_ENTl2" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_ENTl2"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Entorhinal area, lateral part, layer 2"/>
@@ -591,7 +591,7 @@
             </instance>
         </population>
         <population id="FOTUmo" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="FOTUmo"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Folium-tuber vermis (VII), molecular layer"/>
@@ -601,7 +601,7 @@
             </instance>
         </population>
         <population id="CONTRA_FOTUmo" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_FOTUmo"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Folium-tuber vermis (VII), molecular layer"/>
@@ -611,7 +611,7 @@
             </instance>
         </population>
         <population id="IAM" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="IAM"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Interanteromedial nucleus of the thalamus"/>
@@ -621,7 +621,7 @@
             </instance>
         </population>
         <population id="CONTRA_IAM" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_IAM"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Interanteromedial nucleus of the thalamus"/>
@@ -631,7 +631,7 @@
             </instance>
         </population>
         <population id="ENTm2" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="ENTm2"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Entorhinal area, medial part, dorsal zone, layer 2"/>
@@ -641,7 +641,7 @@
             </instance>
         </population>
         <population id="CONTRA_ENTm2" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_ENTm2"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Entorhinal area, medial part, dorsal zone, layer 2"/>
@@ -711,7 +711,7 @@
             </instance>
         </population>
         <population id="LP" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="LP"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lateral posterior nucleus of the thalamus"/>
@@ -721,7 +721,7 @@
             </instance>
         </population>
         <population id="CONTRA_LP" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_LP"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lateral posterior nucleus of the thalamus"/>
@@ -751,7 +751,7 @@
             </instance>
         </population>
         <population id="ENTl3" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="ENTl3"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Entorhinal area, lateral part, layer 3"/>
@@ -761,7 +761,7 @@
             </instance>
         </population>
         <population id="CONTRA_ENTl3" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_ENTl3"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Entorhinal area, lateral part, layer 3"/>
@@ -951,7 +951,7 @@
             </instance>
         </population>
         <population id="CA2sp" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CA2sp"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Field CA2, pyramidal layer"/>
@@ -961,7 +961,7 @@
             </instance>
         </population>
         <population id="CONTRA_CA2sp" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_CA2sp"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Field CA2, pyramidal layer"/>
@@ -1111,7 +1111,7 @@
             </instance>
         </population>
         <population id="IMD" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="IMD"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Intermediodorsal nucleus of the thalamus"/>
@@ -1121,7 +1121,7 @@
             </instance>
         </population>
         <population id="CONTRA_IMD" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_IMD"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Intermediodorsal nucleus of the thalamus"/>
@@ -1291,7 +1291,7 @@
             </instance>
         </population>
         <population id="CA3sp" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CA3sp"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Field CA3, pyramidal layer"/>
@@ -1301,7 +1301,7 @@
             </instance>
         </population>
         <population id="CONTRA_CA3sp" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_CA3sp"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Field CA3, pyramidal layer"/>
@@ -1311,7 +1311,7 @@
             </instance>
         </population>
         <population id="PP" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="PP"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Peripeduncular nucleus"/>
@@ -1321,7 +1321,7 @@
             </instance>
         </population>
         <population id="CONTRA_PP" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_PP"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Peripeduncular nucleus"/>
@@ -1711,7 +1711,7 @@
             </instance>
         </population>
         <population id="IAD" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="IAD"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Interanterodorsal nucleus of the thalamus"/>
@@ -1721,7 +1721,7 @@
             </instance>
         </population>
         <population id="CONTRA_IAD" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_IAD"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Interanterodorsal nucleus of the thalamus"/>
@@ -1731,7 +1731,7 @@
             </instance>
         </population>
         <population id="AV" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="AV"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anteroventral nucleus of thalamus"/>
@@ -1741,7 +1741,7 @@
             </instance>
         </population>
         <population id="CONTRA_AV" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_AV"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anteroventral nucleus of thalamus"/>
@@ -1751,7 +1751,7 @@
             </instance>
         </population>
         <population id="CA3slm" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CA3slm"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Field CA3, stratum lacunosum-moleculare"/>
@@ -1761,7 +1761,7 @@
             </instance>
         </population>
         <population id="CONTRA_CA3slm" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_CA3slm"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Field CA3, stratum lacunosum-moleculare"/>
@@ -1811,7 +1811,7 @@
             </instance>
         </population>
         <population id="VPM" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="VPM"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral posteromedial nucleus of the thalamus"/>
@@ -1821,7 +1821,7 @@
             </instance>
         </population>
         <population id="CONTRA_VPM" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_VPM"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral posteromedial nucleus of the thalamus"/>
@@ -1831,7 +1831,7 @@
             </instance>
         </population>
         <population id="UVUgr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="UVUgr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Uvula (IX), granular layer"/>
@@ -1841,7 +1841,7 @@
             </instance>
         </population>
         <population id="CONTRA_UVUgr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_UVUgr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Uvula (IX), granular layer"/>
@@ -1911,7 +1911,7 @@
             </instance>
         </population>
         <population id="LGd" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="LGd"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Dorsal part of the lateral geniculate complex"/>
@@ -1921,7 +1921,7 @@
             </instance>
         </population>
         <population id="CONTRA_LGd" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_LGd"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Dorsal part of the lateral geniculate complex"/>
@@ -1951,7 +1951,7 @@
             </instance>
         </population>
         <population id="PYRmo" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="PYRmo"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Pyramus (VIII), molecular layer"/>
@@ -1961,7 +1961,7 @@
             </instance>
         </population>
         <population id="CONTRA_PYRmo" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_PYRmo"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Pyramus (VIII), molecular layer"/>
@@ -1971,7 +1971,7 @@
             </instance>
         </population>
         <population id="CA2sr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CA2sr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Field CA2, stratum radiatum"/>
@@ -1981,7 +1981,7 @@
             </instance>
         </population>
         <population id="CONTRA_CA2sr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_CA2sr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Field CA2, stratum radiatum"/>
@@ -2411,7 +2411,7 @@
             </instance>
         </population>
         <population id="CENT2mo" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CENT2mo"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lobule II, molecular layer"/>
@@ -2421,7 +2421,7 @@
             </instance>
         </population>
         <population id="CONTRA_CENT2mo" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_CENT2mo"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lobule II, molecular layer"/>
@@ -2471,7 +2471,7 @@
             </instance>
         </population>
         <population id="MH" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="MH"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Medial habenula"/>
@@ -2481,7 +2481,7 @@
             </instance>
         </population>
         <population id="CONTRA_MH" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_MH"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Medial habenula"/>
@@ -2731,7 +2731,7 @@
             </instance>
         </population>
         <population id="SPFp" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="SPFp"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subparafascicular nucleus, parvicellular part"/>
@@ -2741,7 +2741,7 @@
             </instance>
         </population>
         <population id="CONTRA_SPFp" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_SPFp"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subparafascicular nucleus, parvicellular part"/>
@@ -2991,7 +2991,7 @@
             </instance>
         </population>
         <population id="PRE3" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="PRE3"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Presubiculum, layer 3"/>
@@ -3001,7 +3001,7 @@
             </instance>
         </population>
         <population id="CONTRA_PRE3" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_PRE3"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Presubiculum, layer 3"/>
@@ -3051,7 +3051,7 @@
             </instance>
         </population>
         <population id="NODmo" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="NODmo"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Nodulus (X), molecular layer"/>
@@ -3061,7 +3061,7 @@
             </instance>
         </population>
         <population id="CONTRA_NODmo" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_NODmo"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Nodulus (X), molecular layer"/>
@@ -3071,7 +3071,7 @@
             </instance>
         </population>
         <population id="PFLmo" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="PFLmo"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Paraflocculus, molecular layer"/>
@@ -3081,7 +3081,7 @@
             </instance>
         </population>
         <population id="CONTRA_PFLmo" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_PFLmo"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Paraflocculus, molecular layer"/>
@@ -3151,7 +3151,7 @@
             </instance>
         </population>
         <population id="DN" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="DN"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Dentate nucleus"/>
@@ -3161,7 +3161,7 @@
             </instance>
         </population>
         <population id="CONTRA_DN" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_DN"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Dentate nucleus"/>
@@ -3171,7 +3171,7 @@
             </instance>
         </population>
         <population id="SubG" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="SubG"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subgeniculate nucleus"/>
@@ -3181,7 +3181,7 @@
             </instance>
         </population>
         <population id="CONTRA_SubG" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_SubG"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subgeniculate nucleus"/>
@@ -3231,7 +3231,7 @@
             </instance>
         </population>
         <population id="IP" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="IP"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Interposed nucleus"/>
@@ -3241,7 +3241,7 @@
             </instance>
         </population>
         <population id="CONTRA_IP" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_IP"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Interposed nucleus"/>
@@ -3331,7 +3331,7 @@
             </instance>
         </population>
         <population id="MGd" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="MGd"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Medial geniculate complex, dorsal part"/>
@@ -3341,7 +3341,7 @@
             </instance>
         </population>
         <population id="CONTRA_MGd" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_MGd"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Medial geniculate complex, dorsal part"/>
@@ -3651,7 +3651,7 @@
             </instance>
         </population>
         <population id="AMd" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="AMd"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anteromedial nucleus, dorsal part"/>
@@ -3661,7 +3661,7 @@
             </instance>
         </population>
         <population id="CONTRA_AMd" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_AMd"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anteromedial nucleus, dorsal part"/>
@@ -3871,7 +3871,7 @@
             </instance>
         </population>
         <population id="POST2" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="POST2"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Postsubiculum, layer 2"/>
@@ -3881,7 +3881,7 @@
             </instance>
         </population>
         <population id="CONTRA_POST2" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_POST2"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Postsubiculum, layer 2"/>
@@ -4111,7 +4111,7 @@
             </instance>
         </population>
         <population id="CL" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CL"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Central lateral nucleus of the thalamus"/>
@@ -4121,7 +4121,7 @@
             </instance>
         </population>
         <population id="CONTRA_CL" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_CL"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Central lateral nucleus of the thalamus"/>
@@ -4191,7 +4191,7 @@
             </instance>
         </population>
         <population id="ENTmv3" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="ENTmv3"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Entorhinal area, medial part, ventral zone, layer 3"/>
@@ -4201,7 +4201,7 @@
             </instance>
         </population>
         <population id="CONTRA_ENTmv3" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_ENTmv3"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Entorhinal area, medial part, ventral zone, layer 3"/>
@@ -4271,7 +4271,7 @@
             </instance>
         </population>
         <population id="UVUmo" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="UVUmo"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Uvula (IX), molecular layer"/>
@@ -4281,7 +4281,7 @@
             </instance>
         </population>
         <population id="CONTRA_UVUmo" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_UVUmo"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Uvula (IX), molecular layer"/>
@@ -4331,7 +4331,7 @@
             </instance>
         </population>
         <population id="COPYmo" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="COPYmo"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Copula pyramidis, molecular layer"/>
@@ -4341,7 +4341,7 @@
             </instance>
         </population>
         <population id="CONTRA_COPYmo" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_COPYmo"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Copula pyramidis, molecular layer"/>
@@ -4371,7 +4371,7 @@
             </instance>
         </population>
         <population id="FOTUgr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="FOTUgr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Folium-tuber vermis (VII), granular layer"/>
@@ -4381,7 +4381,7 @@
             </instance>
         </population>
         <population id="CONTRA_FOTUgr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_FOTUgr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Folium-tuber vermis (VII), granular layer"/>
@@ -4491,7 +4491,7 @@
             </instance>
         </population>
         <population id="FN" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="FN"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Fastigial nucleus"/>
@@ -4501,7 +4501,7 @@
             </instance>
         </population>
         <population id="CONTRA_FN" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_FN"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Fastigial nucleus"/>
@@ -4651,7 +4651,7 @@
             </instance>
         </population>
         <population id="POST3" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="POST3"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Postsubiculum, layer 3"/>
@@ -4661,7 +4661,7 @@
             </instance>
         </population>
         <population id="CONTRA_POST3" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_POST3"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Postsubiculum, layer 3"/>
@@ -4691,7 +4691,7 @@
             </instance>
         </population>
         <population id="PAR3" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="PAR3"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Parasubiculum, layer 3"/>
@@ -4701,7 +4701,7 @@
             </instance>
         </population>
         <population id="CONTRA_PAR3" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_PAR3"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Parasubiculum, layer 3"/>
@@ -4811,7 +4811,7 @@
             </instance>
         </population>
         <population id="VPL" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="VPL"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral posterolateral nucleus of the thalamus"/>
@@ -4821,7 +4821,7 @@
             </instance>
         </population>
         <population id="CONTRA_VPL" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_VPL"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral posterolateral nucleus of the thalamus"/>
@@ -4831,7 +4831,7 @@
             </instance>
         </population>
         <population id="PT" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="PT"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Parataenial nucleus"/>
@@ -4841,7 +4841,7 @@
             </instance>
         </population>
         <population id="CONTRA_PT" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_PT"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Parataenial nucleus"/>
@@ -4871,7 +4871,7 @@
             </instance>
         </population>
         <population id="SGN" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="SGN"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Suprageniculate nucleus"/>
@@ -4881,7 +4881,7 @@
             </instance>
         </population>
         <population id="CONTRA_SGN" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_SGN"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Suprageniculate nucleus"/>
@@ -4891,7 +4891,7 @@
             </instance>
         </population>
         <population id="LINGgr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="LINGgr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lingula (I), granular layer"/>
@@ -4901,7 +4901,7 @@
             </instance>
         </population>
         <population id="CONTRA_LINGgr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_LINGgr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lingula (I), granular layer"/>
@@ -5571,7 +5571,7 @@
             </instance>
         </population>
         <population id="VAL" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="VAL"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral anterior-lateral complex of the thalamus"/>
@@ -5581,7 +5581,7 @@
             </instance>
         </population>
         <population id="CONTRA_VAL" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_VAL"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral anterior-lateral complex of the thalamus"/>
@@ -5711,7 +5711,7 @@
             </instance>
         </population>
         <population id="MGm" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="MGm"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Medial geniculate complex, medial part"/>
@@ -5721,7 +5721,7 @@
             </instance>
         </population>
         <population id="CONTRA_MGm" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_MGm"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Medial geniculate complex, medial part"/>
@@ -5971,7 +5971,7 @@
             </instance>
         </population>
         <population id="CA3slu" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CA3slu"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Field CA3, stratum lucidum"/>
@@ -5981,7 +5981,7 @@
             </instance>
         </population>
         <population id="CONTRA_CA3slu" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_CA3slu"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Field CA3, stratum lucidum"/>
@@ -5991,7 +5991,7 @@
             </instance>
         </population>
         <population id="PAR2" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="PAR2"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Parasubiculum, layer 2"/>
@@ -6001,7 +6001,7 @@
             </instance>
         </population>
         <population id="CONTRA_PAR2" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_PAR2"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Parasubiculum, layer 2"/>
@@ -6131,7 +6131,7 @@
             </instance>
         </population>
         <population id="PF" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="PF"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Parafascicular nucleus"/>
@@ -6141,7 +6141,7 @@
             </instance>
         </population>
         <population id="CONTRA_PF" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_PF"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Parafascicular nucleus"/>
@@ -6151,7 +6151,7 @@
             </instance>
         </population>
         <population id="CM" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CM"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Central medial nucleus of the thalamus"/>
@@ -6161,7 +6161,7 @@
             </instance>
         </population>
         <population id="CONTRA_CM" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_CM"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Central medial nucleus of the thalamus"/>
@@ -6211,7 +6211,7 @@
             </instance>
         </population>
         <population id="SMT" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="SMT"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Submedial nucleus of the thalamus"/>
@@ -6221,7 +6221,7 @@
             </instance>
         </population>
         <population id="CONTRA_SMT" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_SMT"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Submedial nucleus of the thalamus"/>
@@ -6371,7 +6371,7 @@
             </instance>
         </population>
         <population id="MGv" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="MGv"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Medial geniculate complex, ventral part"/>
@@ -6381,7 +6381,7 @@
             </instance>
         </population>
         <population id="CONTRA_MGv" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_MGv"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Medial geniculate complex, ventral part"/>
@@ -6511,7 +6511,7 @@
             </instance>
         </population>
         <population id="CENT3gr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CENT3gr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lobule III, granular layer"/>
@@ -6521,7 +6521,7 @@
             </instance>
         </population>
         <population id="CONTRA_CENT3gr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_CENT3gr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lobule III, granular layer"/>
@@ -6591,7 +6591,7 @@
             </instance>
         </population>
         <population id="ENTm2a" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="ENTm2a"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Entorhinal area, medial part, dorsal zone, layer 2a"/>
@@ -6601,7 +6601,7 @@
             </instance>
         </population>
         <population id="CONTRA_ENTm2a" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_ENTm2a"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Entorhinal area, medial part, dorsal zone, layer 2a"/>
@@ -6731,7 +6731,7 @@
             </instance>
         </population>
         <population id="ENTmv2" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="ENTmv2"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Entorhinal area, medial part, ventral zone, layer 2"/>
@@ -6741,7 +6741,7 @@
             </instance>
         </population>
         <population id="CONTRA_ENTmv2" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_ENTmv2"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Entorhinal area, medial part, ventral zone, layer 2"/>
@@ -6751,7 +6751,7 @@
             </instance>
         </population>
         <population id="SUBd_m" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="SUBd_m"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subiculum, dorsal part, molecular layer"/>
@@ -6761,7 +6761,7 @@
             </instance>
         </population>
         <population id="CONTRA_SUBd_m" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_SUBd_m"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subiculum, dorsal part, molecular layer"/>
@@ -6971,7 +6971,7 @@
             </instance>
         </population>
         <population id="SPA" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="SPA"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subparafascicular area"/>
@@ -6981,7 +6981,7 @@
             </instance>
         </population>
         <population id="CONTRA_SPA" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_SPA"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subparafascicular area"/>
@@ -7011,7 +7011,7 @@
             </instance>
         </population>
         <population id="DECmo" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="DECmo"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Declive (VI), molecular layer"/>
@@ -7021,7 +7021,7 @@
             </instance>
         </population>
         <population id="CONTRA_DECmo" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_DECmo"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Declive (VI), molecular layer"/>
@@ -7131,7 +7131,7 @@
             </instance>
         </population>
         <population id="LH" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="LH"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lateral habenula"/>
@@ -7141,7 +7141,7 @@
             </instance>
         </population>
         <population id="CONTRA_LH" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_LH"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lateral habenula"/>
@@ -7411,7 +7411,7 @@
             </instance>
         </population>
         <population id="RE" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="RE"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Nucleus of reunions"/>
@@ -7421,7 +7421,7 @@
             </instance>
         </population>
         <population id="CONTRA_RE" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_RE"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Nucleus of reunions"/>
@@ -7431,7 +7431,7 @@
             </instance>
         </population>
         <population id="PRMgr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="PRMgr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Paramedian lobule, granular layer"/>
@@ -7441,7 +7441,7 @@
             </instance>
         </population>
         <population id="CONTRA_PRMgr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_PRMgr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Paramedian lobule, granular layer"/>
@@ -7471,7 +7471,7 @@
             </instance>
         </population>
         <population id="SIMmo" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="SIMmo"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Simple lobule, molecular layer"/>
@@ -7481,7 +7481,7 @@
             </instance>
         </population>
         <population id="CONTRA_SIMmo" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_SIMmo"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Simple lobule, molecular layer"/>
@@ -7671,7 +7671,7 @@
             </instance>
         </population>
         <population id="VM" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="VM"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral medial nucleus of the thalamus"/>
@@ -7681,7 +7681,7 @@
             </instance>
         </population>
         <population id="CONTRA_VM" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_VM"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral medial nucleus of the thalamus"/>
@@ -7751,7 +7751,7 @@
             </instance>
         </population>
         <population id="PO" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="PO"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Posterior complex of the thalamus"/>
@@ -7761,7 +7761,7 @@
             </instance>
         </population>
         <population id="CONTRA_PO" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_PO"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Posterior complex of the thalamus"/>
@@ -7851,7 +7851,7 @@
             </instance>
         </population>
         <population id="CA3so" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CA3so"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Field CA3, stratum oriens"/>
@@ -7861,7 +7861,7 @@
             </instance>
         </population>
         <population id="CONTRA_CA3so" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_CA3so"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Field CA3, stratum oriens"/>
@@ -8031,7 +8031,7 @@
             </instance>
         </population>
         <population id="FC" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="FC"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Fasciola cinerea"/>
@@ -8041,7 +8041,7 @@
             </instance>
         </population>
         <population id="CONTRA_FC" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_FC"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Fasciola cinerea"/>
@@ -8111,7 +8111,7 @@
             </instance>
         </population>
         <population id="CA2so" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CA2so"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Field CA2, stratum oriens"/>
@@ -8121,7 +8121,7 @@
             </instance>
         </population>
         <population id="CONTRA_CA2so" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_CA2so"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Field CA2, stratum oriens"/>
@@ -8151,7 +8151,7 @@
             </instance>
         </population>
         <population id="SUBv_m" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="SUBv_m"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subiculum, ventral part, molecular layer"/>
@@ -8161,7 +8161,7 @@
             </instance>
         </population>
         <population id="CONTRA_SUBv_m" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_SUBv_m"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subiculum, ventral part, molecular layer"/>
@@ -8531,7 +8531,7 @@
             </instance>
         </population>
         <population id="ENTm2b" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="ENTm2b"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Entorhinal area, medial part, dorsal zone, layer 2b"/>
@@ -8541,7 +8541,7 @@
             </instance>
         </population>
         <population id="CONTRA_ENTm2b" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_ENTm2b"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Entorhinal area, medial part, dorsal zone, layer 2b"/>
@@ -8551,7 +8551,7 @@
             </instance>
         </population>
         <population id="PRE2" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="PRE2"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Presubiculum, layer 2"/>
@@ -8561,7 +8561,7 @@
             </instance>
         </population>
         <population id="CONTRA_PRE2" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_PRE2"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Presubiculum, layer 2"/>
@@ -8611,7 +8611,7 @@
             </instance>
         </population>
         <population id="SUBv_sr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="SUBv_sr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subiculum, ventral part, stratum radiatum"/>
@@ -8621,7 +8621,7 @@
             </instance>
         </population>
         <population id="CONTRA_SUBv_sr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_SUBv_sr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subiculum, ventral part, stratum radiatum"/>
@@ -8631,7 +8631,7 @@
             </instance>
         </population>
         <population id="DECgr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="DECgr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Declive (VI), granular layer"/>
@@ -8641,7 +8641,7 @@
             </instance>
         </population>
         <population id="CONTRA_DECgr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_DECgr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Declive (VI), granular layer"/>
@@ -8891,7 +8891,7 @@
             </instance>
         </population>
         <population id="AMv" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="AMv"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anteromedial nucleus, ventral part"/>
@@ -8901,7 +8901,7 @@
             </instance>
         </population>
         <population id="CONTRA_AMv" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_AMv"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anteromedial nucleus, ventral part"/>
@@ -9251,7 +9251,7 @@
             </instance>
         </population>
         <population id="CENT2gr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CENT2gr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lobule II, granular layer"/>
@@ -9261,7 +9261,7 @@
             </instance>
         </population>
         <population id="CONTRA_CENT2gr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_CENT2gr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lobule II, granular layer"/>
@@ -9291,7 +9291,7 @@
             </instance>
         </population>
         <population id="ENTl2a" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="ENTl2a"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Entorhinal area, lateral part, layer 2a"/>
@@ -9301,7 +9301,7 @@
             </instance>
         </population>
         <population id="CONTRA_ENTl2a" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_ENTl2a"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Entorhinal area, lateral part, layer 2a"/>
@@ -9491,7 +9491,7 @@
             </instance>
         </population>
         <population id="NODgr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="NODgr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Nodulus (X), granular layer"/>
@@ -9501,7 +9501,7 @@
             </instance>
         </population>
         <population id="CONTRA_NODgr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_NODgr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Nodulus (X), granular layer"/>
@@ -9511,7 +9511,7 @@
             </instance>
         </population>
         <population id="CA3sr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CA3sr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Field CA3, stratum radiatum"/>
@@ -9521,7 +9521,7 @@
             </instance>
         </population>
         <population id="CONTRA_CA3sr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_CA3sr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Field CA3, stratum radiatum"/>
@@ -9651,7 +9651,7 @@
             </instance>
         </population>
         <population id="CENT3mo" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CENT3mo"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lobule III, molecular layer"/>
@@ -9661,7 +9661,7 @@
             </instance>
         </population>
         <population id="CONTRA_CENT3mo" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_CENT3mo"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lobule III, molecular layer"/>
@@ -9831,7 +9831,7 @@
             </instance>
         </population>
         <population id="COPYgr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="COPYgr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Copula pyramidis, granular layer"/>
@@ -9841,7 +9841,7 @@
             </instance>
         </population>
         <population id="CONTRA_COPYgr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_COPYgr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Copula pyramidis, granular layer"/>
@@ -10031,7 +10031,7 @@
             </instance>
         </population>
         <population id="LINGmo" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="LINGmo"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lingula (I), molecular layer"/>
@@ -10041,7 +10041,7 @@
             </instance>
         </population>
         <population id="CONTRA_LINGmo" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_LINGmo"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lingula (I), molecular layer"/>
@@ -10191,7 +10191,7 @@
             </instance>
         </population>
         <population id="PR" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="PR"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Perireunensis nucleus"/>
@@ -10201,7 +10201,7 @@
             </instance>
         </population>
         <population id="CONTRA_PR" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_PR"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Perireunensis nucleus"/>
@@ -10251,7 +10251,7 @@
             </instance>
         </population>
         <population id="CA2slm" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CA2slm"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Field CA2, stratum lacunosum-moleculare"/>
@@ -10261,7 +10261,7 @@
             </instance>
         </population>
         <population id="CONTRA_CA2slm" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_CA2slm"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Field CA2, stratum lacunosum-moleculare"/>
@@ -10351,7 +10351,7 @@
             </instance>
         </population>
         <population id="VPLpc" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="VPLpc"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral posterolateral nucleus of the thalamus, parvicellular part"/>
@@ -10361,7 +10361,7 @@
             </instance>
         </population>
         <population id="CONTRA_VPLpc" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_VPLpc"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral posterolateral nucleus of the thalamus, parvicellular part"/>
@@ -10451,7 +10451,7 @@
             </instance>
         </population>
         <population id="SPFm" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="SPFm"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subparafascicular nucleus, magnocellular part"/>
@@ -10461,7 +10461,7 @@
             </instance>
         </population>
         <population id="CONTRA_SPFm" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_SPFm"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subparafascicular nucleus, magnocellular part"/>
@@ -10471,7 +10471,7 @@
             </instance>
         </population>
         <population id="RT" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="RT"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Reticular nucleus of the thalamus"/>
@@ -10481,7 +10481,7 @@
             </instance>
         </population>
         <population id="CONTRA_RT" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_RT"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Reticular nucleus of the thalamus"/>
@@ -10691,7 +10691,7 @@
             </instance>
         </population>
         <population id="LGv" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="LGv"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral part of the lateral geniculate complex"/>
@@ -10701,7 +10701,7 @@
             </instance>
         </population>
         <population id="CONTRA_LGv" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_LGv"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral part of the lateral geniculate complex"/>
@@ -10811,7 +10811,7 @@
             </instance>
         </population>
         <population id="PRMmo" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="PRMmo"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Paramedian lobule, molecular layer"/>
@@ -10821,7 +10821,7 @@
             </instance>
         </population>
         <population id="CONTRA_PRMmo" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_PRMmo"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Paramedian lobule, molecular layer"/>
@@ -11111,7 +11111,7 @@
             </instance>
         </population>
         <population id="IGL" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="IGL"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Intergeniculate leaflet of the lateral geniculate complex"/>
@@ -11121,7 +11121,7 @@
             </instance>
         </population>
         <population id="CONTRA_IGL" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_IGL"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Intergeniculate leaflet of the lateral geniculate complex"/>
@@ -11171,7 +11171,7 @@
             </instance>
         </population>
         <population id="PYRgr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="PYRgr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Pyramus (VIII), granular layer"/>
@@ -11181,7 +11181,7 @@
             </instance>
         </population>
         <population id="CONTRA_PYRgr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_PYRgr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Pyramus (VIII), granular layer"/>
@@ -11371,7 +11371,7 @@
             </instance>
         </population>
         <population id="SUBv_sp" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="SUBv_sp"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subiculum, ventral part, pyramidal layer"/>
@@ -11381,7 +11381,7 @@
             </instance>
         </population>
         <population id="CONTRA_SUBv_sp" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_SUBv_sp"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subiculum, ventral part, pyramidal layer"/>
@@ -11571,7 +11571,7 @@
             </instance>
         </population>
         <population id="AD" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="AD"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anterodorsal nucleus"/>
@@ -11581,7 +11581,7 @@
             </instance>
         </population>
         <population id="CONTRA_AD" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_AD"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anterodorsal nucleus"/>
@@ -11611,7 +11611,7 @@
             </instance>
         </population>
         <population id="POL" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="POL"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Posterior limiting nucleus of the thalamus"/>
@@ -11621,7 +11621,7 @@
             </instance>
         </population>
         <population id="CONTRA_POL" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_POL"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Posterior limiting nucleus of the thalamus"/>
@@ -11631,7 +11631,7 @@
             </instance>
         </population>
         <population id="SUBd_sp" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="SUBd_sp"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subiculum, dorsal part, pyramidal layer"/>
@@ -11641,7 +11641,7 @@
             </instance>
         </population>
         <population id="CONTRA_SUBd_sp" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_SUBd_sp"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subiculum, dorsal part, pyramidal layer"/>
@@ -11991,7 +11991,7 @@
             </instance>
         </population>
         <population id="SUBd_sr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="SUBd_sr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subiculum, dorsal part, stratum radiatum"/>
@@ -12001,7 +12001,7 @@
             </instance>
         </population>
         <population id="CONTRA_SUBd_sr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_SUBd_sr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subiculum, dorsal part, stratum radiatum"/>
@@ -12071,7 +12071,7 @@
             </instance>
         </population>
         <population id="LD" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="LD"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lateral dorsal nucleus of thalamus"/>
@@ -12081,7 +12081,7 @@
             </instance>
         </population>
         <population id="CONTRA_LD" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_LD"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lateral dorsal nucleus of thalamus"/>
@@ -12151,7 +12151,7 @@
             </instance>
         </population>
         <population id="PFLgr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="PFLgr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Paraflocculus, granular layer"/>
@@ -12161,7 +12161,7 @@
             </instance>
         </population>
         <population id="CONTRA_PFLgr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_PFLgr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Paraflocculus, granular layer"/>
@@ -12211,7 +12211,7 @@
             </instance>
         </population>
         <population id="ENTl2b" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="ENTl2b"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Entorhinal area, lateral part, layer 2b"/>
@@ -12221,7 +12221,7 @@
             </instance>
         </population>
         <population id="CONTRA_ENTl2b" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_ENTl2b"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Entorhinal area, lateral part, layer 2b"/>
@@ -12331,7 +12331,7 @@
             </instance>
         </population>
         <population id="ENTm3" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="ENTm3"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Entorhinal area, medial part, dorsal zone, layer 3"/>
@@ -12341,7 +12341,7 @@
             </instance>
         </population>
         <population id="CONTRA_ENTm3" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_ENTm3"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Entorhinal area, medial part, dorsal zone, layer 3"/>
@@ -12431,7 +12431,7 @@
             </instance>
         </population>
         <population id="IG" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="IG"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Induseum griseum"/>
@@ -12441,7 +12441,7 @@
             </instance>
         </population>
         <population id="CONTRA_IG" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.2"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_IG"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Induseum griseum"/>
@@ -12571,7 +12571,7 @@
             </instance>
         </population>
         <population id="PCN" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="PCN"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Paracentral nucleus"/>
@@ -12581,7 +12581,7 @@
             </instance>
         </population>
         <population id="CONTRA_PCN" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_PCN"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Paracentral nucleus"/>
@@ -12671,7 +12671,7 @@
             </instance>
         </population>
         <population id="VPMpc" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="VPMpc"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral posteromedial nucleus of the thalamus, parvicellular part"/>
@@ -12681,7 +12681,7 @@
             </instance>
         </population>
         <population id="CONTRA_VPMpc" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_VPMpc"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral posteromedial nucleus of the thalamus, parvicellular part"/>
@@ -12931,7 +12931,7 @@
             </instance>
         </population>
         <population id="PVT" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="PVT"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Paraventricular nucleus of the thalamus"/>
@@ -12941,7 +12941,7 @@
             </instance>
         </population>
         <population id="CONTRA_PVT" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_PVT"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Paraventricular nucleus of the thalamus"/>
@@ -12951,7 +12951,7 @@
             </instance>
         </population>
         <population id="RH" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="RH"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Rhomboid nucleus"/>
@@ -12961,7 +12961,7 @@
             </instance>
         </population>
         <population id="CONTRA_RH" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+            <property tag="color" value=".3 .3 .3"/>
             <property tag="region" value="CONTRA_RH"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Rhomboid nucleus"/>
@@ -13091,7 +13091,7 @@
             </instance>
         </population>
         <population id="SIMgr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="SIMgr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Simple lobule, granular layer"/>
@@ -13101,7 +13101,7 @@
             </instance>
         </population>
         <population id="CONTRA_SIMgr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.4 0"/>
+            <property tag="color" value=".6 .6 .6"/>
             <property tag="region" value="CONTRA_SIMgr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Simple lobule, granular layer"/>
