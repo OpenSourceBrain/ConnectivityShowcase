@@ -18,3 +18,7 @@ Try:
 
 
 ![img](HagmannMatrix.png) ![img2](Hagmannetal.graph.png)
+
+The generated NeuroML file can also be loaded into OSB for visualisation [link](http://opensourcebrain.org/projects/connectivityshowcase/models?explorer=https%253A%252F%252Fraw.githubusercontent.com%252FOpenSourceBrain%252FConnectivityShowcase%252Fmaster%252FTVB%252FHagmannetal2008.net.nml):
+
+![img3](https://raw.githubusercontent.com/OpenSourceBrain/ConnectivityShowcase/master/TVB/HagmannetalOSB.png)
