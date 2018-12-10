@@ -1031,7 +1031,7 @@
             </instance>
         </population>
         <population id="AONl" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="AONl"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anterior olfactory nucleus, lateral part"/>
@@ -1041,7 +1041,7 @@
             </instance>
         </population>
         <population id="CONTRA_AONl" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_AONl"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anterior olfactory nucleus, lateral part"/>
@@ -2011,7 +2011,7 @@
             </instance>
         </population>
         <population id="AONd" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="AONd"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anterior olfactory nucleus, dorsal part"/>
@@ -2021,7 +2021,7 @@
             </instance>
         </population>
         <population id="CONTRA_AONd" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_AONd"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anterior olfactory nucleus, dorsal part"/>
@@ -2671,7 +2671,7 @@
             </instance>
         </population>
         <population id="AOBgr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="AOBgr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Accessory olfactory bulb, granular layer"/>
@@ -2681,7 +2681,7 @@
             </instance>
         </population>
         <population id="CONTRA_AOBgr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_AOBgr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Accessory olfactory bulb, granular layer"/>
@@ -2891,7 +2891,7 @@
             </instance>
         </population>
         <population id="PAA3" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="PAA3"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Piriform-amygdalar area, polymorph layer"/>
@@ -2901,7 +2901,7 @@
             </instance>
         </population>
         <population id="CONTRA_PAA3" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_PAA3"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Piriform-amygdalar area, polymorph layer"/>
@@ -3211,7 +3211,7 @@
             </instance>
         </population>
         <population id="AOBmi" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="AOBmi"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Accessory olfactory bulb, mitral layer"/>
@@ -3221,7 +3221,7 @@
             </instance>
         </population>
         <population id="CONTRA_AOBmi" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_AOBmi"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Accessory olfactory bulb, mitral layer"/>
@@ -3351,7 +3351,7 @@
             </instance>
         </population>
         <population id="COAa2" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="COAa2"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Cortical amygdalar area, anterior part, layer 2"/>
@@ -3361,7 +3361,7 @@
             </instance>
         </population>
         <population id="CONTRA_COAa2" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_COAa2"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Cortical amygdalar area, anterior part, layer 2"/>
@@ -3511,7 +3511,7 @@
             </instance>
         </population>
         <population id="MOBmi" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="MOBmi"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Main olfactory bulb, mitral layer"/>
@@ -3521,7 +3521,7 @@
             </instance>
         </population>
         <population id="CONTRA_MOBmi" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_MOBmi"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Main olfactory bulb, mitral layer"/>
@@ -3971,7 +3971,7 @@
             </instance>
         </population>
         <population id="COApm3" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="COApm3"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Cortical amygdalar area, posterior part, medial zone, layer 3"/>
@@ -3981,7 +3981,7 @@
             </instance>
         </population>
         <population id="CONTRA_COApm3" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_COApm3"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Cortical amygdalar area, posterior part, medial zone, layer 3"/>
@@ -4591,7 +4591,7 @@
             </instance>
         </population>
         <population id="AOB" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="AOB"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Accessory olfactory bulb"/>
@@ -4601,7 +4601,7 @@
             </instance>
         </population>
         <population id="CONTRA_AOB" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_AOB"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Accessory olfactory bulb"/>
@@ -5031,7 +5031,7 @@
             </instance>
         </population>
         <population id="MOBgl" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="MOBgl"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Main olfactory bulb, glomerular layer"/>
@@ -5041,7 +5041,7 @@
             </instance>
         </population>
         <population id="CONTRA_MOBgl" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_MOBgl"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Main olfactory bulb, glomerular layer"/>
@@ -5071,7 +5071,7 @@
             </instance>
         </population>
         <population id="AONe" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="AONe"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anterior olfactory nucleus, external part"/>
@@ -5081,7 +5081,7 @@
             </instance>
         </population>
         <population id="CONTRA_AONe" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_AONe"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anterior olfactory nucleus, external part"/>
@@ -5891,7 +5891,7 @@
             </instance>
         </population>
         <population id="AONm" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="AONm"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anterior olfactory nucleus, medial part"/>
@@ -5901,7 +5901,7 @@
             </instance>
         </population>
         <population id="CONTRA_AONm" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_AONm"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anterior olfactory nucleus, medial part"/>
@@ -5931,7 +5931,7 @@
             </instance>
         </population>
         <population id="PAA2" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="PAA2"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Piriform-amygdalar area, pyramidal layer"/>
@@ -5941,7 +5941,7 @@
             </instance>
         </population>
         <population id="CONTRA_PAA2" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_PAA2"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Piriform-amygdalar area, pyramidal layer"/>
@@ -6091,7 +6091,7 @@
             </instance>
         </population>
         <population id="COApl3" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="COApl3"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Cortical amygdalar area, posterior part, lateral zone, layer 3"/>
@@ -6101,7 +6101,7 @@
             </instance>
         </population>
         <population id="CONTRA_COApl3" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_COApl3"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Cortical amygdalar area, posterior part, lateral zone, layer 3"/>
@@ -6491,7 +6491,7 @@
             </instance>
         </population>
         <population id="AONpv" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="AONpv"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anterior olfactory nucleus, posteroventral part"/>
@@ -6501,7 +6501,7 @@
             </instance>
         </population>
         <population id="CONTRA_AONpv" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_AONpv"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anterior olfactory nucleus, posteroventral part"/>
@@ -7311,7 +7311,7 @@
             </instance>
         </population>
         <population id="COApm2" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="COApm2"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Cortical amygdalar area, posterior part, medial zone, layer 2"/>
@@ -7321,7 +7321,7 @@
             </instance>
         </population>
         <population id="CONTRA_COApm2" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_COApm2"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Cortical amygdalar area, posterior part, medial zone, layer 2"/>
@@ -7571,7 +7571,7 @@
             </instance>
         </population>
         <population id="MOB" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="MOB"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Main olfactory bulb"/>
@@ -7581,7 +7581,7 @@
             </instance>
         </population>
         <population id="CONTRA_MOB" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_MOB"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Main olfactory bulb"/>
@@ -7711,7 +7711,7 @@
             </instance>
         </population>
         <population id="NLOT2" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="NLOT2"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Nucleus of the lateral olfactory tract, pyramidal layer"/>
@@ -7721,7 +7721,7 @@
             </instance>
         </population>
         <population id="CONTRA_NLOT2" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_NLOT2"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Nucleus of the lateral olfactory tract, pyramidal layer"/>
@@ -9671,7 +9671,7 @@
             </instance>
         </population>
         <population id="NLOT3" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="NLOT3"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Nucleus of the lateral olfactory tract, layer 3"/>
@@ -9681,7 +9681,7 @@
             </instance>
         </population>
         <population id="CONTRA_NLOT3" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_NLOT3"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Nucleus of the lateral olfactory tract, layer 3"/>
@@ -9751,7 +9751,7 @@
             </instance>
         </population>
         <population id="AON" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="AON"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anterior olfactory nucleus"/>
@@ -9761,7 +9761,7 @@
             </instance>
         </population>
         <population id="CONTRA_AON" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_AON"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anterior olfactory nucleus"/>
@@ -10411,7 +10411,7 @@
             </instance>
         </population>
         <population id="PIR3" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="PIR3"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Piriform area, polymorph layer"/>
@@ -10421,7 +10421,7 @@
             </instance>
         </population>
         <population id="CONTRA_PIR3" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_PIR3"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Piriform area, polymorph layer"/>
@@ -10611,7 +10611,7 @@
             </instance>
         </population>
         <population id="COApl2" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="COApl2"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Cortical amygdalar area, posterior part, lateral zone, layer 2"/>
@@ -10621,7 +10621,7 @@
             </instance>
         </population>
         <population id="CONTRA_COApl2" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_COApl2"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Cortical amygdalar area, posterior part, lateral zone, layer 2"/>
@@ -11311,7 +11311,7 @@
             </instance>
         </population>
         <population id="AOBgl" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="AOBgl"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Accessory olfactory bulb, glomerular layer"/>
@@ -11321,7 +11321,7 @@
             </instance>
         </population>
         <population id="CONTRA_AOBgl" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_AOBgl"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Accessory olfactory bulb, glomerular layer"/>
@@ -11391,7 +11391,7 @@
             </instance>
         </population>
         <population id="MOBgr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="MOBgr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Main olfactory bulb, granule layer"/>
@@ -11401,7 +11401,7 @@
             </instance>
         </population>
         <population id="CONTRA_MOBgr" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_MOBgr"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Main olfactory bulb, granule layer"/>
@@ -11651,7 +11651,7 @@
             </instance>
         </population>
         <population id="PIR2" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="PIR2"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Piriform area, pyramidal layer"/>
@@ -11661,7 +11661,7 @@
             </instance>
         </population>
         <population id="CONTRA_PIR2" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_PIR2"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Piriform area, pyramidal layer"/>
@@ -11731,7 +11731,7 @@
             </instance>
         </population>
         <population id="MOBopl" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="MOBopl"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Main olfactory bulb, outer plexiform layer"/>
@@ -11741,7 +11741,7 @@
             </instance>
         </population>
         <population id="CONTRA_MOBopl" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_MOBopl"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Main olfactory bulb, outer plexiform layer"/>
@@ -12511,7 +12511,7 @@
             </instance>
         </population>
         <population id="MOBipl" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="MOBipl"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Main olfactory bulb, inner plexiform layer"/>
@@ -12521,7 +12521,7 @@
             </instance>
         </population>
         <population id="CONTRA_MOBipl" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="0 0.25 0.5"/>
+            <property tag="color" value=".8 .8 .8"/>
             <property tag="region" value="CONTRA_MOBipl"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Main olfactory bulb, inner plexiform layer"/>

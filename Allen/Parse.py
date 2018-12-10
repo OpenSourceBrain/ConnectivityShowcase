@@ -126,7 +126,7 @@ def generate(reference,
         ll.location = Location(x=0,y=0,z=0)
         orig_file='%s_active.cell.nml'%dc
         
-        new_ref, new_cell_file = get_oriented_cell(orig_file, math.pi,math.pi/2, 5500, 5000)
+        new_ref, new_cell_file = get_oriented_cell(orig_file, math.pi,math.pi/2, 5500, 5500)
         
         print("Translated %s to %s"%(orig_file, new_cell_file))
 
@@ -227,8 +227,8 @@ def generate(reference,
                             color = occ.THALAMUS_2
                         if 'Isocortex' in area:
                             color = occ.L23_PRINCIPAL_CELL
-                        if 'Olfactory' in area:
-                            color = occ.L4_PRINCIPAL_CELL
+                        if 'bulb' in area:
+                            color = '0 0 1'
                         if 'Cerebe' in area:
                             color = occ.L5_PRINCIPAL_CELL
                         if 'Hippocampal' in area:
