@@ -1,9 +1,9 @@
 <neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="DetailedCell1">
     <notes>Generated network: DetailedCell1
     Generation seed: 1234</notes>
+    <include href="passiveSingleCompCell.cell.nml"/>
     <include href="AA0289_active.cell.nml"/>
     <include href="ROTATED_AA0289_active.cell.nml"/>
-    <IF_cond_alpha id="dummycell" cm="1." i_offset="0.1" tau_syn_E="0.3" tau_syn_I="0.5" v_init="-65." tau_m="20." tau_refrac="5." v_reset="-65." v_rest="-65." v_thresh="-50." e_rev_E="0." e_rev_I="-70."/>
     <alphaCondSynapse id="ampa" tau_syn="2." e_rev="-10."/>
     <network id="DetailedCell1">
         <notes>NOTE: this is only a quick demo!! Do not use it for your research assuming an accurate conversion of the source data!!! </notes>

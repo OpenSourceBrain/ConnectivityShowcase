@@ -12,14 +12,14 @@ import csv
 import sys
 
 
-def rotate_z(x, y, theta):
+def rotate(x, y, theta):
 
     x_ = x * math.cos(theta) - y * math.sin(theta)
     y_ = x * math.sin(theta) + y * math.cos(theta)
 
     return x_, y_
 
-def get_oriented_cell(cell_file, theta_z, theta_y):
+def get_oriented_cell(cell_file, theta_z, theta_x):
     
     new_ref = "ROTATED_"+cell_file.split('.')[0]
 
@@ -29,18 +29,18 @@ def get_oriented_cell(cell_file, theta_z, theta_y):
     doc.cells[0].id = new_ref
 
 
-    print("Orienting %s degrees"%(theta_z))
+    print("Orienting %s radians around z axis, %s radians around x axis"%(theta_z, theta_x))
 
 
     for segment in doc.cells[0].morphology.segments:
 
         if segment.proximal:
 
-            segment.proximal.x, segment.proximal.y = rotate_z(segment.proximal.x, segment.proximal.y, theta_z)
-            segment.proximal.x, segment.proximal.z = rotate_z(segment.proximal.x, segment.proximal.z, theta_y)
+            segment.proximal.x, segment.proximal.y = rotate(segment.proximal.x, segment.proximal.y, theta_z)
+            segment.proximal.y, segment.proximal.z = rotate(segment.proximal.y, segment.proximal.z, theta_x)
 
-        segment.distal.x, segment.distal.y = rotate_z(segment.distal.x, segment.distal.y, theta_z)
-        segment.distal.x, segment.distal.z = rotate_z(segment.distal.x, segment.distal.z, theta_y)
+        segment.distal.x, segment.distal.y = rotate(segment.distal.x, segment.distal.y, theta_z)
+        segment.distal.y, segment.distal.z = rotate(segment.distal.y, segment.distal.z, theta_x)
 
 
     new_cell_file = new_ref+'.cell.nml'
@@ -53,7 +53,8 @@ def generate(reference,
              only_areas_matching=None, 
              only_ids_matching=None,
              include_contra=False,
-             include_connections=True):
+             include_connections=True,
+             include_detailed_cells=False):
 
     colors = {}
     centres = {}
@@ -90,8 +91,11 @@ def generate(reference,
     net = Network(id=reference)
     net.notes = "NOTE: this is only a quick demo!! Do not use it for your research assuming an accurate conversion of the source data!!! "
 
-    cell = Cell(id='dummycell', pynn_cell='IF_cond_alpha')
-    cell.parameters = { "tau_refrac":5, "i_offset":.1 }
+    #cell = Cell(id='dummycell', pynn_cell='IF_cond_alpha')
+    #cell.parameters = { "tau_refrac":5, "i_offset":.1 }
+    cell = Cell(id='dummycell', neuroml2_source_file='passiveSingleCompCell.cell.nml')
+    
+    
     net.cells.append(cell)
 
     net.synapses.append(Synapse(id='ampa', 
@@ -108,7 +112,7 @@ def generate(reference,
     net.populations.append(p0)
     net.populations[0].random_layout = RandomLayout(region=r1.id)'''
 
-    detailed_cells = ['AA0289']
+    detailed_cells = ['AA0289'] if include_detailed_cells else []
     
     for dc in detailed_cells:
         
@@ -116,7 +120,7 @@ def generate(reference,
         ll.location = Location(x=0,y=0,z=0)
         orig_file='%s_active.cell.nml'%dc
         
-        new_ref, new_cell_file = get_oriented_cell(orig_file, math.pi/20,math.pi/-20000)
+        new_ref, new_cell_file = get_oriented_cell(orig_file, math.pi,math.pi/2)
         
         print("Translated %s to %s"%(orig_file, new_cell_file))
 
@@ -338,6 +342,13 @@ if __name__ == '__main__':
     elif '-cell' in sys.argv:
         generate('DetailedCell1',only_ids_matching=['*'],
              include_contra=True,
-             include_connections=False)
+             include_connections=False,
+             include_detailed_cells=True)
+             
+    elif '-test' in sys.argv:
+        generate('DTest1',only_ids_matching=['VI'],
+             include_contra=True,
+             include_connections=False,
+             include_detailed_cells=True)
     else:  
         generate('Full')
