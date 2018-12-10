@@ -17,4 +17,4 @@ Try:
     python manual_import.py -graph2f  # Generate graph shown below
 
 
-![img](HagmannMatrix.png)
+![img](HagmannMatrix.png) ![img2](Hagmannetal.graph.png)
