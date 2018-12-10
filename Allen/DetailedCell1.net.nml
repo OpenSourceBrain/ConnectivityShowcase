@@ -7,9 +7,6 @@
     <alphaCondSynapse id="ampa" tau_syn="2." e_rev="-10."/>
     <network id="DetailedCell1">
         <notes>NOTE: this is only a quick demo!! Do not use it for your research assuming an accurate conversion of the source data!!! </notes>
-        <population id="pop_AA0289" component="AA0289" size="1">
-            <property tag="color" value=".8 0 0"/>
-        </population>
         <population id="pop_ROTATED_AA0289_active" component="ROTATED_AA0289_active" size="1">
             <property tag="color" value="0 0.8 0"/>
         </population>

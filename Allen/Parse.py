@@ -19,7 +19,7 @@ def rotate(x, y, theta):
 
     return x_, y_
 
-def get_oriented_cell(cell_file, theta_z, theta_x):
+def get_oriented_cell(cell_file, theta_z, theta_x, trans_x, trans_y):
     
     new_ref = "ROTATED_"+cell_file.split('.')[0]
 
@@ -38,9 +38,15 @@ def get_oriented_cell(cell_file, theta_z, theta_x):
 
             segment.proximal.x, segment.proximal.y = rotate(segment.proximal.x, segment.proximal.y, theta_z)
             segment.proximal.y, segment.proximal.z = rotate(segment.proximal.y, segment.proximal.z, theta_x)
+            segment.proximal.x += trans_x
+            segment.proximal.y += trans_y
 
         segment.distal.x, segment.distal.y = rotate(segment.distal.x, segment.distal.y, theta_z)
         segment.distal.y, segment.distal.z = rotate(segment.distal.y, segment.distal.z, theta_x)
+        segment.distal.x += trans_x
+        segment.distal.y += trans_y
+        
+    
 
 
     new_cell_file = new_ref+'.cell.nml'
@@ -120,7 +126,7 @@ def generate(reference,
         ll.location = Location(x=0,y=0,z=0)
         orig_file='%s_active.cell.nml'%dc
         
-        new_ref, new_cell_file = get_oriented_cell(orig_file, math.pi,math.pi/2)
+        new_ref, new_cell_file = get_oriented_cell(orig_file, math.pi,math.pi/2, 5500, 5000)
         
         print("Translated %s to %s"%(orig_file, new_cell_file))
 
@@ -131,7 +137,7 @@ def generate(reference,
                         component=mo.id, 
                         properties={'color':'.8 0 0'})
         p1.single_location=ll 
-        net.populations.append(p1)
+        #net.populations.append(p1)
         
         mo = Cell(id=new_ref, neuroml2_source_file=new_cell_file)
         net.cells.append(mo)
