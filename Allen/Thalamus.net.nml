@@ -3,6 +3,8 @@
     Generation seed: 1234
     NeuroMLlite parameters: 
         stim_amp = 1nA</notes>
+    <include href="Prototypes.xml"/>
+    <include href="RateBased.xml"/>
     <pulseGenerator id="iclamp_0" delay="200ms" duration="500ms" amplitude="1nA"/>
     <pulseGenerator id="iclamp_1" delay="1000ms" duration="500ms" amplitude="1nA"/>
     <alphaCondSynapse id="ampa" tau_syn="2." e_rev="-10."/>

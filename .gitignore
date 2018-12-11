@@ -11,3 +11,5 @@
 /Allen/x86_64
 /Allen/time.dat
 *.mod
+*_nrn.py
+report.*txt
