@@ -1,12 +1,15 @@
 <neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="Thalamus">
     <notes>Generated network: Thalamus
-    Generation seed: 1234</notes>
-    <IF_cond_alpha id="dummycell" cm="1." i_offset="0.1" tau_syn_E="2." tau_syn_I="0.5" v_init="-65." tau_m="20." tau_refrac="5." v_reset="-65." v_rest="-65." v_thresh="-50." e_rev_E="-10." e_rev_I="-70."/>
+    Generation seed: 1234
+    NeuroMLlite parameters: 
+        stim_amp = 1nA</notes>
+    <pulseGenerator id="iclamp_0" delay="200ms" duration="500ms" amplitude="1nA"/>
+    <pulseGenerator id="iclamp_1" delay="1000ms" duration="500ms" amplitude="1nA"/>
     <alphaCondSynapse id="ampa" tau_syn="2." e_rev="-10."/>
     <network id="Thalamus">
         <notes>NOTE: this is only a quick demo!! Do not use it for your research assuming an accurate conversion of the source data!!! </notes>
-        <population id="IAM" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="IAM" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="IAM"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Interanteromedial nucleus of the thalamus"/>
@@ -15,8 +18,8 @@
                 <location x="-227.174377061307865" y="-784.232452957824648" z="-3557.617914759941414"/>
             </instance>
         </population>
-        <population id="CONTRA_IAM" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_IAM" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_IAM"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Interanteromedial nucleus of the thalamus"/>
@@ -25,8 +28,8 @@
                 <location x="229.051806559449119" y="-783.733916559636214" z="-3557.043178656941109"/>
             </instance>
         </population>
-        <population id="LP" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="LP" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="LP"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lateral posterior nucleus of the thalamus"/>
@@ -35,8 +38,8 @@
                 <location x="-1602.991844758512116" y="-2322.639947223162835" z="-2124.880999507208344"/>
             </instance>
         </population>
-        <population id="CONTRA_LP" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_LP" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_LP"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lateral posterior nucleus of the thalamus"/>
@@ -45,8 +48,8 @@
                 <location x="1603.90021801536318" y="-2322.69307142827347" z="-2124.858707722763484"/>
             </instance>
         </population>
-        <population id="IMD" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="IMD" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="IMD"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Intermediodorsal nucleus of the thalamus"/>
@@ -55,8 +58,8 @@
                 <location x="-131.543193305402895" y="-1715.451249924960848" z="-3001.83455652489647"/>
             </instance>
         </population>
-        <population id="CONTRA_IMD" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_IMD" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_IMD"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Intermediodorsal nucleus of the thalamus"/>
@@ -65,8 +68,8 @@
                 <location x="132.03783690970829" y="-1715.891440752590142" z="-3002.335959250311589"/>
             </instance>
         </population>
-        <population id="PP" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="PP" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="PP"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Peripeduncular nucleus"/>
@@ -75,8 +78,8 @@
                 <location x="-2282.390348529512721" y="-3248.363304299395168" z="-3393.56393220908376"/>
             </instance>
         </population>
-        <population id="CONTRA_PP" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_PP" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_PP"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Peripeduncular nucleus"/>
@@ -85,8 +88,8 @@
                 <location x="2282.46952959097689" y="-3248.308967654449134" z="-3394.062935210991782"/>
             </instance>
         </population>
-        <population id="IAD" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="IAD" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="IAD"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Interanterodorsal nucleus of the thalamus"/>
@@ -95,8 +98,8 @@
                 <location x="-591.769209908438938" y="-793.336283195009287" z="-3118.143438593812789"/>
             </instance>
         </population>
-        <population id="CONTRA_IAD" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_IAD" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_IAD"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Interanterodorsal nucleus of the thalamus"/>
@@ -105,8 +108,8 @@
                 <location x="592.640258861819461" y="-792.868779464443719" z="-3118.077807045821828"/>
             </instance>
         </population>
-        <population id="AV" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="AV" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="AV"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anteroventral nucleus of thalamus"/>
@@ -115,8 +118,8 @@
                 <location x="-1150.502036728633357" y="-755.719000614557103" z="-2763.015394628639115"/>
             </instance>
         </population>
-        <population id="CONTRA_AV" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_AV" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_AV"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anteroventral nucleus of thalamus"/>
@@ -125,8 +128,8 @@
                 <location x="1151.916588598042381" y="-755.620851742523541" z="-2762.734385543088592"/>
             </instance>
         </population>
-        <population id="VPM" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="VPM" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="VPM"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral posteromedial nucleus of the thalamus"/>
@@ -135,8 +138,8 @@
                 <location x="-1787.063456563690352" y="-1819.151257494220317" z="-3097.55038286258241"/>
             </instance>
         </population>
-        <population id="CONTRA_VPM" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_VPM" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_VPM"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral posteromedial nucleus of the thalamus"/>
@@ -145,8 +148,8 @@
                 <location x="1787.226524557595667" y="-1819.186532494652738" z="-3097.178815659227439"/>
             </instance>
         </population>
-        <population id="LGd" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="LGd" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="LGd"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Dorsal part of the lateral geniculate complex"/>
@@ -155,8 +158,8 @@
                 <location x="-2314.582789651353778" y="-2412.03937411186871" z="-2282.369986546258133"/>
             </instance>
         </population>
-        <population id="CONTRA_LGd" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_LGd" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_LGd"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Dorsal part of the lateral geniculate complex"/>
@@ -165,8 +168,8 @@
                 <location x="2315.194295087441333" y="-2412.482656898398091" z="-2281.596682685303676"/>
             </instance>
         </population>
-        <population id="MH" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="MH" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="MH"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Medial habenula"/>
@@ -175,8 +178,8 @@
                 <location x="-276.364981361480261" y="-1559.156663447650544" z="-2041.183704955583607"/>
             </instance>
         </population>
-        <population id="CONTRA_MH" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_MH" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_MH"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Medial habenula"/>
@@ -185,8 +188,8 @@
                 <location x="277.441354041287696" y="-1560.074006945771998" z="-2041.048149025208431"/>
             </instance>
         </population>
-        <population id="SPFp" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="SPFp" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="SPFp"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subparafascicular nucleus, parvicellular part"/>
@@ -195,8 +198,8 @@
                 <location x="-1671.264683854884424" y="-2840.169584984721951" z="-3395.866312765288967"/>
             </instance>
         </population>
-        <population id="CONTRA_SPFp" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_SPFp" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_SPFp"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subparafascicular nucleus, parvicellular part"/>
@@ -205,8 +208,8 @@
                 <location x="1673.025915015702367" y="-2840.192376619911101" z="-3395.186993985848858"/>
             </instance>
         </population>
-        <population id="SubG" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="SubG" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="SubG"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subgeniculate nucleus"/>
@@ -215,8 +218,8 @@
                 <location x="-2534.498821213728206" y="-2528.541782241663896" z="-3547.746024228036276"/>
             </instance>
         </population>
-        <population id="CONTRA_SubG" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_SubG" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_SubG"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subgeniculate nucleus"/>
@@ -225,8 +228,8 @@
                 <location x="2534.881591812750685" y="-2528.111502713285518" z="-3547.61968162186804"/>
             </instance>
         </population>
-        <population id="MGd" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="MGd" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="MGd"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Medial geniculate complex, dorsal part"/>
@@ -235,8 +238,8 @@
                 <location x="-2180.619000000477627" y="-3126.440140664691171" z="-2510.504672823141846"/>
             </instance>
         </population>
-        <population id="CONTRA_MGd" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_MGd" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_MGd"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Medial geniculate complex, dorsal part"/>
@@ -245,8 +248,8 @@
                 <location x="2182.283457888655903" y="-3126.471384392320488" z="-2510.540953232207357"/>
             </instance>
         </population>
-        <population id="AMd" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="AMd" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="AMd"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anteromedial nucleus, dorsal part"/>
@@ -255,8 +258,8 @@
                 <location x="-802.026189671742372" y="-842.678163395357501" z="-3316.298383615693183"/>
             </instance>
         </population>
-        <population id="CONTRA_AMd" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_AMd" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_AMd"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anteromedial nucleus, dorsal part"/>
@@ -265,8 +268,8 @@
                 <location x="803.026552692744986" y="-842.537782517400615" z="-3316.302792882988797"/>
             </instance>
         </population>
-        <population id="CL" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CL" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CL"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Central lateral nucleus of the thalamus"/>
@@ -275,8 +278,8 @@
                 <location x="-1024.904298108242074" y="-1664.848207188582592" z="-2500.285574457013354"/>
             </instance>
         </population>
-        <population id="CONTRA_CL" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_CL" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_CL"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Central lateral nucleus of the thalamus"/>
@@ -285,8 +288,8 @@
                 <location x="1026.251831251701788" y="-1665.021236727460746" z="-2500.129732578848234"/>
             </instance>
         </population>
-        <population id="VPL" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="VPL" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="VPL"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral posterolateral nucleus of the thalamus"/>
@@ -295,8 +298,8 @@
                 <location x="-2028.813683494795669" y="-1658.099435460951781" z="-3205.146546476269123"/>
             </instance>
         </population>
-        <population id="CONTRA_VPL" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_VPL" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_VPL"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral posterolateral nucleus of the thalamus"/>
@@ -305,8 +308,8 @@
                 <location x="2029.316202004783918" y="-1657.894103790884628" z="-3205.687156692763438"/>
             </instance>
         </population>
-        <population id="PT" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="PT" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="PT"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Parataenial nucleus"/>
@@ -315,8 +318,8 @@
                 <location x="-428.732390051252992" y="-486.688912029805522" z="-3380.678283940158963"/>
             </instance>
         </population>
-        <population id="CONTRA_PT" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_PT" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_PT"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Parataenial nucleus"/>
@@ -325,8 +328,8 @@
                 <location x="429.68079894277372" y="-487.082720530744041" z="-3381.327638034761094"/>
             </instance>
         </population>
-        <population id="SGN" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="SGN" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="SGN"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Suprageniculate nucleus"/>
@@ -335,8 +338,8 @@
                 <location x="-2019.827303369736683" y="-3186.731260324595951" z="-2601.370072056060962"/>
             </instance>
         </population>
-        <population id="CONTRA_SGN" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_SGN" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_SGN"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Suprageniculate nucleus"/>
@@ -345,8 +348,8 @@
                 <location x="2020.260541015016543" y="-3186.272280778055574" z="-2601.568537761057996"/>
             </instance>
         </population>
-        <population id="VAL" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="VAL" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="VAL"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral anterior-lateral complex of the thalamus"/>
@@ -355,8 +358,8 @@
                 <location x="-1261.910415753160123" y="-1354.134203520428173" z="-3383.78263562334314"/>
             </instance>
         </population>
-        <population id="CONTRA_VAL" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_VAL" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_VAL"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral anterior-lateral complex of the thalamus"/>
@@ -365,8 +368,8 @@
                 <location x="1263.788292470010902" y="-1354.767363205663059" z="-3383.842192759112095"/>
             </instance>
         </population>
-        <population id="MGm" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="MGm" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="MGm"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Medial geniculate complex, medial part"/>
@@ -375,8 +378,8 @@
                 <location x="-2029.559381443568554" y="-3071.751961141969787" z="-3035.421376787456666"/>
             </instance>
         </population>
-        <population id="CONTRA_MGm" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_MGm" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_MGm"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Medial geniculate complex, medial part"/>
@@ -385,8 +388,8 @@
                 <location x="2030.029027725194283" y="-3071.473405488450226" z="-3034.735920218274714"/>
             </instance>
         </population>
-        <population id="PF" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="PF" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="PF"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Parafascicular nucleus"/>
@@ -395,8 +398,8 @@
                 <location x="-717.517368063239473" y="-2213.538138941041325" z="-2931.209134257250298"/>
             </instance>
         </population>
-        <population id="CONTRA_PF" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_PF" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_PF"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Parafascicular nucleus"/>
@@ -405,8 +408,8 @@
                 <location x="718.876572031000023" y="-2213.841636314412881" z="-2930.86797329310275"/>
             </instance>
         </population>
-        <population id="CM" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CM" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CM"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Central medial nucleus of the thalamus"/>
@@ -415,8 +418,8 @@
                 <location x="-237.819045030597067" y="-1400.897933019434731" z="-3446.182573112201226"/>
             </instance>
         </population>
-        <population id="CONTRA_CM" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_CM" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_CM"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Central medial nucleus of the thalamus"/>
@@ -425,8 +428,8 @@
                 <location x="238.806586343358902" y="-1400.948104082159034" z="-3445.98476286580717"/>
             </instance>
         </population>
-        <population id="SMT" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="SMT" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="SMT"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Submedial nucleus of the thalamus"/>
@@ -435,8 +438,8 @@
                 <location x="-535.579383490516761" y="-1361.609593087446456" z="-3877.564095677505975"/>
             </instance>
         </population>
-        <population id="CONTRA_SMT" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_SMT" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_SMT"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Submedial nucleus of the thalamus"/>
@@ -445,8 +448,8 @@
                 <location x="536.483641555434588" y="-1361.53411776951657" z="-3876.972507470870369"/>
             </instance>
         </population>
-        <population id="MGv" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="MGv" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="MGv"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Medial geniculate complex, ventral part"/>
@@ -455,8 +458,8 @@
                 <location x="-2342.762054053347129" y="-3189.546920254682391" z="-2865.625510714970915"/>
             </instance>
         </population>
-        <population id="CONTRA_MGv" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_MGv" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_MGv"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Medial geniculate complex, ventral part"/>
@@ -465,8 +468,8 @@
                 <location x="2343.6060992841999" y="-3188.941972841572806" z="-2865.312515803325368"/>
             </instance>
         </population>
-        <population id="SPA" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="SPA" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="SPA"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subparafascicular area"/>
@@ -475,8 +478,8 @@
                 <location x="-165.019922077146475" y="-2246.762122320675644" z="-3314.787673367998195"/>
             </instance>
         </population>
-        <population id="CONTRA_SPA" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_SPA" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_SPA"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subparafascicular area"/>
@@ -485,8 +488,8 @@
                 <location x="166.210603230559713" y="-2246.173671394067242" z="-3314.797588057272606"/>
             </instance>
         </population>
-        <population id="LH" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="LH" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="LH"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lateral habenula"/>
@@ -495,8 +498,8 @@
                 <location x="-558.344699085354023" y="-1785.429550972045263" z="-2217.443911560738343"/>
             </instance>
         </population>
-        <population id="CONTRA_LH" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_LH" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_LH"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lateral habenula"/>
@@ -505,8 +508,8 @@
                 <location x="560.127560675402378" y="-1785.273264339809657" z="-2217.397129980668069"/>
             </instance>
         </population>
-        <population id="RE" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="RE" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="RE"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Nucleus of reunions"/>
@@ -515,8 +518,8 @@
                 <location x="-274.277169007760108" y="-1032.604689749764475" z="-4132.689144993864829"/>
             </instance>
         </population>
-        <population id="CONTRA_RE" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_RE" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_RE"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Nucleus of reunions"/>
@@ -525,8 +528,8 @@
                 <location x="275.537973659822114" y="-1033.197091014472335" z="-4133.275738076958078"/>
             </instance>
         </population>
-        <population id="VM" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="VM" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="VM"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral medial nucleus of the thalamus"/>
@@ -535,8 +538,8 @@
                 <location x="-902.15621152453889" y="-1579.714372890427057" z="-3966.597431570683511"/>
             </instance>
         </population>
-        <population id="CONTRA_VM" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_VM" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_VM"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral medial nucleus of the thalamus"/>
@@ -545,8 +548,8 @@
                 <location x="902.68020845959154" y="-1580.196848799203508" z="-3966.660288276381834"/>
             </instance>
         </population>
-        <population id="PO" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="PO" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="PO"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Posterior complex of the thalamus"/>
@@ -555,8 +558,8 @@
                 <location x="-1483.781476935170986" y="-2069.001582834131113" z="-2721.621676385841511"/>
             </instance>
         </population>
-        <population id="CONTRA_PO" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_PO" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_PO"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Posterior complex of the thalamus"/>
@@ -565,8 +568,8 @@
                 <location x="1485.375143948157756" y="-2069.148537260045941" z="-2720.897288299485808"/>
             </instance>
         </population>
-        <population id="AMv" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="AMv" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="AMv"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anteromedial nucleus, ventral part"/>
@@ -575,8 +578,8 @@
                 <location x="-827.964645299267659" y="-812.14167013420581" z="-3642.275757536768197"/>
             </instance>
         </population>
-        <population id="CONTRA_AMv" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_AMv" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_AMv"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anteromedial nucleus, ventral part"/>
@@ -585,8 +588,8 @@
                 <location x="828.524956726078244" y="-812.020676930987406" z="-3641.666287539277164"/>
             </instance>
         </population>
-        <population id="PR" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="PR" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="PR"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Perireunensis nucleus"/>
@@ -595,8 +598,8 @@
                 <location x="-546.512187429662504" y="-1310.657810524470506" z="-4188.60956924902257"/>
             </instance>
         </population>
-        <population id="CONTRA_PR" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_PR" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_PR"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Perireunensis nucleus"/>
@@ -605,8 +608,8 @@
                 <location x="547.273035689417611" y="-1310.688796952531675" z="-4188.487037483403583"/>
             </instance>
         </population>
-        <population id="VPLpc" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="VPLpc" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="VPLpc"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral posterolateral nucleus of the thalamus, parvicellular part"/>
@@ -615,8 +618,8 @@
                 <location x="-1457.422691759405325" y="-2106.705908383848964" z="-3675.258616364972568"/>
             </instance>
         </population>
-        <population id="CONTRA_VPLpc" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_VPLpc" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_VPLpc"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral posterolateral nucleus of the thalamus, parvicellular part"/>
@@ -625,8 +628,8 @@
                 <location x="1458.086177196833887" y="-2106.556462198333065" z="-3675.528445858284613"/>
             </instance>
         </population>
-        <population id="SPFm" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="SPFm" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="SPFm"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subparafascicular nucleus, magnocellular part"/>
@@ -635,8 +638,8 @@
                 <location x="-403.762738027978571" y="-2095.97971425063497" z="-3938.011557347324015"/>
             </instance>
         </population>
-        <population id="CONTRA_SPFm" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_SPFm" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_SPFm"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Subparafascicular nucleus, magnocellular part"/>
@@ -645,8 +648,8 @@
                 <location x="404.667794018961558" y="-2096.338630879732591" z="-3937.878203989737358"/>
             </instance>
         </population>
-        <population id="RT" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="RT" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="RT"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Reticular nucleus of the thalamus"/>
@@ -655,8 +658,8 @@
                 <location x="-1990.84671297393993" y="-1213.260688592360566" z="-3205.485261781071131"/>
             </instance>
         </population>
-        <population id="CONTRA_RT" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_RT" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_RT"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Reticular nucleus of the thalamus"/>
@@ -665,8 +668,8 @@
                 <location x="1991.499923176156017" y="-1212.420537487577803" z="-3205.637041687093642"/>
             </instance>
         </population>
-        <population id="LGv" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="LGv" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="LGv"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral part of the lateral geniculate complex"/>
@@ -675,8 +678,8 @@
                 <location x="-2628.771242009843718" y="-2459.079904781080131" z="-2968.655670066041694"/>
             </instance>
         </population>
-        <population id="CONTRA_LGv" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_LGv" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_LGv"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral part of the lateral geniculate complex"/>
@@ -685,8 +688,8 @@
                 <location x="2630.097506703078125" y="-2458.432554177216389" z="-2969.047945250587873"/>
             </instance>
         </population>
-        <population id="IGL" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="IGL" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="IGL"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Intergeniculate leaflet of the lateral geniculate complex"/>
@@ -695,8 +698,8 @@
                 <location x="-2568.803223151853217" y="-2522.661242359966764" z="-2682.093209620193193"/>
             </instance>
         </population>
-        <population id="CONTRA_IGL" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_IGL" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_IGL"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Intergeniculate leaflet of the lateral geniculate complex"/>
@@ -705,8 +708,8 @@
                 <location x="2569.531823141287987" y="-2522.873323006612736" z="-2682.032610036524602"/>
             </instance>
         </population>
-        <population id="AD" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="AD" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="AD"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anterodorsal nucleus"/>
@@ -715,8 +718,8 @@
                 <location x="-910.678880649121311" y="-748.611000391545645" z="-2466.324201401359005"/>
             </instance>
         </population>
-        <population id="CONTRA_AD" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_AD" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_AD"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Anterodorsal nucleus"/>
@@ -725,8 +728,8 @@
                 <location x="911.772787859659388" y="-748.342831836907976" z="-2466.043460141645028"/>
             </instance>
         </population>
-        <population id="POL" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="POL" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="POL"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Posterior limiting nucleus of the thalamus"/>
@@ -735,8 +738,8 @@
                 <location x="-1794.297108153475165" y="-3031.447609181908319" z="-2821.300967214056072"/>
             </instance>
         </population>
-        <population id="CONTRA_POL" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_POL" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_POL"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Posterior limiting nucleus of the thalamus"/>
@@ -745,8 +748,8 @@
                 <location x="1795.149625740717966" y="-3031.667405837289607" z="-2820.447374295440113"/>
             </instance>
         </population>
-        <population id="LD" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="LD" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="LD"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lateral dorsal nucleus of thalamus"/>
@@ -755,8 +758,8 @@
                 <location x="-1567.423701029822041" y="-1414.005265720877105" z="-2128.955866016117852"/>
             </instance>
         </population>
-        <population id="CONTRA_LD" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_LD" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_LD"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Lateral dorsal nucleus of thalamus"/>
@@ -765,8 +768,8 @@
                 <location x="1568.913168222741206" y="-1414.237310084242154" z="-2129.431242207893774"/>
             </instance>
         </population>
-        <population id="PCN" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="PCN" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="PCN"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Paracentral nucleus"/>
@@ -775,8 +778,8 @@
                 <location x="-862.393478558485867" y="-1519.056214099320414" z="-3180.040161497213376"/>
             </instance>
         </population>
-        <population id="CONTRA_PCN" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_PCN" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_PCN"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Paracentral nucleus"/>
@@ -785,8 +788,8 @@
                 <location x="863.160555850463538" y="-1518.906292193159516" z="-3180.125723926892533"/>
             </instance>
         </population>
-        <population id="VPMpc" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="VPMpc" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="VPMpc"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral posteromedial nucleus of the thalamus, parvicellular part"/>
@@ -795,8 +798,8 @@
                 <location x="-874.488677033055069" y="-2111.593907606627454" z="-3622.074423704002129"/>
             </instance>
         </population>
-        <population id="CONTRA_VPMpc" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_VPMpc" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_VPMpc"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Ventral posteromedial nucleus of the thalamus, parvicellular part"/>
@@ -805,8 +808,8 @@
                 <location x="875.675804732519055" y="-2111.91595803686505" z="-3622.32120219803619"/>
             </instance>
         </population>
-        <population id="PVT" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="PVT" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="PVT"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Paraventricular nucleus of the thalamus"/>
@@ -815,8 +818,8 @@
                 <location x="-185.018948628376734" y="-1045.09940525140405" z="-2822.783380066203335"/>
             </instance>
         </population>
-        <population id="CONTRA_PVT" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_PVT" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_PVT"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Paraventricular nucleus of the thalamus"/>
@@ -825,8 +828,8 @@
                 <location x="186.131665619605343" y="-1045.458882598592481" z="-2823.191114356364778"/>
             </instance>
         </population>
-        <population id="RH" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="RH" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="RH"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Rhomboid nucleus"/>
@@ -835,8 +838,8 @@
                 <location x="-231.793581769092157" y="-1285.346173095813583" z="-3718.789874897797745"/>
             </instance>
         </population>
-        <population id="CONTRA_RH" component="dummycell" size="1" type="populationList">
-            <property tag="color" value="1 0.6 0.6"/>
+        <population id="CONTRA_RH" component="L23_E_comp" size="1" type="populationList">
+            <property tag="color" value=".5 .5 .5"/>
             <property tag="region" value="CONTRA_RH"/>
             <property tag="radius" value="50"/>
             <property tag="name" value="Rhomboid nucleus"/>
@@ -846,1087 +849,1090 @@
             </instance>
         </population>
         <projection id="proj_AD_RE" presynapticPopulation="AD" postsynapticPopulation="RE" synapse="ampa">
-            <connectionWD id="0" preCellId="../AD/0/dummycell" postCellId="../RE/0/dummycell" weight="0.0038747973" delay="0ms"/>
+            <connectionWD id="0" preCellId="../AD/0/L23_E_comp" postCellId="../RE/0/L23_E_comp" weight="0.0038747973" delay="0ms"/>
         </projection>
         <projection id="proj_AD_RT" presynapticPopulation="AD" postsynapticPopulation="RT" synapse="ampa">
-            <connectionWD id="0" preCellId="../AD/0/dummycell" postCellId="../RT/0/dummycell" weight="0.116382692" delay="0ms"/>
+            <connectionWD id="0" preCellId="../AD/0/L23_E_comp" postCellId="../RT/0/L23_E_comp" weight="0.116382692" delay="0ms"/>
         </projection>
         <projection id="proj_AMd_AV" presynapticPopulation="AMd" postsynapticPopulation="AV" synapse="ampa">
-            <connectionWD id="0" preCellId="../AMd/0/dummycell" postCellId="../AV/0/dummycell" weight="0.0216143162" delay="0ms"/>
+            <connectionWD id="0" preCellId="../AMd/0/L23_E_comp" postCellId="../AV/0/L23_E_comp" weight="0.0216143162" delay="0ms"/>
         </projection>
         <projection id="proj_AMd_PVT" presynapticPopulation="AMd" postsynapticPopulation="PVT" synapse="ampa">
-            <connectionWD id="0" preCellId="../AMd/0/dummycell" postCellId="../PVT/0/dummycell" weight="0.001939719" delay="0ms"/>
+            <connectionWD id="0" preCellId="../AMd/0/L23_E_comp" postCellId="../PVT/0/L23_E_comp" weight="0.001939719" delay="0ms"/>
         </projection>
         <projection id="proj_AMd_RT" presynapticPopulation="AMd" postsynapticPopulation="RT" synapse="ampa">
-            <connectionWD id="0" preCellId="../AMd/0/dummycell" postCellId="../RT/0/dummycell" weight="0.0265879435" delay="0ms"/>
+            <connectionWD id="0" preCellId="../AMd/0/L23_E_comp" postCellId="../RT/0/L23_E_comp" weight="0.0265879435" delay="0ms"/>
         </projection>
         <projection id="proj_AV_AD" presynapticPopulation="AV" postsynapticPopulation="AD" synapse="ampa">
-            <connectionWD id="0" preCellId="../AV/0/dummycell" postCellId="../AD/0/dummycell" weight="0.0035208185" delay="0ms"/>
+            <connectionWD id="0" preCellId="../AV/0/L23_E_comp" postCellId="../AD/0/L23_E_comp" weight="0.0035208185" delay="0ms"/>
         </projection>
         <projection id="proj_AV_AMv" presynapticPopulation="AV" postsynapticPopulation="AMv" synapse="ampa">
-            <connectionWD id="0" preCellId="../AV/0/dummycell" postCellId="../AMv/0/dummycell" weight="0.0016308592" delay="0ms"/>
+            <connectionWD id="0" preCellId="../AV/0/L23_E_comp" postCellId="../AMv/0/L23_E_comp" weight="0.0016308592" delay="0ms"/>
         </projection>
         <projection id="proj_AV_LD" presynapticPopulation="AV" postsynapticPopulation="LD" synapse="ampa">
-            <connectionWD id="0" preCellId="../AV/0/dummycell" postCellId="../LD/0/dummycell" weight="0.0753977529" delay="0ms"/>
+            <connectionWD id="0" preCellId="../AV/0/L23_E_comp" postCellId="../LD/0/L23_E_comp" weight="0.0753977529" delay="0ms"/>
         </projection>
         <projection id="proj_AV_LGd" presynapticPopulation="AV" postsynapticPopulation="LGd" synapse="ampa">
-            <connectionWD id="0" preCellId="../AV/0/dummycell" postCellId="../LGd/0/dummycell" weight="0.0004913802" delay="0ms"/>
+            <connectionWD id="0" preCellId="../AV/0/L23_E_comp" postCellId="../LGd/0/L23_E_comp" weight="0.0004913802" delay="0ms"/>
         </projection>
         <projection id="proj_AV_LGv" presynapticPopulation="AV" postsynapticPopulation="LGv" synapse="ampa">
-            <connectionWD id="0" preCellId="../AV/0/dummycell" postCellId="../LGv/0/dummycell" weight="0.0021081292" delay="0ms"/>
+            <connectionWD id="0" preCellId="../AV/0/L23_E_comp" postCellId="../LGv/0/L23_E_comp" weight="0.0021081292" delay="0ms"/>
         </projection>
         <projection id="proj_AV_LP" presynapticPopulation="AV" postsynapticPopulation="LP" synapse="ampa">
-            <connectionWD id="0" preCellId="../AV/0/dummycell" postCellId="../LP/0/dummycell" weight="0.047250388" delay="0ms"/>
+            <connectionWD id="0" preCellId="../AV/0/L23_E_comp" postCellId="../LP/0/L23_E_comp" weight="0.047250388" delay="0ms"/>
         </projection>
         <projection id="proj_AV_POL" presynapticPopulation="AV" postsynapticPopulation="POL" synapse="ampa">
-            <connectionWD id="0" preCellId="../AV/0/dummycell" postCellId="../POL/0/dummycell" weight="0.0002063828" delay="0ms"/>
+            <connectionWD id="0" preCellId="../AV/0/L23_E_comp" postCellId="../POL/0/L23_E_comp" weight="0.0002063828" delay="0ms"/>
         </projection>
         <projection id="proj_AV_PP" presynapticPopulation="AV" postsynapticPopulation="PP" synapse="ampa">
-            <connectionWD id="0" preCellId="../AV/0/dummycell" postCellId="../PP/0/dummycell" weight="0.000068244692114" delay="0ms"/>
+            <connectionWD id="0" preCellId="../AV/0/L23_E_comp" postCellId="../PP/0/L23_E_comp" weight="0.000068244692114" delay="0ms"/>
         </projection>
         <projection id="proj_AV_RT" presynapticPopulation="AV" postsynapticPopulation="RT" synapse="ampa">
-            <connectionWD id="0" preCellId="../AV/0/dummycell" postCellId="../RT/0/dummycell" weight="0.0425232323" delay="0ms"/>
+            <connectionWD id="0" preCellId="../AV/0/L23_E_comp" postCellId="../RT/0/L23_E_comp" weight="0.0425232323" delay="0ms"/>
         </projection>
         <projection id="proj_CL_AMd" presynapticPopulation="CL" postsynapticPopulation="AMd" synapse="ampa">
-            <connectionWD id="0" preCellId="../CL/0/dummycell" postCellId="../AMd/0/dummycell" weight="0.0580518533" delay="0ms"/>
+            <connectionWD id="0" preCellId="../CL/0/L23_E_comp" postCellId="../AMd/0/L23_E_comp" weight="0.0580518533" delay="0ms"/>
         </projection>
         <projection id="proj_CL_AMv" presynapticPopulation="CL" postsynapticPopulation="AMv" synapse="ampa">
-            <connectionWD id="0" preCellId="../CL/0/dummycell" postCellId="../AMv/0/dummycell" weight="0.0145517451" delay="0ms"/>
+            <connectionWD id="0" preCellId="../CL/0/L23_E_comp" postCellId="../AMv/0/L23_E_comp" weight="0.0145517451" delay="0ms"/>
         </projection>
         <projection id="proj_CL_AV" presynapticPopulation="CL" postsynapticPopulation="AV" synapse="ampa">
-            <connectionWD id="0" preCellId="../CL/0/dummycell" postCellId="../AV/0/dummycell" weight="0.0306541079" delay="0ms"/>
+            <connectionWD id="0" preCellId="../CL/0/L23_E_comp" postCellId="../AV/0/L23_E_comp" weight="0.0306541079" delay="0ms"/>
         </projection>
         <projection id="proj_CL_CM" presynapticPopulation="CL" postsynapticPopulation="CM" synapse="ampa">
-            <connectionWD id="0" preCellId="../CL/0/dummycell" postCellId="../CM/0/dummycell" weight="0.0049299972" delay="0ms"/>
+            <connectionWD id="0" preCellId="../CL/0/L23_E_comp" postCellId="../CM/0/L23_E_comp" weight="0.0049299972" delay="0ms"/>
         </projection>
         <projection id="proj_CL_IMD" presynapticPopulation="CL" postsynapticPopulation="IMD" synapse="ampa">
-            <connectionWD id="0" preCellId="../CL/0/dummycell" postCellId="../IMD/0/dummycell" weight="0.0057035681" delay="0ms"/>
+            <connectionWD id="0" preCellId="../CL/0/L23_E_comp" postCellId="../IMD/0/L23_E_comp" weight="0.0057035681" delay="0ms"/>
         </projection>
         <projection id="proj_CL_MH" presynapticPopulation="CL" postsynapticPopulation="MH" synapse="ampa">
-            <connectionWD id="0" preCellId="../CL/0/dummycell" postCellId="../MH/0/dummycell" weight="0.0003991678" delay="0ms"/>
+            <connectionWD id="0" preCellId="../CL/0/L23_E_comp" postCellId="../MH/0/L23_E_comp" weight="0.0003991678" delay="0ms"/>
         </projection>
         <projection id="proj_CL_PF" presynapticPopulation="CL" postsynapticPopulation="PF" synapse="ampa">
-            <connectionWD id="0" preCellId="../CL/0/dummycell" postCellId="../PF/0/dummycell" weight="0.0121729853" delay="0ms"/>
+            <connectionWD id="0" preCellId="../CL/0/L23_E_comp" postCellId="../PF/0/L23_E_comp" weight="0.0121729853" delay="0ms"/>
         </projection>
         <projection id="proj_CL_RE" presynapticPopulation="CL" postsynapticPopulation="RE" synapse="ampa">
-            <connectionWD id="0" preCellId="../CL/0/dummycell" postCellId="../RE/0/dummycell" weight="0.0065269021" delay="0ms"/>
+            <connectionWD id="0" preCellId="../CL/0/L23_E_comp" postCellId="../RE/0/L23_E_comp" weight="0.0065269021" delay="0ms"/>
         </projection>
         <projection id="proj_CL_RH" presynapticPopulation="CL" postsynapticPopulation="RH" synapse="ampa">
-            <connectionWD id="0" preCellId="../CL/0/dummycell" postCellId="../RH/0/dummycell" weight="0.0066571881" delay="0ms"/>
+            <connectionWD id="0" preCellId="../CL/0/L23_E_comp" postCellId="../RH/0/L23_E_comp" weight="0.0066571881" delay="0ms"/>
         </projection>
         <projection id="proj_CL_RT" presynapticPopulation="CL" postsynapticPopulation="RT" synapse="ampa">
-            <connectionWD id="0" preCellId="../CL/0/dummycell" postCellId="../RT/0/dummycell" weight="0.0344885388" delay="0ms"/>
+            <connectionWD id="0" preCellId="../CL/0/L23_E_comp" postCellId="../RT/0/L23_E_comp" weight="0.0344885388" delay="0ms"/>
         </projection>
         <projection id="proj_CL_SPA" presynapticPopulation="CL" postsynapticPopulation="SPA" synapse="ampa">
-            <connectionWD id="0" preCellId="../CL/0/dummycell" postCellId="../SPA/0/dummycell" weight="0.0095013433" delay="0ms"/>
+            <connectionWD id="0" preCellId="../CL/0/L23_E_comp" postCellId="../SPA/0/L23_E_comp" weight="0.0095013433" delay="0ms"/>
         </projection>
         <projection id="proj_CL_VPL" presynapticPopulation="CL" postsynapticPopulation="VPL" synapse="ampa">
-            <connectionWD id="0" preCellId="../CL/0/dummycell" postCellId="../VPL/0/dummycell" weight="0.0419945275" delay="0ms"/>
+            <connectionWD id="0" preCellId="../CL/0/L23_E_comp" postCellId="../VPL/0/L23_E_comp" weight="0.0419945275" delay="0ms"/>
         </projection>
         <projection id="proj_IMD_AMd" presynapticPopulation="IMD" postsynapticPopulation="AMd" synapse="ampa">
-            <connectionWD id="0" preCellId="../IMD/0/dummycell" postCellId="../AMd/0/dummycell" weight="0.1425528324" delay="0ms"/>
+            <connectionWD id="0" preCellId="../IMD/0/L23_E_comp" postCellId="../AMd/0/L23_E_comp" weight="0.1425528324" delay="0ms"/>
         </projection>
         <projection id="proj_IMD_AMv" presynapticPopulation="IMD" postsynapticPopulation="AMv" synapse="ampa">
-            <connectionWD id="0" preCellId="../IMD/0/dummycell" postCellId="../AMv/0/dummycell" weight="0.0759652136" delay="0ms"/>
+            <connectionWD id="0" preCellId="../IMD/0/L23_E_comp" postCellId="../AMv/0/L23_E_comp" weight="0.0759652136" delay="0ms"/>
         </projection>
         <projection id="proj_IMD_RE" presynapticPopulation="IMD" postsynapticPopulation="RE" synapse="ampa">
-            <connectionWD id="0" preCellId="../IMD/0/dummycell" postCellId="../RE/0/dummycell" weight="0.0352599933" delay="0ms"/>
+            <connectionWD id="0" preCellId="../IMD/0/L23_E_comp" postCellId="../RE/0/L23_E_comp" weight="0.0352599933" delay="0ms"/>
         </projection>
         <projection id="proj_IMD_RH" presynapticPopulation="IMD" postsynapticPopulation="RH" synapse="ampa">
-            <connectionWD id="0" preCellId="../IMD/0/dummycell" postCellId="../RH/0/dummycell" weight="0.0302447426" delay="0ms"/>
+            <connectionWD id="0" preCellId="../IMD/0/L23_E_comp" postCellId="../RH/0/L23_E_comp" weight="0.0302447426" delay="0ms"/>
         </projection>
         <projection id="proj_IMD_RT" presynapticPopulation="IMD" postsynapticPopulation="RT" synapse="ampa">
-            <connectionWD id="0" preCellId="../IMD/0/dummycell" postCellId="../RT/0/dummycell" weight="0.0785471027" delay="0ms"/>
+            <connectionWD id="0" preCellId="../IMD/0/L23_E_comp" postCellId="../RT/0/L23_E_comp" weight="0.0785471027" delay="0ms"/>
         </projection>
         <projection id="proj_IMD_SMT" presynapticPopulation="IMD" postsynapticPopulation="SMT" synapse="ampa">
-            <connectionWD id="0" preCellId="../IMD/0/dummycell" postCellId="../SMT/0/dummycell" weight="0.0056241426" delay="0ms"/>
+            <connectionWD id="0" preCellId="../IMD/0/L23_E_comp" postCellId="../SMT/0/L23_E_comp" weight="0.0056241426" delay="0ms"/>
         </projection>
         <projection id="proj_IMD_VM" presynapticPopulation="IMD" postsynapticPopulation="VM" synapse="ampa">
-            <connectionWD id="0" preCellId="../IMD/0/dummycell" postCellId="../VM/0/dummycell" weight="0.1119641647" delay="0ms"/>
+            <connectionWD id="0" preCellId="../IMD/0/L23_E_comp" postCellId="../VM/0/L23_E_comp" weight="0.1119641647" delay="0ms"/>
         </projection>
         <projection id="proj_LD_AD" presynapticPopulation="LD" postsynapticPopulation="AD" synapse="ampa">
-            <connectionWD id="0" preCellId="../LD/0/dummycell" postCellId="../AD/0/dummycell" weight="0.0031757461" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LD/0/L23_E_comp" postCellId="../AD/0/L23_E_comp" weight="0.0031757461" delay="0ms"/>
         </projection>
         <projection id="proj_LD_AMv" presynapticPopulation="LD" postsynapticPopulation="AMv" synapse="ampa">
-            <connectionWD id="0" preCellId="../LD/0/dummycell" postCellId="../AMv/0/dummycell" weight="0.0002734569" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LD/0/L23_E_comp" postCellId="../AMv/0/L23_E_comp" weight="0.0002734569" delay="0ms"/>
         </projection>
         <projection id="proj_LD_AV" presynapticPopulation="LD" postsynapticPopulation="AV" synapse="ampa">
-            <connectionWD id="0" preCellId="../LD/0/dummycell" postCellId="../AV/0/dummycell" weight="0.028959273" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LD/0/L23_E_comp" postCellId="../AV/0/L23_E_comp" weight="0.028959273" delay="0ms"/>
         </projection>
         <projection id="proj_LD_LD" presynapticPopulation="LD" postsynapticPopulation="LD" synapse="ampa">
-            <connectionWD id="0" preCellId="../LD/0/dummycell" postCellId="../LD/0/dummycell" weight="0.0064634628" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LD/0/L23_E_comp" postCellId="../LD/0/L23_E_comp" weight="0.0064634628" delay="0ms"/>
         </projection>
         <projection id="proj_LD_LH" presynapticPopulation="LD" postsynapticPopulation="LH" synapse="ampa">
-            <connectionWD id="0" preCellId="../LD/0/dummycell" postCellId="../LH/0/dummycell" weight="0.0005073029" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LD/0/L23_E_comp" postCellId="../LH/0/L23_E_comp" weight="0.0005073029" delay="0ms"/>
         </projection>
         <projection id="proj_LD_LP" presynapticPopulation="LD" postsynapticPopulation="LP" synapse="ampa">
-            <connectionWD id="0" preCellId="../LD/0/dummycell" postCellId="../LP/0/dummycell" weight="0.011711014" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LD/0/L23_E_comp" postCellId="../LP/0/L23_E_comp" weight="0.011711014" delay="0ms"/>
         </projection>
         <projection id="proj_LD_MH" presynapticPopulation="LD" postsynapticPopulation="MH" synapse="ampa">
-            <connectionWD id="0" preCellId="../LD/0/dummycell" postCellId="../MH/0/dummycell" weight="0.0001768958" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LD/0/L23_E_comp" postCellId="../MH/0/L23_E_comp" weight="0.0001768958" delay="0ms"/>
         </projection>
         <projection id="proj_LD_RT" presynapticPopulation="LD" postsynapticPopulation="RT" synapse="ampa">
-            <connectionWD id="0" preCellId="../LD/0/dummycell" postCellId="../RT/0/dummycell" weight="0.1233025356" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LD/0/L23_E_comp" postCellId="../RT/0/L23_E_comp" weight="0.1233025356" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_AD" presynapticPopulation="LGd" postsynapticPopulation="AD" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../AD/0/dummycell" weight="0.0091371553" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../AD/0/L23_E_comp" weight="0.0091371553" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_AMd" presynapticPopulation="LGd" postsynapticPopulation="AMd" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../AMd/0/dummycell" weight="0.0172369373" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../AMd/0/L23_E_comp" weight="0.0172369373" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_AMv" presynapticPopulation="LGd" postsynapticPopulation="AMv" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../AMv/0/dummycell" weight="0.0080779178" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../AMv/0/L23_E_comp" weight="0.0080779178" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_AV" presynapticPopulation="LGd" postsynapticPopulation="AV" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../AV/0/dummycell" weight="0.0155649204" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../AV/0/L23_E_comp" weight="0.0155649204" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_CL" presynapticPopulation="LGd" postsynapticPopulation="CL" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../CL/0/dummycell" weight="0.0119713676" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../CL/0/L23_E_comp" weight="0.0119713676" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_LD" presynapticPopulation="LGd" postsynapticPopulation="LD" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../LD/0/dummycell" weight="0.4280375137" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../LD/0/L23_E_comp" weight="0.4280375137" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_LGd" presynapticPopulation="LGd" postsynapticPopulation="LGd" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../LGd/0/dummycell" weight="0.1647268184" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../LGd/0/L23_E_comp" weight="0.1647268184" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_LGv" presynapticPopulation="LGd" postsynapticPopulation="LGv" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../LGv/0/dummycell" weight="0.1601359043" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../LGv/0/L23_E_comp" weight="0.1601359043" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_LH" presynapticPopulation="LGd" postsynapticPopulation="LH" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../LH/0/dummycell" weight="0.0028319649" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../LH/0/L23_E_comp" weight="0.0028319649" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_LP" presynapticPopulation="LGd" postsynapticPopulation="LP" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../LP/0/dummycell" weight="0.3101541203" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../LP/0/L23_E_comp" weight="0.3101541203" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_MGd" presynapticPopulation="LGd" postsynapticPopulation="MGd" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../MGd/0/dummycell" weight="0.0325129163" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../MGd/0/L23_E_comp" weight="0.0325129163" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_MGm" presynapticPopulation="LGd" postsynapticPopulation="MGm" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../MGm/0/dummycell" weight="0.0278174417" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../MGm/0/L23_E_comp" weight="0.0278174417" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_MGv" presynapticPopulation="LGd" postsynapticPopulation="MGv" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../MGv/0/dummycell" weight="0.0301126386" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../MGv/0/L23_E_comp" weight="0.0301126386" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_MH" presynapticPopulation="LGd" postsynapticPopulation="MH" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../MH/0/dummycell" weight="0.0056366131" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../MH/0/L23_E_comp" weight="0.0056366131" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_PF" presynapticPopulation="LGd" postsynapticPopulation="PF" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../PF/0/dummycell" weight="0.0023277057" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../PF/0/L23_E_comp" weight="0.0023277057" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_PO" presynapticPopulation="LGd" postsynapticPopulation="PO" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../PO/0/dummycell" weight="0.1728576222" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../PO/0/L23_E_comp" weight="0.1728576222" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_POL" presynapticPopulation="LGd" postsynapticPopulation="POL" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../POL/0/dummycell" weight="0.0713594607" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../POL/0/L23_E_comp" weight="0.0713594607" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_PP" presynapticPopulation="LGd" postsynapticPopulation="PP" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../PP/0/dummycell" weight="0.025729631" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../PP/0/L23_E_comp" weight="0.025729631" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_PT" presynapticPopulation="LGd" postsynapticPopulation="PT" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../PT/0/dummycell" weight="0.0067346471" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../PT/0/L23_E_comp" weight="0.0067346471" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_RE" presynapticPopulation="LGd" postsynapticPopulation="RE" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../RE/0/dummycell" weight="0.0174887577" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../RE/0/L23_E_comp" weight="0.0174887577" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_RH" presynapticPopulation="LGd" postsynapticPopulation="RH" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../RH/0/dummycell" weight="0.0031775926" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../RH/0/L23_E_comp" weight="0.0031775926" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_RT" presynapticPopulation="LGd" postsynapticPopulation="RT" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../RT/0/dummycell" weight="0.5819319282" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../RT/0/L23_E_comp" weight="0.5819319282" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_SMT" presynapticPopulation="LGd" postsynapticPopulation="SMT" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../SMT/0/dummycell" weight="0.0071272838" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../SMT/0/L23_E_comp" weight="0.0071272838" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_SPFm" presynapticPopulation="LGd" postsynapticPopulation="SPFm" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../SPFm/0/dummycell" weight="0.008725625" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../SPFm/0/L23_E_comp" weight="0.008725625" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_SPFp" presynapticPopulation="LGd" postsynapticPopulation="SPFp" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../SPFp/0/dummycell" weight="0.1593289792" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../SPFp/0/L23_E_comp" weight="0.1593289792" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_VAL" presynapticPopulation="LGd" postsynapticPopulation="VAL" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../VAL/0/dummycell" weight="0.0847789966" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../VAL/0/L23_E_comp" weight="0.0847789966" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_VM" presynapticPopulation="LGd" postsynapticPopulation="VM" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../VM/0/dummycell" weight="0.0130374277" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../VM/0/L23_E_comp" weight="0.0130374277" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_VPL" presynapticPopulation="LGd" postsynapticPopulation="VPL" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../VPL/0/dummycell" weight="0.1075619413" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../VPL/0/L23_E_comp" weight="0.1075619413" delay="0ms"/>
         </projection>
         <projection id="proj_LGd_VPM" presynapticPopulation="LGd" postsynapticPopulation="VPM" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGd/0/dummycell" postCellId="../VPM/0/dummycell" weight="0.1328914223" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGd/0/L23_E_comp" postCellId="../VPM/0/L23_E_comp" weight="0.1328914223" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_AD" presynapticPopulation="LGv" postsynapticPopulation="AD" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../AD/0/dummycell" weight="0.0043629446" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../AD/0/L23_E_comp" weight="0.0043629446" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_AMd" presynapticPopulation="LGv" postsynapticPopulation="AMd" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../AMd/0/dummycell" weight="0.0349142482" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../AMd/0/L23_E_comp" weight="0.0349142482" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_AMv" presynapticPopulation="LGv" postsynapticPopulation="AMv" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../AMv/0/dummycell" weight="0.0062202522" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../AMv/0/L23_E_comp" weight="0.0062202522" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_AV" presynapticPopulation="LGv" postsynapticPopulation="AV" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../AV/0/dummycell" weight="0.0485244319" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../AV/0/L23_E_comp" weight="0.0485244319" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_CL" presynapticPopulation="LGv" postsynapticPopulation="CL" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../CL/0/dummycell" weight="0.1396653768" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../CL/0/L23_E_comp" weight="0.1396653768" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_CM" presynapticPopulation="LGv" postsynapticPopulation="CM" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../CM/0/dummycell" weight="0.0143534776" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../CM/0/L23_E_comp" weight="0.0143534776" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_IMD" presynapticPopulation="LGv" postsynapticPopulation="IMD" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../IMD/0/dummycell" weight="0.0125117072" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../IMD/0/L23_E_comp" weight="0.0125117072" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_LD" presynapticPopulation="LGv" postsynapticPopulation="LD" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../LD/0/dummycell" weight="0.4829459574" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../LD/0/L23_E_comp" weight="0.4829459574" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_LGd" presynapticPopulation="LGv" postsynapticPopulation="LGd" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../LGd/0/dummycell" weight="0.1508377049" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../LGd/0/L23_E_comp" weight="0.1508377049" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_LGv" presynapticPopulation="LGv" postsynapticPopulation="LGv" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../LGv/0/dummycell" weight="0.0281585503" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../LGv/0/L23_E_comp" weight="0.0281585503" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_LH" presynapticPopulation="LGv" postsynapticPopulation="LH" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../LH/0/dummycell" weight="0.1432938451" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../LH/0/L23_E_comp" weight="0.1432938451" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_LP" presynapticPopulation="LGv" postsynapticPopulation="LP" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../LP/0/dummycell" weight="0.7903343705" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../LP/0/L23_E_comp" weight="0.7903343705" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_MGd" presynapticPopulation="LGv" postsynapticPopulation="MGd" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../MGd/0/dummycell" weight="0.099966287" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../MGd/0/L23_E_comp" weight="0.099966287" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_MGm" presynapticPopulation="LGv" postsynapticPopulation="MGm" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../MGm/0/dummycell" weight="0.0109500425" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../MGm/0/L23_E_comp" weight="0.0109500425" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_MGv" presynapticPopulation="LGv" postsynapticPopulation="MGv" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../MGv/0/dummycell" weight="0.0239539221" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../MGv/0/L23_E_comp" weight="0.0239539221" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_MH" presynapticPopulation="LGv" postsynapticPopulation="MH" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../MH/0/dummycell" weight="0.0045418632" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../MH/0/L23_E_comp" weight="0.0045418632" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_PF" presynapticPopulation="LGv" postsynapticPopulation="PF" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../PF/0/dummycell" weight="0.1129968134" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../PF/0/L23_E_comp" weight="0.1129968134" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_PO" presynapticPopulation="LGv" postsynapticPopulation="PO" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../PO/0/dummycell" weight="0.2387355051" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../PO/0/L23_E_comp" weight="0.2387355051" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_POL" presynapticPopulation="LGv" postsynapticPopulation="POL" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../POL/0/dummycell" weight="0.0407541479" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../POL/0/L23_E_comp" weight="0.0407541479" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_PP" presynapticPopulation="LGv" postsynapticPopulation="PP" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../PP/0/dummycell" weight="0.007896578" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../PP/0/L23_E_comp" weight="0.007896578" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_PVT" presynapticPopulation="LGv" postsynapticPopulation="PVT" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../PVT/0/dummycell" weight="0.0470710612" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../PVT/0/L23_E_comp" weight="0.0470710612" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_RE" presynapticPopulation="LGv" postsynapticPopulation="RE" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../RE/0/dummycell" weight="0.1904873536" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../RE/0/L23_E_comp" weight="0.1904873536" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_RH" presynapticPopulation="LGv" postsynapticPopulation="RH" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../RH/0/dummycell" weight="0.0317997838" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../RH/0/L23_E_comp" weight="0.0317997838" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_RT" presynapticPopulation="LGv" postsynapticPopulation="RT" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../RT/0/dummycell" weight="0.0467155974" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../RT/0/L23_E_comp" weight="0.0467155974" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_SMT" presynapticPopulation="LGv" postsynapticPopulation="SMT" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../SMT/0/dummycell" weight="0.0055030231" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../SMT/0/L23_E_comp" weight="0.0055030231" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_SPA" presynapticPopulation="LGv" postsynapticPopulation="SPA" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../SPA/0/dummycell" weight="0.0071978834" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../SPA/0/L23_E_comp" weight="0.0071978834" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_SPFm" presynapticPopulation="LGv" postsynapticPopulation="SPFm" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../SPFm/0/dummycell" weight="0.0264621144" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../SPFm/0/L23_E_comp" weight="0.0264621144" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_SPFp" presynapticPopulation="LGv" postsynapticPopulation="SPFp" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../SPFp/0/dummycell" weight="0.0396113722" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../SPFp/0/L23_E_comp" weight="0.0396113722" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_VM" presynapticPopulation="LGv" postsynapticPopulation="VM" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../VM/0/dummycell" weight="0.1701339452" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../VM/0/L23_E_comp" weight="0.1701339452" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_VPL" presynapticPopulation="LGv" postsynapticPopulation="VPL" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../VPL/0/dummycell" weight="0.069500408" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../VPL/0/L23_E_comp" weight="0.069500408" delay="0ms"/>
         </projection>
         <projection id="proj_LGv_VPMpc" presynapticPopulation="LGv" postsynapticPopulation="VPMpc" synapse="ampa">
-            <connectionWD id="0" preCellId="../LGv/0/dummycell" postCellId="../VPMpc/0/dummycell" weight="0.0016030549" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LGv/0/L23_E_comp" postCellId="../VPMpc/0/L23_E_comp" weight="0.0016030549" delay="0ms"/>
         </projection>
         <projection id="proj_LH_AMd" presynapticPopulation="LH" postsynapticPopulation="AMd" synapse="ampa">
-            <connectionWD id="0" preCellId="../LH/0/dummycell" postCellId="../AMd/0/dummycell" weight="0.1172877452" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LH/0/L23_E_comp" postCellId="../AMd/0/L23_E_comp" weight="0.1172877452" delay="0ms"/>
         </projection>
         <projection id="proj_LH_AMv" presynapticPopulation="LH" postsynapticPopulation="AMv" synapse="ampa">
-            <connectionWD id="0" preCellId="../LH/0/dummycell" postCellId="../AMv/0/dummycell" weight="0.0388028699" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LH/0/L23_E_comp" postCellId="../AMv/0/L23_E_comp" weight="0.0388028699" delay="0ms"/>
         </projection>
         <projection id="proj_LH_AV" presynapticPopulation="LH" postsynapticPopulation="AV" synapse="ampa">
-            <connectionWD id="0" preCellId="../LH/0/dummycell" postCellId="../AV/0/dummycell" weight="0.0022115819" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LH/0/L23_E_comp" postCellId="../AV/0/L23_E_comp" weight="0.0022115819" delay="0ms"/>
         </projection>
         <projection id="proj_LH_CM" presynapticPopulation="LH" postsynapticPopulation="CM" synapse="ampa">
-            <connectionWD id="0" preCellId="../LH/0/dummycell" postCellId="../CM/0/dummycell" weight="0.0196352858" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LH/0/L23_E_comp" postCellId="../CM/0/L23_E_comp" weight="0.0196352858" delay="0ms"/>
         </projection>
         <projection id="proj_LH_IMD" presynapticPopulation="LH" postsynapticPopulation="IMD" synapse="ampa">
-            <connectionWD id="0" preCellId="../LH/0/dummycell" postCellId="../IMD/0/dummycell" weight="0.0199680835" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LH/0/L23_E_comp" postCellId="../IMD/0/L23_E_comp" weight="0.0199680835" delay="0ms"/>
         </projection>
         <projection id="proj_LH_MH" presynapticPopulation="LH" postsynapticPopulation="MH" synapse="ampa">
-            <connectionWD id="0" preCellId="../LH/0/dummycell" postCellId="../MH/0/dummycell" weight="0.001453039" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LH/0/L23_E_comp" postCellId="../MH/0/L23_E_comp" weight="0.001453039" delay="0ms"/>
         </projection>
         <projection id="proj_LH_PT" presynapticPopulation="LH" postsynapticPopulation="PT" synapse="ampa">
-            <connectionWD id="0" preCellId="../LH/0/dummycell" postCellId="../PT/0/dummycell" weight="0.043088491" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LH/0/L23_E_comp" postCellId="../PT/0/L23_E_comp" weight="0.043088491" delay="0ms"/>
         </projection>
         <projection id="proj_LH_SPA" presynapticPopulation="LH" postsynapticPopulation="SPA" synapse="ampa">
-            <connectionWD id="0" preCellId="../LH/0/dummycell" postCellId="../SPA/0/dummycell" weight="0.0036574179" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LH/0/L23_E_comp" postCellId="../SPA/0/L23_E_comp" weight="0.0036574179" delay="0ms"/>
         </projection>
         <projection id="proj_LH_VM" presynapticPopulation="LH" postsynapticPopulation="VM" synapse="ampa">
-            <connectionWD id="0" preCellId="../LH/0/dummycell" postCellId="../VM/0/dummycell" weight="0.125416879" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LH/0/L23_E_comp" postCellId="../VM/0/L23_E_comp" weight="0.125416879" delay="0ms"/>
         </projection>
         <projection id="proj_LP_CL" presynapticPopulation="LP" postsynapticPopulation="CL" synapse="ampa">
-            <connectionWD id="0" preCellId="../LP/0/dummycell" postCellId="../CL/0/dummycell" weight="0.0517362255" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LP/0/L23_E_comp" postCellId="../CL/0/L23_E_comp" weight="0.0517362255" delay="0ms"/>
         </projection>
         <projection id="proj_LP_IMD" presynapticPopulation="LP" postsynapticPopulation="IMD" synapse="ampa">
-            <connectionWD id="0" preCellId="../LP/0/dummycell" postCellId="../IMD/0/dummycell" weight="0.0038668722" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LP/0/L23_E_comp" postCellId="../IMD/0/L23_E_comp" weight="0.0038668722" delay="0ms"/>
         </projection>
         <projection id="proj_LP_LGv" presynapticPopulation="LP" postsynapticPopulation="LGv" synapse="ampa">
-            <connectionWD id="0" preCellId="../LP/0/dummycell" postCellId="../LGv/0/dummycell" weight="0.0536408905" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LP/0/L23_E_comp" postCellId="../LGv/0/L23_E_comp" weight="0.0536408905" delay="0ms"/>
         </projection>
         <projection id="proj_LP_LH" presynapticPopulation="LP" postsynapticPopulation="LH" synapse="ampa">
-            <connectionWD id="0" preCellId="../LP/0/dummycell" postCellId="../LH/0/dummycell" weight="0.0302218579" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LP/0/L23_E_comp" postCellId="../LH/0/L23_E_comp" weight="0.0302218579" delay="0ms"/>
         </projection>
         <projection id="proj_LP_MGv" presynapticPopulation="LP" postsynapticPopulation="MGv" synapse="ampa">
-            <connectionWD id="0" preCellId="../LP/0/dummycell" postCellId="../MGv/0/dummycell" weight="0.0011528734" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LP/0/L23_E_comp" postCellId="../MGv/0/L23_E_comp" weight="0.0011528734" delay="0ms"/>
         </projection>
         <projection id="proj_LP_PF" presynapticPopulation="LP" postsynapticPopulation="PF" synapse="ampa">
-            <connectionWD id="0" preCellId="../LP/0/dummycell" postCellId="../PF/0/dummycell" weight="0.0019282175" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LP/0/L23_E_comp" postCellId="../PF/0/L23_E_comp" weight="0.0019282175" delay="0ms"/>
         </projection>
         <projection id="proj_LP_PP" presynapticPopulation="LP" postsynapticPopulation="PP" synapse="ampa">
-            <connectionWD id="0" preCellId="../LP/0/dummycell" postCellId="../PP/0/dummycell" weight="0.0082599357" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LP/0/L23_E_comp" postCellId="../PP/0/L23_E_comp" weight="0.0082599357" delay="0ms"/>
         </projection>
         <projection id="proj_LP_RE" presynapticPopulation="LP" postsynapticPopulation="RE" synapse="ampa">
-            <connectionWD id="0" preCellId="../LP/0/dummycell" postCellId="../RE/0/dummycell" weight="0.0007368765" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LP/0/L23_E_comp" postCellId="../RE/0/L23_E_comp" weight="0.0007368765" delay="0ms"/>
         </projection>
         <projection id="proj_LP_RT" presynapticPopulation="LP" postsynapticPopulation="RT" synapse="ampa">
-            <connectionWD id="0" preCellId="../LP/0/dummycell" postCellId="../RT/0/dummycell" weight="0.2491781402" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LP/0/L23_E_comp" postCellId="../RT/0/L23_E_comp" weight="0.2491781402" delay="0ms"/>
         </projection>
         <projection id="proj_LP_VM" presynapticPopulation="LP" postsynapticPopulation="VM" synapse="ampa">
-            <connectionWD id="0" preCellId="../LP/0/dummycell" postCellId="../VM/0/dummycell" weight="0.0163689945" delay="0ms"/>
+            <connectionWD id="0" preCellId="../LP/0/L23_E_comp" postCellId="../VM/0/L23_E_comp" weight="0.0163689945" delay="0ms"/>
         </projection>
         <projection id="proj_MGd_CM" presynapticPopulation="MGd" postsynapticPopulation="CM" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGd/0/dummycell" postCellId="../CM/0/dummycell" weight="0.0281138736" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGd/0/L23_E_comp" postCellId="../CM/0/L23_E_comp" weight="0.0281138736" delay="0ms"/>
         </projection>
         <projection id="proj_MGd_IMD" presynapticPopulation="MGd" postsynapticPopulation="IMD" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGd/0/dummycell" postCellId="../IMD/0/dummycell" weight="0.003192053" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGd/0/L23_E_comp" postCellId="../IMD/0/L23_E_comp" weight="0.003192053" delay="0ms"/>
         </projection>
         <projection id="proj_MGd_LGv" presynapticPopulation="MGd" postsynapticPopulation="LGv" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGd/0/dummycell" postCellId="../LGv/0/dummycell" weight="0.0405251204" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGd/0/L23_E_comp" postCellId="../LGv/0/L23_E_comp" weight="0.0405251204" delay="0ms"/>
         </projection>
         <projection id="proj_MGd_LH" presynapticPopulation="MGd" postsynapticPopulation="LH" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGd/0/dummycell" postCellId="../LH/0/dummycell" weight="0.0066915729" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGd/0/L23_E_comp" postCellId="../LH/0/L23_E_comp" weight="0.0066915729" delay="0ms"/>
         </projection>
         <projection id="proj_MGd_LP" presynapticPopulation="MGd" postsynapticPopulation="LP" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGd/0/dummycell" postCellId="../LP/0/dummycell" weight="0.1797054595" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGd/0/L23_E_comp" postCellId="../LP/0/L23_E_comp" weight="0.1797054595" delay="0ms"/>
         </projection>
         <projection id="proj_MGd_MGm" presynapticPopulation="MGd" postsynapticPopulation="MGm" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGd/0/dummycell" postCellId="../MGm/0/dummycell" weight="0.0278178442" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGd/0/L23_E_comp" postCellId="../MGm/0/L23_E_comp" weight="0.0278178442" delay="0ms"/>
         </projection>
         <projection id="proj_MGd_MGv" presynapticPopulation="MGd" postsynapticPopulation="MGv" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGd/0/dummycell" postCellId="../MGv/0/dummycell" weight="0.0974857341" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGd/0/L23_E_comp" postCellId="../MGv/0/L23_E_comp" weight="0.0974857341" delay="0ms"/>
         </projection>
         <projection id="proj_MGd_PF" presynapticPopulation="MGd" postsynapticPopulation="PF" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGd/0/dummycell" postCellId="../PF/0/dummycell" weight="0.1137915535" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGd/0/L23_E_comp" postCellId="../PF/0/L23_E_comp" weight="0.1137915535" delay="0ms"/>
         </projection>
         <projection id="proj_MGd_PO" presynapticPopulation="MGd" postsynapticPopulation="PO" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGd/0/dummycell" postCellId="../PO/0/dummycell" weight="0.5735127464" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGd/0/L23_E_comp" postCellId="../PO/0/L23_E_comp" weight="0.5735127464" delay="0ms"/>
         </projection>
         <projection id="proj_MGd_PP" presynapticPopulation="MGd" postsynapticPopulation="PP" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGd/0/dummycell" postCellId="../PP/0/dummycell" weight="0.0575429391" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGd/0/L23_E_comp" postCellId="../PP/0/L23_E_comp" weight="0.0575429391" delay="0ms"/>
         </projection>
         <projection id="proj_MGd_PT" presynapticPopulation="MGd" postsynapticPopulation="PT" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGd/0/dummycell" postCellId="../PT/0/dummycell" weight="0.0008938523" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGd/0/L23_E_comp" postCellId="../PT/0/L23_E_comp" weight="0.0008938523" delay="0ms"/>
         </projection>
         <projection id="proj_MGd_PVT" presynapticPopulation="MGd" postsynapticPopulation="PVT" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGd/0/dummycell" postCellId="../PVT/0/dummycell" weight="0.0011565339" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGd/0/L23_E_comp" postCellId="../PVT/0/L23_E_comp" weight="0.0011565339" delay="0ms"/>
         </projection>
         <projection id="proj_MGd_RE" presynapticPopulation="MGd" postsynapticPopulation="RE" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGd/0/dummycell" postCellId="../RE/0/dummycell" weight="0.0636599335" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGd/0/L23_E_comp" postCellId="../RE/0/L23_E_comp" weight="0.0636599335" delay="0ms"/>
         </projection>
         <projection id="proj_MGd_RH" presynapticPopulation="MGd" postsynapticPopulation="RH" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGd/0/dummycell" postCellId="../RH/0/dummycell" weight="0.0066287143" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGd/0/L23_E_comp" postCellId="../RH/0/L23_E_comp" weight="0.0066287143" delay="0ms"/>
         </projection>
         <projection id="proj_MGd_RT" presynapticPopulation="MGd" postsynapticPopulation="RT" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGd/0/dummycell" postCellId="../RT/0/dummycell" weight="0.5641616784" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGd/0/L23_E_comp" postCellId="../RT/0/L23_E_comp" weight="0.5641616784" delay="0ms"/>
         </projection>
         <projection id="proj_MGd_SPA" presynapticPopulation="MGd" postsynapticPopulation="SPA" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGd/0/dummycell" postCellId="../SPA/0/dummycell" weight="0.0045651135" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGd/0/L23_E_comp" postCellId="../SPA/0/L23_E_comp" weight="0.0045651135" delay="0ms"/>
         </projection>
         <projection id="proj_MGd_SPFm" presynapticPopulation="MGd" postsynapticPopulation="SPFm" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGd/0/dummycell" postCellId="../SPFm/0/dummycell" weight="0.029685203" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGd/0/L23_E_comp" postCellId="../SPFm/0/L23_E_comp" weight="0.029685203" delay="0ms"/>
         </projection>
         <projection id="proj_MGd_SPFp" presynapticPopulation="MGd" postsynapticPopulation="SPFp" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGd/0/dummycell" postCellId="../SPFp/0/dummycell" weight="0.1549229926" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGd/0/L23_E_comp" postCellId="../SPFp/0/L23_E_comp" weight="0.1549229926" delay="0ms"/>
         </projection>
         <projection id="proj_MGd_VM" presynapticPopulation="MGd" postsynapticPopulation="VM" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGd/0/dummycell" postCellId="../VM/0/dummycell" weight="0.0064544928" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGd/0/L23_E_comp" postCellId="../VM/0/L23_E_comp" weight="0.0064544928" delay="0ms"/>
         </projection>
         <projection id="proj_MGd_VPL" presynapticPopulation="MGd" postsynapticPopulation="VPL" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGd/0/dummycell" postCellId="../VPL/0/dummycell" weight="0.2884001176" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGd/0/L23_E_comp" postCellId="../VPL/0/L23_E_comp" weight="0.2884001176" delay="0ms"/>
         </projection>
         <projection id="proj_MGd_VPM" presynapticPopulation="MGd" postsynapticPopulation="VPM" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGd/0/dummycell" postCellId="../VPM/0/dummycell" weight="0.4299604576" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGd/0/L23_E_comp" postCellId="../VPM/0/L23_E_comp" weight="0.4299604576" delay="0ms"/>
         </projection>
         <projection id="proj_MGd_VPMpc" presynapticPopulation="MGd" postsynapticPopulation="VPMpc" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGd/0/dummycell" postCellId="../VPMpc/0/dummycell" weight="0.0228065546" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGd/0/L23_E_comp" postCellId="../VPMpc/0/L23_E_comp" weight="0.0228065546" delay="0ms"/>
         </projection>
         <projection id="proj_MGm_PVT" presynapticPopulation="MGm" postsynapticPopulation="PVT" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGm/0/dummycell" postCellId="../PVT/0/dummycell" weight="0.0039207185" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGm/0/L23_E_comp" postCellId="../PVT/0/L23_E_comp" weight="0.0039207185" delay="0ms"/>
         </projection>
         <projection id="proj_MGv_LH" presynapticPopulation="MGv" postsynapticPopulation="LH" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGv/0/dummycell" postCellId="../LH/0/dummycell" weight="0.0067482154" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGv/0/L23_E_comp" postCellId="../LH/0/L23_E_comp" weight="0.0067482154" delay="0ms"/>
         </projection>
         <projection id="proj_MGv_LP" presynapticPopulation="MGv" postsynapticPopulation="LP" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGv/0/dummycell" postCellId="../LP/0/dummycell" weight="0.1105461617" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGv/0/L23_E_comp" postCellId="../LP/0/L23_E_comp" weight="0.1105461617" delay="0ms"/>
         </projection>
         <projection id="proj_MGv_MGd" presynapticPopulation="MGv" postsynapticPopulation="MGd" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGv/0/dummycell" postCellId="../MGd/0/dummycell" weight="0.0150131484" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGv/0/L23_E_comp" postCellId="../MGd/0/L23_E_comp" weight="0.0150131484" delay="0ms"/>
         </projection>
         <projection id="proj_MGv_MGm" presynapticPopulation="MGv" postsynapticPopulation="MGm" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGv/0/dummycell" postCellId="../MGm/0/dummycell" weight="0.0504306845" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGv/0/L23_E_comp" postCellId="../MGm/0/L23_E_comp" weight="0.0504306845" delay="0ms"/>
         </projection>
         <projection id="proj_MGv_MGv" presynapticPopulation="MGv" postsynapticPopulation="MGv" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGv/0/dummycell" postCellId="../MGv/0/dummycell" weight="0.0656964259" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGv/0/L23_E_comp" postCellId="../MGv/0/L23_E_comp" weight="0.0656964259" delay="0ms"/>
         </projection>
         <projection id="proj_MGv_MH" presynapticPopulation="MGv" postsynapticPopulation="MH" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGv/0/dummycell" postCellId="../MH/0/dummycell" weight="0.0025888724" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGv/0/L23_E_comp" postCellId="../MH/0/L23_E_comp" weight="0.0025888724" delay="0ms"/>
         </projection>
         <projection id="proj_MGv_PT" presynapticPopulation="MGv" postsynapticPopulation="PT" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGv/0/dummycell" postCellId="../PT/0/dummycell" weight="0.0036742169" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGv/0/L23_E_comp" postCellId="../PT/0/L23_E_comp" weight="0.0036742169" delay="0ms"/>
         </projection>
         <projection id="proj_MGv_RT" presynapticPopulation="MGv" postsynapticPopulation="RT" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGv/0/dummycell" postCellId="../RT/0/dummycell" weight="0.2851429769" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGv/0/L23_E_comp" postCellId="../RT/0/L23_E_comp" weight="0.2851429769" delay="0ms"/>
         </projection>
         <projection id="proj_MGv_SPFm" presynapticPopulation="MGv" postsynapticPopulation="SPFm" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGv/0/dummycell" postCellId="../SPFm/0/dummycell" weight="0.0058748679" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGv/0/L23_E_comp" postCellId="../SPFm/0/L23_E_comp" weight="0.0058748679" delay="0ms"/>
         </projection>
         <projection id="proj_MGv_SPFp" presynapticPopulation="MGv" postsynapticPopulation="SPFp" synapse="ampa">
-            <connectionWD id="0" preCellId="../MGv/0/dummycell" postCellId="../SPFp/0/dummycell" weight="0.0682588923" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MGv/0/L23_E_comp" postCellId="../SPFp/0/L23_E_comp" weight="0.0682588923" delay="0ms"/>
         </projection>
         <projection id="proj_MH_AD" presynapticPopulation="MH" postsynapticPopulation="AD" synapse="ampa">
-            <connectionWD id="0" preCellId="../MH/0/dummycell" postCellId="../AD/0/dummycell" weight="0.0216556087" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MH/0/L23_E_comp" postCellId="../AD/0/L23_E_comp" weight="0.0216556087" delay="0ms"/>
         </projection>
         <projection id="proj_MH_CM" presynapticPopulation="MH" postsynapticPopulation="CM" synapse="ampa">
-            <connectionWD id="0" preCellId="../MH/0/dummycell" postCellId="../CM/0/dummycell" weight="0.3436189698" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MH/0/L23_E_comp" postCellId="../CM/0/L23_E_comp" weight="0.3436189698" delay="0ms"/>
         </projection>
         <projection id="proj_MH_IMD" presynapticPopulation="MH" postsynapticPopulation="IMD" synapse="ampa">
-            <connectionWD id="0" preCellId="../MH/0/dummycell" postCellId="../IMD/0/dummycell" weight="0.0057220137" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MH/0/L23_E_comp" postCellId="../IMD/0/L23_E_comp" weight="0.0057220137" delay="0ms"/>
         </projection>
         <projection id="proj_MH_LH" presynapticPopulation="MH" postsynapticPopulation="LH" synapse="ampa">
-            <connectionWD id="0" preCellId="../MH/0/dummycell" postCellId="../LH/0/dummycell" weight="0.201003079" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MH/0/L23_E_comp" postCellId="../LH/0/L23_E_comp" weight="0.201003079" delay="0ms"/>
         </projection>
         <projection id="proj_MH_PF" presynapticPopulation="MH" postsynapticPopulation="PF" synapse="ampa">
-            <connectionWD id="0" preCellId="../MH/0/dummycell" postCellId="../PF/0/dummycell" weight="0.8486581236" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MH/0/L23_E_comp" postCellId="../PF/0/L23_E_comp" weight="0.8486581236" delay="0ms"/>
         </projection>
         <projection id="proj_MH_PT" presynapticPopulation="MH" postsynapticPopulation="PT" synapse="ampa">
-            <connectionWD id="0" preCellId="../MH/0/dummycell" postCellId="../PT/0/dummycell" weight="0.0976622717" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MH/0/L23_E_comp" postCellId="../PT/0/L23_E_comp" weight="0.0976622717" delay="0ms"/>
         </projection>
         <projection id="proj_MH_PVT" presynapticPopulation="MH" postsynapticPopulation="PVT" synapse="ampa">
-            <connectionWD id="0" preCellId="../MH/0/dummycell" postCellId="../PVT/0/dummycell" weight="0.2985847697" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MH/0/L23_E_comp" postCellId="../PVT/0/L23_E_comp" weight="0.2985847697" delay="0ms"/>
         </projection>
         <projection id="proj_MH_RE" presynapticPopulation="MH" postsynapticPopulation="RE" synapse="ampa">
-            <connectionWD id="0" preCellId="../MH/0/dummycell" postCellId="../RE/0/dummycell" weight="0.5855146937" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MH/0/L23_E_comp" postCellId="../RE/0/L23_E_comp" weight="0.5855146937" delay="0ms"/>
         </projection>
         <projection id="proj_MH_RH" presynapticPopulation="MH" postsynapticPopulation="RH" synapse="ampa">
-            <connectionWD id="0" preCellId="../MH/0/dummycell" postCellId="../RH/0/dummycell" weight="0.170045276" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MH/0/L23_E_comp" postCellId="../RH/0/L23_E_comp" weight="0.170045276" delay="0ms"/>
         </projection>
         <projection id="proj_MH_RT" presynapticPopulation="MH" postsynapticPopulation="RT" synapse="ampa">
-            <connectionWD id="0" preCellId="../MH/0/dummycell" postCellId="../RT/0/dummycell" weight="0.0131276643" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MH/0/L23_E_comp" postCellId="../RT/0/L23_E_comp" weight="0.0131276643" delay="0ms"/>
         </projection>
         <projection id="proj_MH_SMT" presynapticPopulation="MH" postsynapticPopulation="SMT" synapse="ampa">
-            <connectionWD id="0" preCellId="../MH/0/dummycell" postCellId="../SMT/0/dummycell" weight="0.1841699159" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MH/0/L23_E_comp" postCellId="../SMT/0/L23_E_comp" weight="0.1841699159" delay="0ms"/>
         </projection>
         <projection id="proj_MH_SPA" presynapticPopulation="MH" postsynapticPopulation="SPA" synapse="ampa">
-            <connectionWD id="0" preCellId="../MH/0/dummycell" postCellId="../SPA/0/dummycell" weight="0.057572489" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MH/0/L23_E_comp" postCellId="../SPA/0/L23_E_comp" weight="0.057572489" delay="0ms"/>
         </projection>
         <projection id="proj_MH_SPFm" presynapticPopulation="MH" postsynapticPopulation="SPFm" synapse="ampa">
-            <connectionWD id="0" preCellId="../MH/0/dummycell" postCellId="../SPFm/0/dummycell" weight="0.0372965333" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MH/0/L23_E_comp" postCellId="../SPFm/0/L23_E_comp" weight="0.0372965333" delay="0ms"/>
         </projection>
         <projection id="proj_MH_VAL" presynapticPopulation="MH" postsynapticPopulation="VAL" synapse="ampa">
-            <connectionWD id="0" preCellId="../MH/0/dummycell" postCellId="../VAL/0/dummycell" weight="0.0134118046" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MH/0/L23_E_comp" postCellId="../VAL/0/L23_E_comp" weight="0.0134118046" delay="0ms"/>
         </projection>
         <projection id="proj_MH_VM" presynapticPopulation="MH" postsynapticPopulation="VM" synapse="ampa">
-            <connectionWD id="0" preCellId="../MH/0/dummycell" postCellId="../VM/0/dummycell" weight="0.0258602834" delay="0ms"/>
+            <connectionWD id="0" preCellId="../MH/0/L23_E_comp" postCellId="../VM/0/L23_E_comp" weight="0.0258602834" delay="0ms"/>
         </projection>
         <projection id="proj_PF_CM" presynapticPopulation="PF" postsynapticPopulation="CM" synapse="ampa">
-            <connectionWD id="0" preCellId="../PF/0/dummycell" postCellId="../CM/0/dummycell" weight="0.015647947" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PF/0/L23_E_comp" postCellId="../CM/0/L23_E_comp" weight="0.015647947" delay="0ms"/>
         </projection>
         <projection id="proj_PF_IMD" presynapticPopulation="PF" postsynapticPopulation="IMD" synapse="ampa">
-            <connectionWD id="0" preCellId="../PF/0/dummycell" postCellId="../IMD/0/dummycell" weight="0.0040767403" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PF/0/L23_E_comp" postCellId="../IMD/0/L23_E_comp" weight="0.0040767403" delay="0ms"/>
         </projection>
         <projection id="proj_PF_LD" presynapticPopulation="PF" postsynapticPopulation="LD" synapse="ampa">
-            <connectionWD id="0" preCellId="../PF/0/dummycell" postCellId="../LD/0/dummycell" weight="0.0571388616" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PF/0/L23_E_comp" postCellId="../LD/0/L23_E_comp" weight="0.0571388616" delay="0ms"/>
         </projection>
         <projection id="proj_PF_LGd" presynapticPopulation="PF" postsynapticPopulation="LGd" synapse="ampa">
-            <connectionWD id="0" preCellId="../PF/0/dummycell" postCellId="../LGd/0/dummycell" weight="0.0093084478" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PF/0/L23_E_comp" postCellId="../LGd/0/L23_E_comp" weight="0.0093084478" delay="0ms"/>
         </projection>
         <projection id="proj_PF_LGv" presynapticPopulation="PF" postsynapticPopulation="LGv" synapse="ampa">
-            <connectionWD id="0" preCellId="../PF/0/dummycell" postCellId="../LGv/0/dummycell" weight="0.043075296" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PF/0/L23_E_comp" postCellId="../LGv/0/L23_E_comp" weight="0.043075296" delay="0ms"/>
         </projection>
         <projection id="proj_PF_POL" presynapticPopulation="PF" postsynapticPopulation="POL" synapse="ampa">
-            <connectionWD id="0" preCellId="../PF/0/dummycell" postCellId="../POL/0/dummycell" weight="0.0102502944" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PF/0/L23_E_comp" postCellId="../POL/0/L23_E_comp" weight="0.0102502944" delay="0ms"/>
         </projection>
         <projection id="proj_PF_PP" presynapticPopulation="PF" postsynapticPopulation="PP" synapse="ampa">
-            <connectionWD id="0" preCellId="../PF/0/dummycell" postCellId="../PP/0/dummycell" weight="0.0094136833" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PF/0/L23_E_comp" postCellId="../PP/0/L23_E_comp" weight="0.0094136833" delay="0ms"/>
         </projection>
         <projection id="proj_PF_VAL" presynapticPopulation="PF" postsynapticPopulation="VAL" synapse="ampa">
-            <connectionWD id="0" preCellId="../PF/0/dummycell" postCellId="../VAL/0/dummycell" weight="0.2274072483" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PF/0/L23_E_comp" postCellId="../VAL/0/L23_E_comp" weight="0.2274072483" delay="0ms"/>
         </projection>
         <projection id="proj_PF_VM" presynapticPopulation="PF" postsynapticPopulation="VM" synapse="ampa">
-            <connectionWD id="0" preCellId="../PF/0/dummycell" postCellId="../VM/0/dummycell" weight="0.0522065918" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PF/0/L23_E_comp" postCellId="../VM/0/L23_E_comp" weight="0.0522065918" delay="0ms"/>
         </projection>
         <projection id="proj_PF_VPM" presynapticPopulation="PF" postsynapticPopulation="VPM" synapse="ampa">
-            <connectionWD id="0" preCellId="../PF/0/dummycell" postCellId="../VPM/0/dummycell" weight="0.0252474488" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PF/0/L23_E_comp" postCellId="../VPM/0/L23_E_comp" weight="0.0252474488" delay="0ms"/>
         </projection>
         <projection id="proj_PF_VPMpc" presynapticPopulation="PF" postsynapticPopulation="VPMpc" synapse="ampa">
-            <connectionWD id="0" preCellId="../PF/0/dummycell" postCellId="../VPMpc/0/dummycell" weight="0.002157774" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PF/0/L23_E_comp" postCellId="../VPMpc/0/L23_E_comp" weight="0.002157774" delay="0ms"/>
         </projection>
         <projection id="proj_PO_AMd" presynapticPopulation="PO" postsynapticPopulation="AMd" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../AMd/0/dummycell" weight="0.0025470421" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../AMd/0/L23_E_comp" weight="0.0025470421" delay="0ms"/>
         </projection>
         <projection id="proj_PO_AV" presynapticPopulation="PO" postsynapticPopulation="AV" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../AV/0/dummycell" weight="0.0035603974" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../AV/0/L23_E_comp" weight="0.0035603974" delay="0ms"/>
         </projection>
         <projection id="proj_PO_CL" presynapticPopulation="PO" postsynapticPopulation="CL" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../CL/0/dummycell" weight="0.0222963481" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../CL/0/L23_E_comp" weight="0.0222963481" delay="0ms"/>
         </projection>
         <projection id="proj_PO_CM" presynapticPopulation="PO" postsynapticPopulation="CM" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../CM/0/dummycell" weight="0.0002933625" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../CM/0/L23_E_comp" weight="0.0002933625" delay="0ms"/>
         </projection>
         <projection id="proj_PO_LD" presynapticPopulation="PO" postsynapticPopulation="LD" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../LD/0/dummycell" weight="0.0523234572" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../LD/0/L23_E_comp" weight="0.0523234572" delay="0ms"/>
         </projection>
         <projection id="proj_PO_LGd" presynapticPopulation="PO" postsynapticPopulation="LGd" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../LGd/0/dummycell" weight="0.0135467071" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../LGd/0/L23_E_comp" weight="0.0135467071" delay="0ms"/>
         </projection>
         <projection id="proj_PO_LGv" presynapticPopulation="PO" postsynapticPopulation="LGv" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../LGv/0/dummycell" weight="0.0060260103" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../LGv/0/L23_E_comp" weight="0.0060260103" delay="0ms"/>
         </projection>
         <projection id="proj_PO_LH" presynapticPopulation="PO" postsynapticPopulation="LH" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../LH/0/dummycell" weight="0.0060549236" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../LH/0/L23_E_comp" weight="0.0060549236" delay="0ms"/>
         </projection>
         <projection id="proj_PO_LP" presynapticPopulation="PO" postsynapticPopulation="LP" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../LP/0/dummycell" weight="0.0276544027" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../LP/0/L23_E_comp" weight="0.0276544027" delay="0ms"/>
         </projection>
         <projection id="proj_PO_MGd" presynapticPopulation="PO" postsynapticPopulation="MGd" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../MGd/0/dummycell" weight="0.0006772517" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../MGd/0/L23_E_comp" weight="0.0006772517" delay="0ms"/>
         </projection>
         <projection id="proj_PO_MGm" presynapticPopulation="PO" postsynapticPopulation="MGm" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../MGm/0/dummycell" weight="0.0026630774" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../MGm/0/L23_E_comp" weight="0.0026630774" delay="0ms"/>
         </projection>
         <projection id="proj_PO_MGv" presynapticPopulation="PO" postsynapticPopulation="MGv" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../MGv/0/dummycell" weight="0.0075284972" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../MGv/0/L23_E_comp" weight="0.0075284972" delay="0ms"/>
         </projection>
         <projection id="proj_PO_MH" presynapticPopulation="PO" postsynapticPopulation="MH" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../MH/0/dummycell" weight="0.0003594863" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../MH/0/L23_E_comp" weight="0.0003594863" delay="0ms"/>
         </projection>
         <projection id="proj_PO_PF" presynapticPopulation="PO" postsynapticPopulation="PF" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../PF/0/dummycell" weight="0.0185641821" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../PF/0/L23_E_comp" weight="0.0185641821" delay="0ms"/>
         </projection>
         <projection id="proj_PO_PO" presynapticPopulation="PO" postsynapticPopulation="PO" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../PO/0/dummycell" weight="0.0467038842" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../PO/0/L23_E_comp" weight="0.0467038842" delay="0ms"/>
         </projection>
         <projection id="proj_PO_POL" presynapticPopulation="PO" postsynapticPopulation="POL" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../POL/0/dummycell" weight="0.0083078338" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../POL/0/L23_E_comp" weight="0.0083078338" delay="0ms"/>
         </projection>
         <projection id="proj_PO_PVT" presynapticPopulation="PO" postsynapticPopulation="PVT" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../PVT/0/dummycell" weight="0.0011510655" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../PVT/0/L23_E_comp" weight="0.0011510655" delay="0ms"/>
         </projection>
         <projection id="proj_PO_RE" presynapticPopulation="PO" postsynapticPopulation="RE" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../RE/0/dummycell" weight="0.0049812729" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../RE/0/L23_E_comp" weight="0.0049812729" delay="0ms"/>
         </projection>
         <projection id="proj_PO_RH" presynapticPopulation="PO" postsynapticPopulation="RH" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../RH/0/dummycell" weight="0.0007881332" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../RH/0/L23_E_comp" weight="0.0007881332" delay="0ms"/>
         </projection>
         <projection id="proj_PO_RT" presynapticPopulation="PO" postsynapticPopulation="RT" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../RT/0/dummycell" weight="0.2708197295" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../RT/0/L23_E_comp" weight="0.2708197295" delay="0ms"/>
         </projection>
         <projection id="proj_PO_SMT" presynapticPopulation="PO" postsynapticPopulation="SMT" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../SMT/0/dummycell" weight="0.0004992468" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../SMT/0/L23_E_comp" weight="0.0004992468" delay="0ms"/>
         </projection>
         <projection id="proj_PO_SPFm" presynapticPopulation="PO" postsynapticPopulation="SPFm" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../SPFm/0/dummycell" weight="0.0030208612" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../SPFm/0/L23_E_comp" weight="0.0030208612" delay="0ms"/>
         </projection>
         <projection id="proj_PO_SPFp" presynapticPopulation="PO" postsynapticPopulation="SPFp" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../SPFp/0/dummycell" weight="0.0092625371" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../SPFp/0/L23_E_comp" weight="0.0092625371" delay="0ms"/>
         </projection>
         <projection id="proj_PO_VAL" presynapticPopulation="PO" postsynapticPopulation="VAL" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../VAL/0/dummycell" weight="0.0287301103" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../VAL/0/L23_E_comp" weight="0.0287301103" delay="0ms"/>
         </projection>
         <projection id="proj_PO_VM" presynapticPopulation="PO" postsynapticPopulation="VM" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../VM/0/dummycell" weight="0.0106868275" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../VM/0/L23_E_comp" weight="0.0106868275" delay="0ms"/>
         </projection>
         <projection id="proj_PO_VPL" presynapticPopulation="PO" postsynapticPopulation="VPL" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../VPL/0/dummycell" weight="0.2061195952" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../VPL/0/L23_E_comp" weight="0.2061195952" delay="0ms"/>
         </projection>
         <projection id="proj_PO_VPM" presynapticPopulation="PO" postsynapticPopulation="VPM" synapse="ampa">
-            <connectionWD id="0" preCellId="../PO/0/dummycell" postCellId="../VPM/0/dummycell" weight="0.2513543705" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PO/0/L23_E_comp" postCellId="../VPM/0/L23_E_comp" weight="0.2513543705" delay="0ms"/>
         </projection>
         <projection id="proj_POL_IMD" presynapticPopulation="POL" postsynapticPopulation="IMD" synapse="ampa">
-            <connectionWD id="0" preCellId="../POL/0/dummycell" postCellId="../IMD/0/dummycell" weight="0.0210327265" delay="0ms"/>
+            <connectionWD id="0" preCellId="../POL/0/L23_E_comp" postCellId="../IMD/0/L23_E_comp" weight="0.0210327265" delay="0ms"/>
         </projection>
         <projection id="proj_POL_LH" presynapticPopulation="POL" postsynapticPopulation="LH" synapse="ampa">
-            <connectionWD id="0" preCellId="../POL/0/dummycell" postCellId="../LH/0/dummycell" weight="0.0004859833" delay="0ms"/>
+            <connectionWD id="0" preCellId="../POL/0/L23_E_comp" postCellId="../LH/0/L23_E_comp" weight="0.0004859833" delay="0ms"/>
         </projection>
         <projection id="proj_POL_PF" presynapticPopulation="POL" postsynapticPopulation="PF" synapse="ampa">
-            <connectionWD id="0" preCellId="../POL/0/dummycell" postCellId="../PF/0/dummycell" weight="0.0696831113" delay="0ms"/>
+            <connectionWD id="0" preCellId="../POL/0/L23_E_comp" postCellId="../PF/0/L23_E_comp" weight="0.0696831113" delay="0ms"/>
         </projection>
         <projection id="proj_POL_PVT" presynapticPopulation="POL" postsynapticPopulation="PVT" synapse="ampa">
-            <connectionWD id="0" preCellId="../POL/0/dummycell" postCellId="../PVT/0/dummycell" weight="0.0300975921" delay="0ms"/>
+            <connectionWD id="0" preCellId="../POL/0/L23_E_comp" postCellId="../PVT/0/L23_E_comp" weight="0.0300975921" delay="0ms"/>
         </projection>
         <projection id="proj_POL_RE" presynapticPopulation="POL" postsynapticPopulation="RE" synapse="ampa">
-            <connectionWD id="0" preCellId="../POL/0/dummycell" postCellId="../RE/0/dummycell" weight="0.0166274132" delay="0ms"/>
+            <connectionWD id="0" preCellId="../POL/0/L23_E_comp" postCellId="../RE/0/L23_E_comp" weight="0.0166274132" delay="0ms"/>
         </projection>
         <projection id="proj_POL_RT" presynapticPopulation="POL" postsynapticPopulation="RT" synapse="ampa">
-            <connectionWD id="0" preCellId="../POL/0/dummycell" postCellId="../RT/0/dummycell" weight="0.1231016528" delay="0ms"/>
+            <connectionWD id="0" preCellId="../POL/0/L23_E_comp" postCellId="../RT/0/L23_E_comp" weight="0.1231016528" delay="0ms"/>
         </projection>
         <projection id="proj_POL_SPA" presynapticPopulation="POL" postsynapticPopulation="SPA" synapse="ampa">
-            <connectionWD id="0" preCellId="../POL/0/dummycell" postCellId="../SPA/0/dummycell" weight="0.0314063392" delay="0ms"/>
+            <connectionWD id="0" preCellId="../POL/0/L23_E_comp" postCellId="../SPA/0/L23_E_comp" weight="0.0314063392" delay="0ms"/>
         </projection>
         <projection id="proj_POL_SPFm" presynapticPopulation="POL" postsynapticPopulation="SPFm" synapse="ampa">
-            <connectionWD id="0" preCellId="../POL/0/dummycell" postCellId="../SPFm/0/dummycell" weight="0.0267550474" delay="0ms"/>
+            <connectionWD id="0" preCellId="../POL/0/L23_E_comp" postCellId="../SPFm/0/L23_E_comp" weight="0.0267550474" delay="0ms"/>
         </projection>
         <projection id="proj_POL_SPFp" presynapticPopulation="POL" postsynapticPopulation="SPFp" synapse="ampa">
-            <connectionWD id="0" preCellId="../POL/0/dummycell" postCellId="../SPFp/0/dummycell" weight="0.0787236532" delay="0ms"/>
+            <connectionWD id="0" preCellId="../POL/0/L23_E_comp" postCellId="../SPFp/0/L23_E_comp" weight="0.0787236532" delay="0ms"/>
         </projection>
         <projection id="proj_POL_VPL" presynapticPopulation="POL" postsynapticPopulation="VPL" synapse="ampa">
-            <connectionWD id="0" preCellId="../POL/0/dummycell" postCellId="../VPL/0/dummycell" weight="0.1834671389" delay="0ms"/>
+            <connectionWD id="0" preCellId="../POL/0/L23_E_comp" postCellId="../VPL/0/L23_E_comp" weight="0.1834671389" delay="0ms"/>
         </projection>
         <projection id="proj_POL_VPMpc" presynapticPopulation="POL" postsynapticPopulation="VPMpc" synapse="ampa">
-            <connectionWD id="0" preCellId="../POL/0/dummycell" postCellId="../VPMpc/0/dummycell" weight="0.0111875315" delay="0ms"/>
+            <connectionWD id="0" preCellId="../POL/0/L23_E_comp" postCellId="../VPMpc/0/L23_E_comp" weight="0.0111875315" delay="0ms"/>
         </projection>
         <projection id="proj_PP_LH" presynapticPopulation="PP" postsynapticPopulation="LH" synapse="ampa">
-            <connectionWD id="0" preCellId="../PP/0/dummycell" postCellId="../LH/0/dummycell" weight="0.0086324009" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PP/0/L23_E_comp" postCellId="../LH/0/L23_E_comp" weight="0.0086324009" delay="0ms"/>
         </projection>
         <projection id="proj_PP_LP" presynapticPopulation="PP" postsynapticPopulation="LP" synapse="ampa">
-            <connectionWD id="0" preCellId="../PP/0/dummycell" postCellId="../LP/0/dummycell" weight="0.0007447653" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PP/0/L23_E_comp" postCellId="../LP/0/L23_E_comp" weight="0.0007447653" delay="0ms"/>
         </projection>
         <projection id="proj_PP_MGd" presynapticPopulation="PP" postsynapticPopulation="MGd" synapse="ampa">
-            <connectionWD id="0" preCellId="../PP/0/dummycell" postCellId="../MGd/0/dummycell" weight="0.0246229189" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PP/0/L23_E_comp" postCellId="../MGd/0/L23_E_comp" weight="0.0246229189" delay="0ms"/>
         </projection>
         <projection id="proj_PP_MH" presynapticPopulation="PP" postsynapticPopulation="MH" synapse="ampa">
-            <connectionWD id="0" preCellId="../PP/0/dummycell" postCellId="../MH/0/dummycell" weight="0.0127750571" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PP/0/L23_E_comp" postCellId="../MH/0/L23_E_comp" weight="0.0127750571" delay="0ms"/>
         </projection>
         <projection id="proj_PP_PT" presynapticPopulation="PP" postsynapticPopulation="PT" synapse="ampa">
-            <connectionWD id="0" preCellId="../PP/0/dummycell" postCellId="../PT/0/dummycell" weight="0.0272834558" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PP/0/L23_E_comp" postCellId="../PT/0/L23_E_comp" weight="0.0272834558" delay="0ms"/>
         </projection>
         <projection id="proj_PP_PVT" presynapticPopulation="PP" postsynapticPopulation="PVT" synapse="ampa">
-            <connectionWD id="0" preCellId="../PP/0/dummycell" postCellId="../PVT/0/dummycell" weight="0.0907661749" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PP/0/L23_E_comp" postCellId="../PVT/0/L23_E_comp" weight="0.0907661749" delay="0ms"/>
         </projection>
         <projection id="proj_PP_RE" presynapticPopulation="PP" postsynapticPopulation="RE" synapse="ampa">
-            <connectionWD id="0" preCellId="../PP/0/dummycell" postCellId="../RE/0/dummycell" weight="0.173582252" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PP/0/L23_E_comp" postCellId="../RE/0/L23_E_comp" weight="0.173582252" delay="0ms"/>
         </projection>
         <projection id="proj_PP_SPFm" presynapticPopulation="PP" postsynapticPopulation="SPFm" synapse="ampa">
-            <connectionWD id="0" preCellId="../PP/0/dummycell" postCellId="../SPFm/0/dummycell" weight="0.1380515757" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PP/0/L23_E_comp" postCellId="../SPFm/0/L23_E_comp" weight="0.1380515757" delay="0ms"/>
         </projection>
         <projection id="proj_PT_AV" presynapticPopulation="PT" postsynapticPopulation="AV" synapse="ampa">
-            <connectionWD id="0" preCellId="../PT/0/dummycell" postCellId="../AV/0/dummycell" weight="0.0014868414" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PT/0/L23_E_comp" postCellId="../AV/0/L23_E_comp" weight="0.0014868414" delay="0ms"/>
         </projection>
         <projection id="proj_PT_LGd" presynapticPopulation="PT" postsynapticPopulation="LGd" synapse="ampa">
-            <connectionWD id="0" preCellId="../PT/0/dummycell" postCellId="../LGd/0/dummycell" weight="0.0094674554" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PT/0/L23_E_comp" postCellId="../LGd/0/L23_E_comp" weight="0.0094674554" delay="0ms"/>
         </projection>
         <projection id="proj_PT_LGv" presynapticPopulation="PT" postsynapticPopulation="LGv" synapse="ampa">
-            <connectionWD id="0" preCellId="../PT/0/dummycell" postCellId="../LGv/0/dummycell" weight="0.0263328052" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PT/0/L23_E_comp" postCellId="../LGv/0/L23_E_comp" weight="0.0263328052" delay="0ms"/>
         </projection>
         <projection id="proj_PT_LH" presynapticPopulation="PT" postsynapticPopulation="LH" synapse="ampa">
-            <connectionWD id="0" preCellId="../PT/0/dummycell" postCellId="../LH/0/dummycell" weight="0.0301075195" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PT/0/L23_E_comp" postCellId="../LH/0/L23_E_comp" weight="0.0301075195" delay="0ms"/>
         </projection>
         <projection id="proj_PT_MGd" presynapticPopulation="PT" postsynapticPopulation="MGd" synapse="ampa">
-            <connectionWD id="0" preCellId="../PT/0/dummycell" postCellId="../MGd/0/dummycell" weight="0.0044613437" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PT/0/L23_E_comp" postCellId="../MGd/0/L23_E_comp" weight="0.0044613437" delay="0ms"/>
         </projection>
         <projection id="proj_PT_MGm" presynapticPopulation="PT" postsynapticPopulation="MGm" synapse="ampa">
-            <connectionWD id="0" preCellId="../PT/0/dummycell" postCellId="../MGm/0/dummycell" weight="0.00313854" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PT/0/L23_E_comp" postCellId="../MGm/0/L23_E_comp" weight="0.00313854" delay="0ms"/>
         </projection>
         <projection id="proj_PT_MGv" presynapticPopulation="PT" postsynapticPopulation="MGv" synapse="ampa">
-            <connectionWD id="0" preCellId="../PT/0/dummycell" postCellId="../MGv/0/dummycell" weight="0.015982856" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PT/0/L23_E_comp" postCellId="../MGv/0/L23_E_comp" weight="0.015982856" delay="0ms"/>
         </projection>
         <projection id="proj_PT_MH" presynapticPopulation="PT" postsynapticPopulation="MH" synapse="ampa">
-            <connectionWD id="0" preCellId="../PT/0/dummycell" postCellId="../MH/0/dummycell" weight="0.0068271501" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PT/0/L23_E_comp" postCellId="../MH/0/L23_E_comp" weight="0.0068271501" delay="0ms"/>
         </projection>
         <projection id="proj_PT_POL" presynapticPopulation="PT" postsynapticPopulation="POL" synapse="ampa">
-            <connectionWD id="0" preCellId="../PT/0/dummycell" postCellId="../POL/0/dummycell" weight="0.002602748" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PT/0/L23_E_comp" postCellId="../POL/0/L23_E_comp" weight="0.002602748" delay="0ms"/>
         </projection>
         <projection id="proj_PT_PP" presynapticPopulation="PT" postsynapticPopulation="PP" synapse="ampa">
-            <connectionWD id="0" preCellId="../PT/0/dummycell" postCellId="../PP/0/dummycell" weight="0.0004934969" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PT/0/L23_E_comp" postCellId="../PP/0/L23_E_comp" weight="0.0004934969" delay="0ms"/>
         </projection>
         <projection id="proj_PVT_AMd" presynapticPopulation="PVT" postsynapticPopulation="AMd" synapse="ampa">
-            <connectionWD id="0" preCellId="../PVT/0/dummycell" postCellId="../AMd/0/dummycell" weight="0.0111851465" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PVT/0/L23_E_comp" postCellId="../AMd/0/L23_E_comp" weight="0.0111851465" delay="0ms"/>
         </projection>
         <projection id="proj_PVT_AMv" presynapticPopulation="PVT" postsynapticPopulation="AMv" synapse="ampa">
-            <connectionWD id="0" preCellId="../PVT/0/dummycell" postCellId="../AMv/0/dummycell" weight="0.0055382946" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PVT/0/L23_E_comp" postCellId="../AMv/0/L23_E_comp" weight="0.0055382946" delay="0ms"/>
         </projection>
         <projection id="proj_PVT_IMD" presynapticPopulation="PVT" postsynapticPopulation="IMD" synapse="ampa">
-            <connectionWD id="0" preCellId="../PVT/0/dummycell" postCellId="../IMD/0/dummycell" weight="0.0017845975" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PVT/0/L23_E_comp" postCellId="../IMD/0/L23_E_comp" weight="0.0017845975" delay="0ms"/>
         </projection>
         <projection id="proj_PVT_MH" presynapticPopulation="PVT" postsynapticPopulation="MH" synapse="ampa">
-            <connectionWD id="0" preCellId="../PVT/0/dummycell" postCellId="../MH/0/dummycell" weight="0.004625306" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PVT/0/L23_E_comp" postCellId="../MH/0/L23_E_comp" weight="0.004625306" delay="0ms"/>
         </projection>
         <projection id="proj_PVT_PVT" presynapticPopulation="PVT" postsynapticPopulation="PVT" synapse="ampa">
-            <connectionWD id="0" preCellId="../PVT/0/dummycell" postCellId="../PVT/0/dummycell" weight="0.0057492443" delay="0ms"/>
+            <connectionWD id="0" preCellId="../PVT/0/L23_E_comp" postCellId="../PVT/0/L23_E_comp" weight="0.0057492443" delay="0ms"/>
         </projection>
         <projection id="proj_RE_SPA" presynapticPopulation="RE" postsynapticPopulation="SPA" synapse="ampa">
-            <connectionWD id="0" preCellId="../RE/0/dummycell" postCellId="../SPA/0/dummycell" weight="0.000101569" delay="0ms"/>
+            <connectionWD id="0" preCellId="../RE/0/L23_E_comp" postCellId="../SPA/0/L23_E_comp" weight="0.000101569" delay="0ms"/>
         </projection>
         <projection id="proj_RT_AD" presynapticPopulation="RT" postsynapticPopulation="AD" synapse="ampa">
-            <connectionWD id="0" preCellId="../RT/0/dummycell" postCellId="../AD/0/dummycell" weight="0.0087898899" delay="0ms"/>
+            <connectionWD id="0" preCellId="../RT/0/L23_E_comp" postCellId="../AD/0/L23_E_comp" weight="0.0087898899" delay="0ms"/>
         </projection>
         <projection id="proj_RT_AMd" presynapticPopulation="RT" postsynapticPopulation="AMd" synapse="ampa">
-            <connectionWD id="0" preCellId="../RT/0/dummycell" postCellId="../AMd/0/dummycell" weight="0.0536880688" delay="0ms"/>
+            <connectionWD id="0" preCellId="../RT/0/L23_E_comp" postCellId="../AMd/0/L23_E_comp" weight="0.0536880688" delay="0ms"/>
         </projection>
         <projection id="proj_RT_AMv" presynapticPopulation="RT" postsynapticPopulation="AMv" synapse="ampa">
-            <connectionWD id="0" preCellId="../RT/0/dummycell" postCellId="../AMv/0/dummycell" weight="0.0072783145" delay="0ms"/>
+            <connectionWD id="0" preCellId="../RT/0/L23_E_comp" postCellId="../AMv/0/L23_E_comp" weight="0.0072783145" delay="0ms"/>
         </projection>
         <projection id="proj_RT_AV" presynapticPopulation="RT" postsynapticPopulation="AV" synapse="ampa">
-            <connectionWD id="0" preCellId="../RT/0/dummycell" postCellId="../AV/0/dummycell" weight="0.0247239466" delay="0ms"/>
+            <connectionWD id="0" preCellId="../RT/0/L23_E_comp" postCellId="../AV/0/L23_E_comp" weight="0.0247239466" delay="0ms"/>
         </projection>
         <projection id="proj_RT_CL" presynapticPopulation="RT" postsynapticPopulation="CL" synapse="ampa">
-            <connectionWD id="0" preCellId="../RT/0/dummycell" postCellId="../CL/0/dummycell" weight="0.1868261804" delay="0ms"/>
+            <connectionWD id="0" preCellId="../RT/0/L23_E_comp" postCellId="../CL/0/L23_E_comp" weight="0.1868261804" delay="0ms"/>
         </projection>
         <projection id="proj_RT_CM" presynapticPopulation="RT" postsynapticPopulation="CM" synapse="ampa">
-            <connectionWD id="0" preCellId="../RT/0/dummycell" postCellId="../CM/0/dummycell" weight="0.156771709" delay="0ms"/>
+            <connectionWD id="0" preCellId="../RT/0/L23_E_comp" postCellId="../CM/0/L23_E_comp" weight="0.156771709" delay="0ms"/>
         </projection>
         <projection id="proj_RT_IMD" presynapticPopulation="RT" postsynapticPopulation="IMD" synapse="ampa">
-            <connectionWD id="0" preCellId="../RT/0/dummycell" postCellId="../IMD/0/dummycell" weight="0.0248701718" delay="0ms"/>
+            <connectionWD id="0" preCellId="../RT/0/L23_E_comp" postCellId="../IMD/0/L23_E_comp" weight="0.0248701718" delay="0ms"/>
         </projection>
         <projection id="proj_RT_LD" presynapticPopulation="RT" postsynapticPopulation="LD" synapse="ampa">
-            <connectionWD id="0" preCellId="../RT/0/dummycell" postCellId="../LD/0/dummycell" weight="0.0923379107" delay="0ms"/>
+            <connectionWD id="0" preCellId="../RT/0/L23_E_comp" postCellId="../LD/0/L23_E_comp" weight="0.0923379107" delay="0ms"/>
         </projection>
         <projection id="proj_RT_LH" presynapticPopulation="RT" postsynapticPopulation="LH" synapse="ampa">
-            <connectionWD id="0" preCellId="../RT/0/dummycell" postCellId="../LH/0/dummycell" weight="0.0342454387" delay="0ms"/>
+            <connectionWD id="0" preCellId="../RT/0/L23_E_comp" postCellId="../LH/0/L23_E_comp" weight="0.0342454387" delay="0ms"/>
         </projection>
         <projection id="proj_RT_LP" presynapticPopulation="RT" postsynapticPopulation="LP" synapse="ampa">
-            <connectionWD id="0" preCellId="../RT/0/dummycell" postCellId="../LP/0/dummycell" weight="0.0434940511" delay="0ms"/>
+            <connectionWD id="0" preCellId="../RT/0/L23_E_comp" postCellId="../LP/0/L23_E_comp" weight="0.0434940511" delay="0ms"/>
         </projection>
         <projection id="proj_RT_PF" presynapticPopulation="RT" postsynapticPopulation="PF" synapse="ampa">
-            <connectionWD id="0" preCellId="../RT/0/dummycell" postCellId="../PF/0/dummycell" weight="0.4458047537" delay="0ms"/>
+            <connectionWD id="0" preCellId="../RT/0/L23_E_comp" postCellId="../PF/0/L23_E_comp" weight="0.4458047537" delay="0ms"/>
         </projection>
         <projection id="proj_RT_PO" presynapticPopulation="RT" postsynapticPopulation="PO" synapse="ampa">
-            <connectionWD id="0" preCellId="../RT/0/dummycell" postCellId="../PO/0/dummycell" weight="0.3828314279" delay="0ms"/>
+            <connectionWD id="0" preCellId="../RT/0/L23_E_comp" postCellId="../PO/0/L23_E_comp" weight="0.3828314279" delay="0ms"/>
         </projection>
         <projection id="proj_RT_PVT" presynapticPopulation="RT" postsynapticPopulation="PVT" synapse="ampa">
-            <connectionWD id="0" preCellId="../RT/0/dummycell" postCellId="../PVT/0/dummycell" weight="0.0151543129" delay="0ms"/>
+            <connectionWD id="0" preCellId="../RT/0/L23_E_comp" postCellId="../PVT/0/L23_E_comp" weight="0.0151543129" delay="0ms"/>
         </projection>
         <projection id="proj_RT_RH" presynapticPopulation="RT" postsynapticPopulation="RH" synapse="ampa">
-            <connectionWD id="0" preCellId="../RT/0/dummycell" postCellId="../RH/0/dummycell" weight="0.025486203" delay="0ms"/>
+            <connectionWD id="0" preCellId="../RT/0/L23_E_comp" postCellId="../RH/0/L23_E_comp" weight="0.025486203" delay="0ms"/>
         </projection>
         <projection id="proj_RT_SMT" presynapticPopulation="RT" postsynapticPopulation="SMT" synapse="ampa">
-            <connectionWD id="0" preCellId="../RT/0/dummycell" postCellId="../SMT/0/dummycell" weight="0.0198099021" delay="0ms"/>
+            <connectionWD id="0" preCellId="../RT/0/L23_E_comp" postCellId="../SMT/0/L23_E_comp" weight="0.0198099021" delay="0ms"/>
         </projection>
         <projection id="proj_RT_SPA" presynapticPopulation="RT" postsynapticPopulation="SPA" synapse="ampa">
-            <connectionWD id="0" preCellId="../RT/0/dummycell" postCellId="../SPA/0/dummycell" weight="0.0103379086" delay="0ms"/>
+            <connectionWD id="0" preCellId="../RT/0/L23_E_comp" postCellId="../SPA/0/L23_E_comp" weight="0.0103379086" delay="0ms"/>
         </projection>
         <projection id="proj_RT_SPFp" presynapticPopulation="RT" postsynapticPopulation="SPFp" synapse="ampa">
-            <connectionWD id="0" preCellId="../RT/0/dummycell" postCellId="../SPFp/0/dummycell" weight="0.0175115058" delay="0ms"/>
+            <connectionWD id="0" preCellId="../RT/0/L23_E_comp" postCellId="../SPFp/0/L23_E_comp" weight="0.0175115058" delay="0ms"/>
         </projection>
         <projection id="proj_RT_VAL" presynapticPopulation="RT" postsynapticPopulation="VAL" synapse="ampa">
-            <connectionWD id="0" preCellId="../RT/0/dummycell" postCellId="../VAL/0/dummycell" weight="1.1221020554" delay="0ms"/>
+            <connectionWD id="0" preCellId="../RT/0/L23_E_comp" postCellId="../VAL/0/L23_E_comp" weight="1.1221020554" delay="0ms"/>
         </projection>
         <projection id="proj_RT_VM" presynapticPopulation="RT" postsynapticPopulation="VM" synapse="ampa">
-            <connectionWD id="0" preCellId="../RT/0/dummycell" postCellId="../VM/0/dummycell" weight="0.1980579468" delay="0ms"/>
+            <connectionWD id="0" preCellId="../RT/0/L23_E_comp" postCellId="../VM/0/L23_E_comp" weight="0.1980579468" delay="0ms"/>
         </projection>
         <projection id="proj_RT_VPL" presynapticPopulation="RT" postsynapticPopulation="VPL" synapse="ampa">
-            <connectionWD id="0" preCellId="../RT/0/dummycell" postCellId="../VPL/0/dummycell" weight="0.0967484563" delay="0ms"/>
+            <connectionWD id="0" preCellId="../RT/0/L23_E_comp" postCellId="../VPL/0/L23_E_comp" weight="0.0967484563" delay="0ms"/>
         </projection>
         <projection id="proj_RT_VPM" presynapticPopulation="RT" postsynapticPopulation="VPM" synapse="ampa">
-            <connectionWD id="0" preCellId="../RT/0/dummycell" postCellId="../VPM/0/dummycell" weight="0.4631760306" delay="0ms"/>
+            <connectionWD id="0" preCellId="../RT/0/L23_E_comp" postCellId="../VPM/0/L23_E_comp" weight="0.4631760306" delay="0ms"/>
         </projection>
         <projection id="proj_RT_VPMpc" presynapticPopulation="RT" postsynapticPopulation="VPMpc" synapse="ampa">
-            <connectionWD id="0" preCellId="../RT/0/dummycell" postCellId="../VPMpc/0/dummycell" weight="0.0784085205" delay="0ms"/>
+            <connectionWD id="0" preCellId="../RT/0/L23_E_comp" postCellId="../VPMpc/0/L23_E_comp" weight="0.0784085205" delay="0ms"/>
         </projection>
         <projection id="proj_SPA_CM" presynapticPopulation="SPA" postsynapticPopulation="CM" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPA/0/dummycell" postCellId="../CM/0/dummycell" weight="0.0256242919" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPA/0/L23_E_comp" postCellId="../CM/0/L23_E_comp" weight="0.0256242919" delay="0ms"/>
         </projection>
         <projection id="proj_SPA_IMD" presynapticPopulation="SPA" postsynapticPopulation="IMD" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPA/0/dummycell" postCellId="../IMD/0/dummycell" weight="0.0023675495" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPA/0/L23_E_comp" postCellId="../IMD/0/L23_E_comp" weight="0.0023675495" delay="0ms"/>
         </projection>
         <projection id="proj_SPA_PO" presynapticPopulation="SPA" postsynapticPopulation="PO" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPA/0/dummycell" postCellId="../PO/0/dummycell" weight="0.0022173584" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPA/0/L23_E_comp" postCellId="../PO/0/L23_E_comp" weight="0.0022173584" delay="0ms"/>
         </projection>
         <projection id="proj_SPA_SMT" presynapticPopulation="SPA" postsynapticPopulation="SMT" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPA/0/dummycell" postCellId="../SMT/0/dummycell" weight="0.0566252363" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPA/0/L23_E_comp" postCellId="../SMT/0/L23_E_comp" weight="0.0566252363" delay="0ms"/>
         </projection>
         <projection id="proj_SPA_SPFp" presynapticPopulation="SPA" postsynapticPopulation="SPFp" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPA/0/dummycell" postCellId="../SPFp/0/dummycell" weight="0.0141601441" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPA/0/L23_E_comp" postCellId="../SPFp/0/L23_E_comp" weight="0.0141601441" delay="0ms"/>
         </projection>
         <projection id="proj_SPA_VAL" presynapticPopulation="SPA" postsynapticPopulation="VAL" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPA/0/dummycell" postCellId="../VAL/0/dummycell" weight="0.0592854418" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPA/0/L23_E_comp" postCellId="../VAL/0/L23_E_comp" weight="0.0592854418" delay="0ms"/>
         </projection>
         <projection id="proj_SPA_VM" presynapticPopulation="SPA" postsynapticPopulation="VM" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPA/0/dummycell" postCellId="../VM/0/dummycell" weight="0.3885158893" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPA/0/L23_E_comp" postCellId="../VM/0/L23_E_comp" weight="0.3885158893" delay="0ms"/>
         </projection>
         <projection id="proj_SPA_VPMpc" presynapticPopulation="SPA" postsynapticPopulation="VPMpc" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPA/0/dummycell" postCellId="../VPMpc/0/dummycell" weight="0.0469957239" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPA/0/L23_E_comp" postCellId="../VPMpc/0/L23_E_comp" weight="0.0469957239" delay="0ms"/>
         </projection>
         <projection id="proj_SPFm_CL" presynapticPopulation="SPFm" postsynapticPopulation="CL" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFm/0/dummycell" postCellId="../CL/0/dummycell" weight="0.0501454416" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFm/0/L23_E_comp" postCellId="../CL/0/L23_E_comp" weight="0.0501454416" delay="0ms"/>
         </projection>
         <projection id="proj_SPFm_PF" presynapticPopulation="SPFm" postsynapticPopulation="PF" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFm/0/dummycell" postCellId="../PF/0/dummycell" weight="0.0604738405" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFm/0/L23_E_comp" postCellId="../PF/0/L23_E_comp" weight="0.0604738405" delay="0ms"/>
         </projection>
         <projection id="proj_SPFm_SMT" presynapticPopulation="SPFm" postsynapticPopulation="SMT" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFm/0/dummycell" postCellId="../SMT/0/dummycell" weight="0.0180975754" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFm/0/L23_E_comp" postCellId="../SMT/0/L23_E_comp" weight="0.0180975754" delay="0ms"/>
         </projection>
         <projection id="proj_SPFm_VAL" presynapticPopulation="SPFm" postsynapticPopulation="VAL" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFm/0/dummycell" postCellId="../VAL/0/dummycell" weight="0.5692965072" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFm/0/L23_E_comp" postCellId="../VAL/0/L23_E_comp" weight="0.5692965072" delay="0ms"/>
         </projection>
         <projection id="proj_SPFm_VM" presynapticPopulation="SPFm" postsynapticPopulation="VM" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFm/0/dummycell" postCellId="../VM/0/dummycell" weight="0.4294790984" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFm/0/L23_E_comp" postCellId="../VM/0/L23_E_comp" weight="0.4294790984" delay="0ms"/>
         </projection>
         <projection id="proj_SPFm_VPL" presynapticPopulation="SPFm" postsynapticPopulation="VPL" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFm/0/dummycell" postCellId="../VPL/0/dummycell" weight="0.0250417481" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFm/0/L23_E_comp" postCellId="../VPL/0/L23_E_comp" weight="0.0250417481" delay="0ms"/>
         </projection>
         <projection id="proj_SPFm_VPM" presynapticPopulation="SPFm" postsynapticPopulation="VPM" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFm/0/dummycell" postCellId="../VPM/0/dummycell" weight="0.0441429133" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFm/0/L23_E_comp" postCellId="../VPM/0/L23_E_comp" weight="0.0441429133" delay="0ms"/>
         </projection>
         <projection id="proj_SPFm_VPMpc" presynapticPopulation="SPFm" postsynapticPopulation="VPMpc" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFm/0/dummycell" postCellId="../VPMpc/0/dummycell" weight="0.0083355132" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFm/0/L23_E_comp" postCellId="../VPMpc/0/L23_E_comp" weight="0.0083355132" delay="0ms"/>
         </projection>
         <projection id="proj_SPFp_CL" presynapticPopulation="SPFp" postsynapticPopulation="CL" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFp/0/dummycell" postCellId="../CL/0/dummycell" weight="0.035327623" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFp/0/L23_E_comp" postCellId="../CL/0/L23_E_comp" weight="0.035327623" delay="0ms"/>
         </projection>
         <projection id="proj_SPFp_CM" presynapticPopulation="SPFp" postsynapticPopulation="CM" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFp/0/dummycell" postCellId="../CM/0/dummycell" weight="0.0456083304" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFp/0/L23_E_comp" postCellId="../CM/0/L23_E_comp" weight="0.0456083304" delay="0ms"/>
         </projection>
         <projection id="proj_SPFp_IMD" presynapticPopulation="SPFp" postsynapticPopulation="IMD" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFp/0/dummycell" postCellId="../IMD/0/dummycell" weight="0.0203943521" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFp/0/L23_E_comp" postCellId="../IMD/0/L23_E_comp" weight="0.0203943521" delay="0ms"/>
         </projection>
         <projection id="proj_SPFp_LH" presynapticPopulation="SPFp" postsynapticPopulation="LH" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFp/0/dummycell" postCellId="../LH/0/dummycell" weight="0.0117519907" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFp/0/L23_E_comp" postCellId="../LH/0/L23_E_comp" weight="0.0117519907" delay="0ms"/>
         </projection>
         <projection id="proj_SPFp_MGd" presynapticPopulation="SPFp" postsynapticPopulation="MGd" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFp/0/dummycell" postCellId="../MGd/0/dummycell" weight="0.0137689216" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFp/0/L23_E_comp" postCellId="../MGd/0/L23_E_comp" weight="0.0137689216" delay="0ms"/>
         </projection>
         <projection id="proj_SPFp_PF" presynapticPopulation="SPFp" postsynapticPopulation="PF" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFp/0/dummycell" postCellId="../PF/0/dummycell" weight="0.0601905137" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFp/0/L23_E_comp" postCellId="../PF/0/L23_E_comp" weight="0.0601905137" delay="0ms"/>
         </projection>
         <projection id="proj_SPFp_PO" presynapticPopulation="SPFp" postsynapticPopulation="PO" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFp/0/dummycell" postCellId="../PO/0/dummycell" weight="0.2243726819" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFp/0/L23_E_comp" postCellId="../PO/0/L23_E_comp" weight="0.2243726819" delay="0ms"/>
         </projection>
         <projection id="proj_SPFp_POL" presynapticPopulation="SPFp" postsynapticPopulation="POL" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFp/0/dummycell" postCellId="../POL/0/dummycell" weight="0.0267748053" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFp/0/L23_E_comp" postCellId="../POL/0/L23_E_comp" weight="0.0267748053" delay="0ms"/>
         </projection>
         <projection id="proj_SPFp_PVT" presynapticPopulation="SPFp" postsynapticPopulation="PVT" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFp/0/dummycell" postCellId="../PVT/0/dummycell" weight="0.005392231" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFp/0/L23_E_comp" postCellId="../PVT/0/L23_E_comp" weight="0.005392231" delay="0ms"/>
         </projection>
         <projection id="proj_SPFp_RE" presynapticPopulation="SPFp" postsynapticPopulation="RE" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFp/0/dummycell" postCellId="../RE/0/dummycell" weight="0.2267572711" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFp/0/L23_E_comp" postCellId="../RE/0/L23_E_comp" weight="0.2267572711" delay="0ms"/>
         </projection>
         <projection id="proj_SPFp_RH" presynapticPopulation="SPFp" postsynapticPopulation="RH" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFp/0/dummycell" postCellId="../RH/0/dummycell" weight="0.0228988783" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFp/0/L23_E_comp" postCellId="../RH/0/L23_E_comp" weight="0.0228988783" delay="0ms"/>
         </projection>
         <projection id="proj_SPFp_SMT" presynapticPopulation="SPFp" postsynapticPopulation="SMT" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFp/0/dummycell" postCellId="../SMT/0/dummycell" weight="0.0099405051" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFp/0/L23_E_comp" postCellId="../SMT/0/L23_E_comp" weight="0.0099405051" delay="0ms"/>
         </projection>
         <projection id="proj_SPFp_SPA" presynapticPopulation="SPFp" postsynapticPopulation="SPA" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFp/0/dummycell" postCellId="../SPA/0/dummycell" weight="0.0317804184" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFp/0/L23_E_comp" postCellId="../SPA/0/L23_E_comp" weight="0.0317804184" delay="0ms"/>
         </projection>
         <projection id="proj_SPFp_SPFm" presynapticPopulation="SPFp" postsynapticPopulation="SPFm" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFp/0/dummycell" postCellId="../SPFm/0/dummycell" weight="0.0323983936" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFp/0/L23_E_comp" postCellId="../SPFm/0/L23_E_comp" weight="0.0323983936" delay="0ms"/>
         </projection>
         <projection id="proj_SPFp_VAL" presynapticPopulation="SPFp" postsynapticPopulation="VAL" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFp/0/dummycell" postCellId="../VAL/0/dummycell" weight="0.0811656726" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFp/0/L23_E_comp" postCellId="../VAL/0/L23_E_comp" weight="0.0811656726" delay="0ms"/>
         </projection>
         <projection id="proj_SPFp_VM" presynapticPopulation="SPFp" postsynapticPopulation="VM" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFp/0/dummycell" postCellId="../VM/0/dummycell" weight="0.0455693056" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFp/0/L23_E_comp" postCellId="../VM/0/L23_E_comp" weight="0.0455693056" delay="0ms"/>
         </projection>
         <projection id="proj_SPFp_VPL" presynapticPopulation="SPFp" postsynapticPopulation="VPL" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFp/0/dummycell" postCellId="../VPL/0/dummycell" weight="0.0361688044" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFp/0/L23_E_comp" postCellId="../VPL/0/L23_E_comp" weight="0.0361688044" delay="0ms"/>
         </projection>
         <projection id="proj_SPFp_VPM" presynapticPopulation="SPFp" postsynapticPopulation="VPM" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFp/0/dummycell" postCellId="../VPM/0/dummycell" weight="0.0791106539" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFp/0/L23_E_comp" postCellId="../VPM/0/L23_E_comp" weight="0.0791106539" delay="0ms"/>
         </projection>
         <projection id="proj_SPFp_VPMpc" presynapticPopulation="SPFp" postsynapticPopulation="VPMpc" synapse="ampa">
-            <connectionWD id="0" preCellId="../SPFp/0/dummycell" postCellId="../VPMpc/0/dummycell" weight="0.0478390464" delay="0ms"/>
+            <connectionWD id="0" preCellId="../SPFp/0/L23_E_comp" postCellId="../VPMpc/0/L23_E_comp" weight="0.0478390464" delay="0ms"/>
         </projection>
         <projection id="proj_VAL_AMv" presynapticPopulation="VAL" postsynapticPopulation="AMv" synapse="ampa">
-            <connectionWD id="0" preCellId="../VAL/0/dummycell" postCellId="../AMv/0/dummycell" weight="0.0019080197" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VAL/0/L23_E_comp" postCellId="../AMv/0/L23_E_comp" weight="0.0019080197" delay="0ms"/>
         </projection>
         <projection id="proj_VAL_CL" presynapticPopulation="VAL" postsynapticPopulation="CL" synapse="ampa">
-            <connectionWD id="0" preCellId="../VAL/0/dummycell" postCellId="../CL/0/dummycell" weight="0.0871464495" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VAL/0/L23_E_comp" postCellId="../CL/0/L23_E_comp" weight="0.0871464495" delay="0ms"/>
         </projection>
         <projection id="proj_VAL_LGd" presynapticPopulation="VAL" postsynapticPopulation="LGd" synapse="ampa">
-            <connectionWD id="0" preCellId="../VAL/0/dummycell" postCellId="../LGd/0/dummycell" weight="0.0090046731" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VAL/0/L23_E_comp" postCellId="../LGd/0/L23_E_comp" weight="0.0090046731" delay="0ms"/>
         </projection>
         <projection id="proj_VAL_LGv" presynapticPopulation="VAL" postsynapticPopulation="LGv" synapse="ampa">
-            <connectionWD id="0" preCellId="../VAL/0/dummycell" postCellId="../LGv/0/dummycell" weight="0.029478759" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VAL/0/L23_E_comp" postCellId="../LGv/0/L23_E_comp" weight="0.029478759" delay="0ms"/>
         </projection>
         <projection id="proj_VAL_LP" presynapticPopulation="VAL" postsynapticPopulation="LP" synapse="ampa">
-            <connectionWD id="0" preCellId="../VAL/0/dummycell" postCellId="../LP/0/dummycell" weight="0.0792180024" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VAL/0/L23_E_comp" postCellId="../LP/0/L23_E_comp" weight="0.0792180024" delay="0ms"/>
         </projection>
         <projection id="proj_VAL_MGm" presynapticPopulation="VAL" postsynapticPopulation="MGm" synapse="ampa">
-            <connectionWD id="0" preCellId="../VAL/0/dummycell" postCellId="../MGm/0/dummycell" weight="0.0029814973" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VAL/0/L23_E_comp" postCellId="../MGm/0/L23_E_comp" weight="0.0029814973" delay="0ms"/>
         </projection>
         <projection id="proj_VAL_MGv" presynapticPopulation="VAL" postsynapticPopulation="MGv" synapse="ampa">
-            <connectionWD id="0" preCellId="../VAL/0/dummycell" postCellId="../MGv/0/dummycell" weight="0.0042988991" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VAL/0/L23_E_comp" postCellId="../MGv/0/L23_E_comp" weight="0.0042988991" delay="0ms"/>
         </projection>
         <projection id="proj_VAL_MH" presynapticPopulation="VAL" postsynapticPopulation="MH" synapse="ampa">
-            <connectionWD id="0" preCellId="../VAL/0/dummycell" postCellId="../MH/0/dummycell" weight="0.0003456387" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VAL/0/L23_E_comp" postCellId="../MH/0/L23_E_comp" weight="0.0003456387" delay="0ms"/>
         </projection>
         <projection id="proj_VAL_PP" presynapticPopulation="VAL" postsynapticPopulation="PP" synapse="ampa">
-            <connectionWD id="0" preCellId="../VAL/0/dummycell" postCellId="../PP/0/dummycell" weight="0.0043150707" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VAL/0/L23_E_comp" postCellId="../PP/0/L23_E_comp" weight="0.0043150707" delay="0ms"/>
         </projection>
         <projection id="proj_VAL_PT" presynapticPopulation="VAL" postsynapticPopulation="PT" synapse="ampa">
-            <connectionWD id="0" preCellId="../VAL/0/dummycell" postCellId="../PT/0/dummycell" weight="0.0011573972" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VAL/0/L23_E_comp" postCellId="../PT/0/L23_E_comp" weight="0.0011573972" delay="0ms"/>
         </projection>
         <projection id="proj_VAL_RE" presynapticPopulation="VAL" postsynapticPopulation="RE" synapse="ampa">
-            <connectionWD id="0" preCellId="../VAL/0/dummycell" postCellId="../RE/0/dummycell" weight="0.0449611016" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VAL/0/L23_E_comp" postCellId="../RE/0/L23_E_comp" weight="0.0449611016" delay="0ms"/>
         </projection>
         <projection id="proj_VAL_RH" presynapticPopulation="VAL" postsynapticPopulation="RH" synapse="ampa">
-            <connectionWD id="0" preCellId="../VAL/0/dummycell" postCellId="../RH/0/dummycell" weight="0.007136794" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VAL/0/L23_E_comp" postCellId="../RH/0/L23_E_comp" weight="0.007136794" delay="0ms"/>
         </projection>
         <projection id="proj_VAL_SMT" presynapticPopulation="VAL" postsynapticPopulation="SMT" synapse="ampa">
-            <connectionWD id="0" preCellId="../VAL/0/dummycell" postCellId="../SMT/0/dummycell" weight="0.0106621266" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VAL/0/L23_E_comp" postCellId="../SMT/0/L23_E_comp" weight="0.0106621266" delay="0ms"/>
         </projection>
         <projection id="proj_VAL_SPFm" presynapticPopulation="VAL" postsynapticPopulation="SPFm" synapse="ampa">
-            <connectionWD id="0" preCellId="../VAL/0/dummycell" postCellId="../SPFm/0/dummycell" weight="0.0052665922" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VAL/0/L23_E_comp" postCellId="../SPFm/0/L23_E_comp" weight="0.0052665922" delay="0ms"/>
         </projection>
         <projection id="proj_VAL_SPFp" presynapticPopulation="VAL" postsynapticPopulation="SPFp" synapse="ampa">
-            <connectionWD id="0" preCellId="../VAL/0/dummycell" postCellId="../SPFp/0/dummycell" weight="0.0034467124" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VAL/0/L23_E_comp" postCellId="../SPFp/0/L23_E_comp" weight="0.0034467124" delay="0ms"/>
         </projection>
         <projection id="proj_VM_AD" presynapticPopulation="VM" postsynapticPopulation="AD" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../AD/0/dummycell" weight="0.0017744535" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../AD/0/L23_E_comp" weight="0.0017744535" delay="0ms"/>
         </projection>
         <projection id="proj_VM_AV" presynapticPopulation="VM" postsynapticPopulation="AV" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../AV/0/dummycell" weight="0.0113108268" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../AV/0/L23_E_comp" weight="0.0113108268" delay="0ms"/>
         </projection>
         <projection id="proj_VM_CL" presynapticPopulation="VM" postsynapticPopulation="CL" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../CL/0/dummycell" weight="0.0009410664" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../CL/0/L23_E_comp" weight="0.0009410664" delay="0ms"/>
         </projection>
         <projection id="proj_VM_CM" presynapticPopulation="VM" postsynapticPopulation="CM" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../CM/0/dummycell" weight="0.0092148592" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../CM/0/L23_E_comp" weight="0.0092148592" delay="0ms"/>
         </projection>
         <projection id="proj_VM_IMD" presynapticPopulation="VM" postsynapticPopulation="IMD" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../IMD/0/dummycell" weight="0.0177447785" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../IMD/0/L23_E_comp" weight="0.0177447785" delay="0ms"/>
         </projection>
         <projection id="proj_VM_LD" presynapticPopulation="VM" postsynapticPopulation="LD" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../LD/0/dummycell" weight="0.0361490596" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../LD/0/L23_E_comp" weight="0.0361490596" delay="0ms"/>
         </projection>
         <projection id="proj_VM_LGd" presynapticPopulation="VM" postsynapticPopulation="LGd" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../LGd/0/dummycell" weight="0.0184104333" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../LGd/0/L23_E_comp" weight="0.0184104333" delay="0ms"/>
         </projection>
         <projection id="proj_VM_LGv" presynapticPopulation="VM" postsynapticPopulation="LGv" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../LGv/0/dummycell" weight="0.0581302034" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../LGv/0/L23_E_comp" weight="0.0581302034" delay="0ms"/>
         </projection>
         <projection id="proj_VM_LH" presynapticPopulation="VM" postsynapticPopulation="LH" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../LH/0/dummycell" weight="0.0507139009" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../LH/0/L23_E_comp" weight="0.0507139009" delay="0ms"/>
         </projection>
         <projection id="proj_VM_LP" presynapticPopulation="VM" postsynapticPopulation="LP" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../LP/0/dummycell" weight="0.0841215824" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../LP/0/L23_E_comp" weight="0.0841215824" delay="0ms"/>
         </projection>
         <projection id="proj_VM_MGd" presynapticPopulation="VM" postsynapticPopulation="MGd" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../MGd/0/dummycell" weight="0.0024576192" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../MGd/0/L23_E_comp" weight="0.0024576192" delay="0ms"/>
         </projection>
         <projection id="proj_VM_MGm" presynapticPopulation="VM" postsynapticPopulation="MGm" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../MGm/0/dummycell" weight="0.0065171307" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../MGm/0/L23_E_comp" weight="0.0065171307" delay="0ms"/>
         </projection>
         <projection id="proj_VM_MGv" presynapticPopulation="VM" postsynapticPopulation="MGv" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../MGv/0/dummycell" weight="0.0128469454" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../MGv/0/L23_E_comp" weight="0.0128469454" delay="0ms"/>
         </projection>
         <projection id="proj_VM_PF" presynapticPopulation="VM" postsynapticPopulation="PF" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../PF/0/dummycell" weight="0.060552693" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../PF/0/L23_E_comp" weight="0.060552693" delay="0ms"/>
         </projection>
         <projection id="proj_VM_PO" presynapticPopulation="VM" postsynapticPopulation="PO" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../PO/0/dummycell" weight="0.0431009128" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../PO/0/L23_E_comp" weight="0.0431009128" delay="0ms"/>
         </projection>
         <projection id="proj_VM_POL" presynapticPopulation="VM" postsynapticPopulation="POL" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../POL/0/dummycell" weight="0.0179414488" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../POL/0/L23_E_comp" weight="0.0179414488" delay="0ms"/>
         </projection>
         <projection id="proj_VM_PP" presynapticPopulation="VM" postsynapticPopulation="PP" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../PP/0/dummycell" weight="0.0075863941" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../PP/0/L23_E_comp" weight="0.0075863941" delay="0ms"/>
         </projection>
         <projection id="proj_VM_PVT" presynapticPopulation="VM" postsynapticPopulation="PVT" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../PVT/0/dummycell" weight="0.0061988297" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../PVT/0/L23_E_comp" weight="0.0061988297" delay="0ms"/>
         </projection>
         <projection id="proj_VM_RE" presynapticPopulation="VM" postsynapticPopulation="RE" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../RE/0/dummycell" weight="0.0969329694" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../RE/0/L23_E_comp" weight="0.0969329694" delay="0ms"/>
         </projection>
         <projection id="proj_VM_RH" presynapticPopulation="VM" postsynapticPopulation="RH" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../RH/0/dummycell" weight="0.0262764418" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../RH/0/L23_E_comp" weight="0.0262764418" delay="0ms"/>
         </projection>
         <projection id="proj_VM_RT" presynapticPopulation="VM" postsynapticPopulation="RT" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../RT/0/dummycell" weight="0.3947880385" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../RT/0/L23_E_comp" weight="0.3947880385" delay="0ms"/>
         </projection>
         <projection id="proj_VM_SMT" presynapticPopulation="VM" postsynapticPopulation="SMT" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../SMT/0/dummycell" weight="0.0198763113" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../SMT/0/L23_E_comp" weight="0.0198763113" delay="0ms"/>
         </projection>
         <projection id="proj_VM_SPA" presynapticPopulation="VM" postsynapticPopulation="SPA" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../SPA/0/dummycell" weight="0.0177121355" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../SPA/0/L23_E_comp" weight="0.0177121355" delay="0ms"/>
         </projection>
         <projection id="proj_VM_SPFm" presynapticPopulation="VM" postsynapticPopulation="SPFm" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../SPFm/0/dummycell" weight="0.0131558198" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../SPFm/0/L23_E_comp" weight="0.0131558198" delay="0ms"/>
         </projection>
         <projection id="proj_VM_SPFp" presynapticPopulation="VM" postsynapticPopulation="SPFp" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../SPFp/0/dummycell" weight="0.0587668044" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../SPFp/0/L23_E_comp" weight="0.0587668044" delay="0ms"/>
         </projection>
         <projection id="proj_VM_VM" presynapticPopulation="VM" postsynapticPopulation="VM" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../VM/0/dummycell" weight="0.0144112732" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../VM/0/L23_E_comp" weight="0.0144112732" delay="0ms"/>
         </projection>
         <projection id="proj_VM_VPL" presynapticPopulation="VM" postsynapticPopulation="VPL" synapse="ampa">
-            <connectionWD id="0" preCellId="../VM/0/dummycell" postCellId="../VPL/0/dummycell" weight="0.0745080347" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VM/0/L23_E_comp" postCellId="../VPL/0/L23_E_comp" weight="0.0745080347" delay="0ms"/>
         </projection>
         <projection id="proj_VPL_AMv" presynapticPopulation="VPL" postsynapticPopulation="AMv" synapse="ampa">
-            <connectionWD id="0" preCellId="../VPL/0/dummycell" postCellId="../AMv/0/dummycell" weight="0.000552661" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VPL/0/L23_E_comp" postCellId="../AMv/0/L23_E_comp" weight="0.000552661" delay="0ms"/>
         </projection>
         <projection id="proj_VPL_CL" presynapticPopulation="VPL" postsynapticPopulation="CL" synapse="ampa">
-            <connectionWD id="0" preCellId="../VPL/0/dummycell" postCellId="../CL/0/dummycell" weight="0.0932368713" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VPL/0/L23_E_comp" postCellId="../CL/0/L23_E_comp" weight="0.0932368713" delay="0ms"/>
         </projection>
         <projection id="proj_VPL_LGv" presynapticPopulation="VPL" postsynapticPopulation="LGv" synapse="ampa">
-            <connectionWD id="0" preCellId="../VPL/0/dummycell" postCellId="../LGv/0/dummycell" weight="0.0012033704" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VPL/0/L23_E_comp" postCellId="../LGv/0/L23_E_comp" weight="0.0012033704" delay="0ms"/>
         </projection>
         <projection id="proj_VPL_LH" presynapticPopulation="VPL" postsynapticPopulation="LH" synapse="ampa">
-            <connectionWD id="0" preCellId="../VPL/0/dummycell" postCellId="../LH/0/dummycell" weight="0.024877202" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VPL/0/L23_E_comp" postCellId="../LH/0/L23_E_comp" weight="0.024877202" delay="0ms"/>
         </projection>
         <projection id="proj_VPL_MGm" presynapticPopulation="VPL" postsynapticPopulation="MGm" synapse="ampa">
-            <connectionWD id="0" preCellId="../VPL/0/dummycell" postCellId="../MGm/0/dummycell" weight="0.0038288889" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VPL/0/L23_E_comp" postCellId="../MGm/0/L23_E_comp" weight="0.0038288889" delay="0ms"/>
         </projection>
         <projection id="proj_VPL_MGv" presynapticPopulation="VPL" postsynapticPopulation="MGv" synapse="ampa">
-            <connectionWD id="0" preCellId="../VPL/0/dummycell" postCellId="../MGv/0/dummycell" weight="0.0076989883" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VPL/0/L23_E_comp" postCellId="../MGv/0/L23_E_comp" weight="0.0076989883" delay="0ms"/>
         </projection>
         <projection id="proj_VPL_PO" presynapticPopulation="VPL" postsynapticPopulation="PO" synapse="ampa">
-            <connectionWD id="0" preCellId="../VPL/0/dummycell" postCellId="../PO/0/dummycell" weight="0.2693656109" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VPL/0/L23_E_comp" postCellId="../PO/0/L23_E_comp" weight="0.2693656109" delay="0ms"/>
         </projection>
         <projection id="proj_VPL_POL" presynapticPopulation="VPL" postsynapticPopulation="POL" synapse="ampa">
-            <connectionWD id="0" preCellId="../VPL/0/dummycell" postCellId="../POL/0/dummycell" weight="0.0130620972" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VPL/0/L23_E_comp" postCellId="../POL/0/L23_E_comp" weight="0.0130620972" delay="0ms"/>
         </projection>
         <projection id="proj_VPL_RH" presynapticPopulation="VPL" postsynapticPopulation="RH" synapse="ampa">
-            <connectionWD id="0" preCellId="../VPL/0/dummycell" postCellId="../RH/0/dummycell" weight="0.0138491324" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VPL/0/L23_E_comp" postCellId="../RH/0/L23_E_comp" weight="0.0138491324" delay="0ms"/>
         </projection>
         <projection id="proj_VPL_SMT" presynapticPopulation="VPL" postsynapticPopulation="SMT" synapse="ampa">
-            <connectionWD id="0" preCellId="../VPL/0/dummycell" postCellId="../SMT/0/dummycell" weight="0.0107507305" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VPL/0/L23_E_comp" postCellId="../SMT/0/L23_E_comp" weight="0.0107507305" delay="0ms"/>
         </projection>
         <projection id="proj_VPL_SPFm" presynapticPopulation="VPL" postsynapticPopulation="SPFm" synapse="ampa">
-            <connectionWD id="0" preCellId="../VPL/0/dummycell" postCellId="../SPFm/0/dummycell" weight="0.0019369407" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VPL/0/L23_E_comp" postCellId="../SPFm/0/L23_E_comp" weight="0.0019369407" delay="0ms"/>
         </projection>
         <projection id="proj_VPL_VM" presynapticPopulation="VPL" postsynapticPopulation="VM" synapse="ampa">
-            <connectionWD id="0" preCellId="../VPL/0/dummycell" postCellId="../VM/0/dummycell" weight="0.0334387904" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VPL/0/L23_E_comp" postCellId="../VM/0/L23_E_comp" weight="0.0334387904" delay="0ms"/>
         </projection>
         <projection id="proj_VPM_MGd" presynapticPopulation="VPM" postsynapticPopulation="MGd" synapse="ampa">
-            <connectionWD id="0" preCellId="../VPM/0/dummycell" postCellId="../MGd/0/dummycell" weight="0.0035730483" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VPM/0/L23_E_comp" postCellId="../MGd/0/L23_E_comp" weight="0.0035730483" delay="0ms"/>
         </projection>
         <projection id="proj_VPM_PO" presynapticPopulation="VPM" postsynapticPopulation="PO" synapse="ampa">
-            <connectionWD id="0" preCellId="../VPM/0/dummycell" postCellId="../PO/0/dummycell" weight="0.011896611" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VPM/0/L23_E_comp" postCellId="../PO/0/L23_E_comp" weight="0.011896611" delay="0ms"/>
         </projection>
         <projection id="proj_VPM_POL" presynapticPopulation="VPM" postsynapticPopulation="POL" synapse="ampa">
-            <connectionWD id="0" preCellId="../VPM/0/dummycell" postCellId="../POL/0/dummycell" weight="0.00991929" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VPM/0/L23_E_comp" postCellId="../POL/0/L23_E_comp" weight="0.00991929" delay="0ms"/>
         </projection>
         <projection id="proj_VPM_RT" presynapticPopulation="VPM" postsynapticPopulation="RT" synapse="ampa">
-            <connectionWD id="0" preCellId="../VPM/0/dummycell" postCellId="../RT/0/dummycell" weight="0.2400476535" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VPM/0/L23_E_comp" postCellId="../RT/0/L23_E_comp" weight="0.2400476535" delay="0ms"/>
         </projection>
         <projection id="proj_VPM_VPL" presynapticPopulation="VPM" postsynapticPopulation="VPL" synapse="ampa">
-            <connectionWD id="0" preCellId="../VPM/0/dummycell" postCellId="../VPL/0/dummycell" weight="0.0295885812" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VPM/0/L23_E_comp" postCellId="../VPL/0/L23_E_comp" weight="0.0295885812" delay="0ms"/>
         </projection>
         <projection id="proj_VPMpc_RT" presynapticPopulation="VPMpc" postsynapticPopulation="RT" synapse="ampa">
-            <connectionWD id="0" preCellId="../VPMpc/0/dummycell" postCellId="../RT/0/dummycell" weight="0.7371693911" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VPMpc/0/L23_E_comp" postCellId="../RT/0/L23_E_comp" weight="0.7371693911" delay="0ms"/>
         </projection>
         <projection id="proj_VPMpc_VAL" presynapticPopulation="VPMpc" postsynapticPopulation="VAL" synapse="ampa">
-            <connectionWD id="0" preCellId="../VPMpc/0/dummycell" postCellId="../VAL/0/dummycell" weight="0.0778330802" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VPMpc/0/L23_E_comp" postCellId="../VAL/0/L23_E_comp" weight="0.0778330802" delay="0ms"/>
         </projection>
         <projection id="proj_VPMpc_VM" presynapticPopulation="VPMpc" postsynapticPopulation="VM" synapse="ampa">
-            <connectionWD id="0" preCellId="../VPMpc/0/dummycell" postCellId="../VM/0/dummycell" weight="0.0781797397" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VPMpc/0/L23_E_comp" postCellId="../VM/0/L23_E_comp" weight="0.0781797397" delay="0ms"/>
         </projection>
         <projection id="proj_VPMpc_VPL" presynapticPopulation="VPMpc" postsynapticPopulation="VPL" synapse="ampa">
-            <connectionWD id="0" preCellId="../VPMpc/0/dummycell" postCellId="../VPL/0/dummycell" weight="0.1390817254" delay="0ms"/>
+            <connectionWD id="0" preCellId="../VPMpc/0/L23_E_comp" postCellId="../VPL/0/L23_E_comp" weight="0.1390817254" delay="0ms"/>
         </projection>
+        <inputList id="Stim_VPM" population="VPM" component="iclamp_0">
+            <input id="0" target="../VPM/0/L23_E_comp" destination="synapses"/>
+        </inputList>
     </network>
 </neuroml>

@@ -6,3 +6,8 @@
 .DS_Store
 /Allen/*.nml*.png
 /Allen/*.gv.png
+/Allen/*.r.dat
+/Allen/*v.dat
+/Allen/x86_64
+/Allen/time.dat
+*.mod

@@ -98,18 +98,38 @@ def generate(reference,
 
     net = Network(id=reference)
     net.notes = "NOTE: this is only a quick demo!! Do not use it for your research assuming an accurate conversion of the source data!!! "
+    net.parameters = {}
 
     #cell = Cell(id='dummycell', pynn_cell='IF_cond_alpha')
     #cell.parameters = { "tau_refrac":5, "i_offset":.1 }
-    cell = Cell(id='dummycell', neuroml2_source_file='passiveSingleCompCell.cell.nml')
+    suffix = '' #if noise else '_flat'
+    l23ecell = Cell(id='L23_E_comp'+suffix, lems_source_file='Prototypes.xml')
     
+    net.cells.append(l23ecell)
     
-    net.cells.append(cell)
+    net.synapses.append(Synapse(id='rs', 
+                                lems_source_file='RateBased.xml')) #  hack to include this file too. 
+    net.synapses.append(Synapse(id='silent1', 
+                                lems_source_file='Prototypes.xml')) 
 
     net.synapses.append(Synapse(id='ampa', 
                                 pynn_receptor_type='excitatory', 
                                 pynn_synapse_type='cond_alpha', 
                                 parameters={'e_rev':-10, 'tau_syn':2}))
+                                
+                                
+    net.parameters['stim_amp'] = '1nA'
+
+    input_source_0 = InputSource(id='iclamp_0', 
+                               neuroml2_input='PulseGenerator', 
+                               parameters={'amplitude':'stim_amp', 'delay':'200ms', 'duration':'500ms'})
+
+    input_source_1 = InputSource(id='iclamp_1', 
+                               neuroml2_input='PulseGenerator', 
+                               parameters={'amplitude':'stim_amp', 'delay':'1000ms', 'duration':'500ms'})
+
+    net.input_sources.append(input_source_0)
+    net.input_sources.append(input_source_1)
 
     '''                            
     r1 = RectangularRegion(id='region1', x=0,y=0,z=0,width=1000,height=100,depth=1000)
@@ -226,31 +246,31 @@ def generate(reference,
 
                         color = '.8 .8 .8'
                         if 'Thalamus' in area:
-                            color = '.3 .3 .3'
+                            color = '.5 .5 .5'
                         if 'Isocortex' in area:
                             color = occ.L23_PRINCIPAL_CELL
                         if 'bulb' in area:
                             color = '0 0 1'
                         if 'Cerebe' in area:
-                            color = '.6 .6 .6'
+                            color = '0 .2 0'
                         #if 'Hippocampal' in area:
                         #    color = occ.L6_PRINCIPAL_CELL
 
-                        if '1' in id:
-                            color = occ.THALAMUS_2
-                        if '2_3' in id:
+                        if id.endswith('1'):
+                            color = occ.L1_PRINCIPAL_CELL
+                        if id.endswith('2_3'):
                             color = occ.L23_PRINCIPAL_CELL
-                        if '4' in id:
+                        if id.endswith('4'):
                             color = occ.L4_PRINCIPAL_CELL
-                        if '5' in id:
+                        if id.endswith('5'):
                             color = occ.L5_PRINCIPAL_CELL
-                        if '6' in id:
+                        if id.endswith('6') or id.endswith('6a') or id.endswith('6b'):
                             color = occ.L6_PRINCIPAL_CELL
 
 
                         p0 = Population(id=used_ids[id], 
                                         size=1, 
-                                        component=cell.id, 
+                                        component=l23ecell.id, 
                                         properties={'color':'%s'%(color),
                                                     'radius':50,
                                                     'name':name,
@@ -299,6 +319,16 @@ def generate(reference,
                                                                           random_connectivity=RandomConnectivity(probability=1)))
 
 
+    stim_pops = ['VPM']
+    stim_ids = [input_source_0.id, input_source_1.id]
+
+    for i in range(len(stim_pops)):
+        pop = stim_pops[i]
+        stim = stim_ids[i]
+        net.inputs.append(Input(id='Stim_%s'%pop,
+                                input_source=stim,
+                                population=pop,
+                                percentage=100))
 
 
     from neuromllite import Simulation
@@ -309,9 +339,10 @@ def generate(reference,
 
     sim = Simulation(id='Sim_%s'%net.id,
                      network=new_file,
-                     duration='1000',
-                     dt='0.025',
-                     recordTraces={'all':'*'})
+                     duration='2000',
+                     dt='0.2',
+                     recordTraces={'all':'*'},
+                     recordRates={'all':'*'})
 
 
     ################################################################################
@@ -328,7 +359,7 @@ def generate(reference,
 if __name__ == '__main__':
     
     if '-thal' in sys.argv:
-        generate('Thalamus',only_areas_matching=['Thalamus'],
+        generate('Thalamus',only_areas_matching=['Thalamus'], #only_ids_matching=['VP','SP'],
              include_contra=True,
              include_connections=True)
         
