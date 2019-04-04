@@ -1,0 +1,37 @@
+<Lems xmlns="http://www.neuroml.org/lems/0.7.4"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.neuroml.org/lems/0.7.4 ../../LEMS/Schemas/LEMS/LEMS_v0.7.4.xsd"
+      description="A ...">
+
+    <ComponentType name="planarOscillator"
+                   extends="baseCell"
+                   description="...">
+
+
+        <Parameter name="a" dimension="none"/>
+        <Parameter name="tau" dimension="time"/>
+        
+        
+        <Parameter name="X0" dimension="none"/>
+        <Parameter name="Y0" dimension="none"/>
+        
+        <Exposure name="X" dimension="none"/>
+        <Exposure name="Y" dimension="none"/>
+
+
+        <Dynamics>
+            
+            
+            <OnStart>
+                <StateAssignment variable="X" value="X0"/>
+                <StateAssignment variable="Y" value="Y0"/>
+            </OnStart>
+            
+            <StateVariable name="X" dimension="none" exposure="X"/>
+            <StateVariable name="Y" dimension="none" exposure="Y"/>
+            <TimeDerivative variable="X" value="(-1*X/tau)"/>
+        </Dynamics>
+        
+    </ComponentType>
+    
+</Lems>
