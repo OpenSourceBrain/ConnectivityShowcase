@@ -11,6 +11,7 @@ import math
 import csv
 import sys
 
+cell_loc = 'ML_cells/'
 
 def rotate(x, y, theta):
 
@@ -21,7 +22,7 @@ def rotate(x, y, theta):
 
 def get_oriented_cell(cell_file, theta_z, theta_x, trans_x, trans_y, trans_z):
     
-    new_ref = "ROTATED_"+cell_file.split('.')[0]
+    new_ref = "ROTATED_%s"%(cell_file.split('/')[1].split('.')[0])
 
     doc = loaders.NeuroMLLoader.load(cell_file)
     print("Loaded morphology file from: "+cell_file)
@@ -51,7 +52,7 @@ def get_oriented_cell(cell_file, theta_z, theta_x, trans_x, trans_y, trans_z):
     
 
 
-    new_cell_file = new_ref+'.cell.nml'
+    new_cell_file = cell_loc+new_ref+'.cell.nml'
 
     writers.NeuroMLWriter.write(doc,new_cell_file)
     
@@ -141,6 +142,7 @@ def generate(reference,
     net.populations[0].random_layout = RandomLayout(region=r1.id)'''
 
     detailed_cells = ['AA0289'] if include_detailed_cells else []
+    detailed_cells = [cell_loc+d for d in detailed_cells]
     
     for dc in detailed_cells:
         
@@ -325,7 +327,8 @@ def generate(reference,
     for i in range(len(stim_pops)):
         pop = stim_pops[i]
         stim = stim_ids[i]
-        net.inputs.append(Input(id='Stim_%s'%pop,
+        if pop in used_ids:
+            net.inputs.append(Input(id='Stim_%s'%pop,
                                 input_source=stim,
                                 population=pop,
                                 percentage=100))
@@ -340,9 +343,7 @@ def generate(reference,
     sim = Simulation(id='Sim_%s'%net.id,
                      network=new_file,
                      duration='2000',
-                     dt='0.2',
-                     recordTraces={'all':'*'},
-                     recordRates={'all':'*'})
+                     dt='0.2')
 
 
     ################################################################################
@@ -376,7 +377,7 @@ if __name__ == '__main__':
     elif '-vis' in sys.argv:
         generate('VIS',only_ids_matching=['VIS'],
              include_contra=True,
-             include_connections=True)
+             include_connections=False)
              
     elif '-cell' in sys.argv:
         generate('DetailedCell1',only_ids_matching=['*'],
@@ -391,9 +392,9 @@ if __name__ == '__main__':
              include_detailed_cells=True)
              
     elif '-test' in sys.argv:
-        generate('DTest1',only_ids_matching=['VI'],
+        generate('DetailedTest',only_ids_matching=['*'],
              include_contra=True,
-             include_connections=False,
+             include_connections=True,
              include_detailed_cells=True)
     else:  
         generate('Full')

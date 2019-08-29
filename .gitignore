@@ -13,3 +13,13 @@
 *.mod
 *_nrn.py
 report.*txt
+/Allen/DetailedCell1.json
+*.svg
+/Allen/DetailedTest.json
+/Allen/Full.json
+/Allen/LEMS_Sim_*.xml
+/Allen/*.hoc
+/Allen/Thalamus.json
+/Allen/VIS.json
+/Allen/OlfactoryAreas.json
+/Allen/OlfactoryAreas.net.nml
