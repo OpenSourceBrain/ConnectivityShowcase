@@ -72,19 +72,19 @@ def generate(reference,
     names = {}
     areas = {}
 
-    with open('nature13186-s2_1.csv', 'rb') as csvfile:
+    with open('nature13186-s2_1.csv', 'r') as csvfile:
         reader = csv.reader(csvfile, delimiter=',', quotechar='"')
         for w in reader:
-            print w
+            print(w)
             if w[0] != 'id':
                 short = w[3].replace(', ','_')
                 name = w[4].strip('"')
                 names[short]=name
 
-    with open('nature13186-s2_2.csv', 'rb') as csvfile:
+    with open('nature13186-s2_2.csv', 'r') as csvfile:
         reader = csv.reader(csvfile, delimiter=',', quotechar='"')
         for w in reader:
-            print w
+            print(w)
             if w[0] != 'ID':
                 short = w[2].replace(', ','_')
                 area = w[4].strip('"')
@@ -176,7 +176,7 @@ def generate(reference,
     f = open('ABA12.tsv')
     for l in f:
         w = l.split()
-        print w
+        print(w)
         pre_id = w[0].replace('-','_').replace('/','_')
         if pre_id != '[0]':
 
@@ -286,7 +286,7 @@ def generate(reference,
 
 
     if include_connections:
-        with open('nature13186-s4_W_ipsi.csv', 'rb') as csvfile:
+        with open('nature13186-s4_W_ipsi.csv', 'r') as csvfile:
             reader = csv.reader(csvfile, delimiter=',', quotechar='"')
             indices = {}
             for w in reader:
@@ -294,7 +294,7 @@ def generate(reference,
                 if w[0]=='ROOT':
                     for i in range(len(w)):
                         indices[i]=w[i]
-                    print indices
+                    print(indices)
                 else:
                     pre = w[0]
                     for i in range(len(w)):
