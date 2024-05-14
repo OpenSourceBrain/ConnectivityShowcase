@@ -10747,6 +10747,7 @@
                 <channelDensity id="pas_chan" ionChannel="pas" condDensity="0.000142857 S_per_cm2" erev="-70.0 mV" ion="non_specific"/>
                 <channelDensity id="na_chan" ionChannel="na" condDensity="0.1 S_per_cm2" erev="60.0 mV" ion="na"/>
                 <channelDensity id="kv_chan" ionChannel="kv" condDensity="0.01 S_per_cm2" erev="-90.0 mV" ion="k"/>
+                <spikeThresh value="10mV"/>
                 <specificCapacitance value="1.0 uF_per_cm2"/>
                 <initMembPotential value="-80 mV"/>
             </membraneProperties>
